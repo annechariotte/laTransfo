@@ -22,7 +22,10 @@
 } */
 
 /* TEX GYRE TERMES */
-@font-face {
+
+/* NE FONCTIONNE PAS */
+
+/* @font-face {
     font-family: 'termes';
     src: url('/fonts/termes/texgyretermes-regular-webfont.woff') format('woff'),
         url('/fonts/termes/texgyretermes-regular-webfont.ttf') format('truetype');
@@ -44,7 +47,7 @@
         url('/fonts/termes/texgyretermes-bolditalic-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-}
+} */
 
 * {
     box-sizing: border-box;
@@ -89,7 +92,6 @@ h1 {
 
 h2 {
     font-size: 36px;
-    width: 75%;
     margin-top: 15px;
     margin-bottom: 0;
 }
@@ -103,21 +105,28 @@ img {
     max-width: 100%;
 }
 
-/*  */
-/*  */
-/* HEADER */
-/*  */
-/*  */
+.container {
+    margin: 0 auto;
+}
+
+.mainNav .container,
+.tabs .container,
+.label .container {
+    width: 1200px;
+}
+
+.tab-content .container,
+.content .container {
+    width: 840px;
+}
+
+/* ////////////////////// HEADER ////////////////////// */
+
 /* NAVBAR */
 
 .mainNav {
     background-color: #1C1B1B;
     /* z-index: 2; */
-}
-
-.mainNav .container {
-    width: 1200px;
-    margin: 0 auto;
 }
 
 .logo_ctn {
@@ -155,10 +164,7 @@ img {
     text-transform: uppercase;
 }
 
-.mainNav .hover_orange:hover {
-    color: #FF6E29;
-}
-
+.mainNav .hover_orange:hover,
 .mainNav .nav_links .orange {
     color: #FF6E29;
 }
@@ -180,20 +186,12 @@ img {
     white-space: nowrap;
 }
 
-/*  */
-/*  */
-/* MAIN */
-/*  */
-/* ACCORDION */
-/*  */
+/* ////////////////////// MAIN ////////////////////// */
+
+/* //////// ACCORDION ///////// */
 
 .tabs {
     overflow: hidden;
-}
-
-.tabs .container {
-    width: 1200px;
-    margin: 0 auto;
 }
 
 .tab {
@@ -203,12 +201,6 @@ img {
     border-bottom: 1px solid #F8F8F8;
 }
 
-/* .tab h1 {
-    font-size: 88px;
-    height: 100px;
-    line-height: 100px;
-} */
-
 .tab-content {
     max-height: 0;
     color: #1C1B1B;
@@ -216,15 +208,10 @@ img {
     transition: all 0.35s;
 }
 
-.tab-content .container {
-    width: 840px;
-    margin: 0 auto;
-}
-
 section>header {
     background: #1C1B1B;
     border-bottom: 2px dashed #1C1B1B;
-    color: #fff;
+    color: #F8F8F8;
     cursor: pointer;
 }
 
@@ -232,13 +219,10 @@ section>header {
     font-family: "misobold";
     font-size: 30px;
     margin-top: 53px;
-}
-
-section>header .tab-close {
     opacity: 0
 }
 
-section.show>header .tab-close {
+section.show .tab-close {
     opacity: 1
 }
 
@@ -272,19 +256,22 @@ section.show .tab-content {
     max-height: 2200vh;
 }
 
-/* 7 MECANIQUES */
+/* //////// 7 MECANIQUES ///////// */
 
 .title-box {
     display: flex;
-    margin-bottom: 100px;
-    padding: 15px 0;
     border-top: 2px solid;
     border-bottom: 2px solid;
+    margin-bottom: 100px;
+    padding: 15px 0;
 }
 
 .title-box.first {
-    padding-top: 0;
     border-top: none;
+}
+
+.title-box h2 {
+    width: 75%;
 }
 
 .title-box div {
@@ -292,19 +279,19 @@ section.show .tab-content {
 }
 
 .title-box p {
-    margin: 0;
     font-family: "misobold";
     font-size: 24px;
     text-align: end;
+    margin: 0;
 }
 
 .sheet {
-    padding-top: 50px;
-    margin-top: 0;
-    margin-bottom: 100px;
     font-family: "misobold";
     font-size: 30px;
     text-align: center;
+    margin-top: 0;
+    margin-bottom: 100px;
+    padding-top: 50px;
 }
 
 .tab .sheet {
@@ -315,10 +302,11 @@ article {
     padding-bottom: 150px;
 }
 
-/* HYPOTHESE */
+/*///// HYPOTHESE /////*/
 
 .mini-img,
-.hypothese .content {
+.bg,
+.links-box {
     background-repeat: no-repeat;
 }
 
@@ -331,9 +319,9 @@ article {
 .mini-img p {
     font-family: "misobold";
     font-size: 45px;
-    line-height: 0;
     text-align: end;
     text-transform: uppercase;
+    line-height: 0;
     margin-top: 0;
 }
 
@@ -386,18 +374,16 @@ article {
 }
 
 .legende {
+    font-style: italic;
     font-size: 26px;
     font-weight: 700;
-    font-style: italic;
     margin-bottom: 100px;
-    margin-left: auto;
-    margin-top: auto;
 }
 
 .legende p {
-    margin-top: 0;
-    margin-bottom: 5px;
     text-align: end;
+    margin: 0;
+    padding-bottom: 5px;
 }
 
 .legende a {
@@ -405,19 +391,18 @@ article {
     color: #1C1B1B;
 }
 
-/* OBSERVATIONS */
+/*///// OBSERVATIONS /////*/
 
 .observations .bg {
-    background-repeat: no-repeat;
+    background-size: 700px;
     max-width: 1300px;
 }
 
-.ce .observations .intro .subtitle {
+.ce .intro.subtitle {
     font-family: 'termes', serif;
-    font-weight: 700;
     font-style: italic;
+    font-weight: 700;
     font-size: 26px;
-    margin-bottom: 100px;
 }
 
 .post-its {
@@ -427,19 +412,18 @@ article {
 
 .post-its .container {
     width: 340px;
-    margin: auto;
-    padding: 20px 0;
 }
 
 .post-it {
+    position: absolute;
     background-color: #FFB18C;
     width: 400px;
     min-height: 280px;
-    position: absolute;
+    padding: 20px 0;
     box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
-    /* border-image-source: url(images/pointille.png); */
     outline: 2px dashed #1C1B1B;
     outline-offset: -12px;
+    /* border-image-source: url(images/pointille.png); */
 }
 
 .post-it h3 {
@@ -467,8 +451,7 @@ article {
 }
 
 .post-its ul {
-    list-style: none;
-    padding-left: 0;
+    list-style-type: none;
 }
 
 .post-its li {
@@ -486,14 +469,14 @@ article {
 }
 
 .post-it .links {
-    margin: 30px 0;
     text-align: center;
+    padding: 30px;
 }
 
 .post-its a {
     text-decoration: none;
-    font-size: 18px;
     font-weight: 700;
+    font-size: 18px;
     color: #FF6E29;
 }
 
@@ -501,7 +484,6 @@ article {
 
 .ce .observations .bg {
     background-position: 0% 0%, 100% 75%;
-    background-size: 700px;
     height: 1100px;
 }
 
@@ -530,11 +512,10 @@ article {
     top: 690px;
 }
 
-/* 2 - MODE PLURIDISCIPLINAIRE */
+/* 2 - PLURIDISCIPLINAIRE */
 
 .mp .observations .bg {
     background-position: -10% 0%, 110% 45%, 90% 100%, 10% 70%;
-    background-size: 700px;
     height: 1550px;
 }
 
@@ -561,19 +542,6 @@ article {
 .post-its .education {
     left: 0px;
     top: 1080px;
-}
-
-.variations-box {
-    width: 100%;
-    padding: 46px;
-    outline: 2px dashed #1C1B1B;
-    margin-top: 100px;
-}
-
-.variations-box .subtitle li {
-    font-weight: 700;
-    font-style: italic;
-    margin-top: 12px;
 }
 
 /* 3 - RYTHMER */
@@ -641,7 +609,6 @@ article {
 
 .cc .observations .bg {
     background-position: 0% 3%, 100% 20%, -20% 62%, 30% 44%, 100% 91%;
-    background-size: 700px;
     height: 2100px;
 }
 
@@ -679,7 +646,6 @@ article {
 
 .e .observations .bg {
     background-position: 0% 0%, 110% 50%, 20% 100%;
-    background-size: 700px;
     height: 1200px;
 }
 
@@ -703,11 +669,10 @@ article {
     right: 90px;
 }
 
-/* 7 -  */
+/* 7 - FUTUR */
 
 .fl .observations .bg {
     background-position: 10% 5%, 110% 40%, 62% 100%, 10% 75%;
-    background-size: 700px;
     height: 1500px;
 }
 
@@ -726,17 +691,13 @@ article {
     right: 50px;
 }
 
-/* ENSEIGNEMENTS */
+/*///// ENSEIGNEMENTS /////*/
 
 .enseignements ul,
 .observations ul {
     list-style: none;
     padding-left: 0;
     margin-top: 0;
-}
-
-.enseignements li {
-    margin-top: 12px;
 }
 
 .enseignements ul strong,
@@ -748,42 +709,47 @@ article {
     font-style: italic;
 }
 
+.enseignements li {
+    margin-top: 12px;
+}
+
 .enseignements h3+p {
     margin: 0;
 }
 
-/* OUTILS */
+/*///// DASHED-BOXES ( VARIATIONS - OUTILS - TEMOIGNAGES ) /////*/
 
-:focus {
-    outline: none;
+.variations-box {
+    margin-top: 100px;
 }
 
-.links-box {
+.variations-box li {
+    font-weight: 700;
+    font-style: italic;
+    margin-top: 12px;
+}
+
+.links-box,
+.variations-box {
     width: 100%;
     padding: 46px;
     outline: 2px dashed #1C1B1B;
-    text-align: center;
-    background-repeat: no-repeat;
+}
+
+.links-box {
     background-position: 5% 50%, 95% 50%;
+    text-align: center;
 }
 
 .outils .links-box {
     background-size: 150px;
 }
 
-.links-box a,
-.links-box a:hover {
-    text-decoration: none;
-    color: #FF6E29;
-}
-
-/* TEMOIGNAGES */
-
 .temoignages .links-box {
     background-size: 120px;
 }
 
-.temoignages .links-box.video {
+.links-box.video {
     background-position: 24% 5%, 76% 5%;
     background-size: 160px;
     padding-top: 200px;
@@ -793,51 +759,54 @@ article {
     margin-top: 100px;
 }
 
+.links-box audio {
+    margin-top: 12px;
+}
+
+.links-box.video figure {
+    margin-bottom: 40px;
+}
+
 .links-box figcaption {
     color: #FF6E29;
     margin-bottom: 12px;
 }
 
-.links-box audio {
-    margin-top: 12px;
+.links-box a,
+.links-box a:hover {
+    text-decoration: none;
+    color: #FF6E29;
 }
 
-.temoignages .links-box.video figure {
-    margin-bottom: 40px;
+:focus {
+    outline: none;
 }
 
-/*  */
-/*  */
-/* NAV-LINKS PAGES*/
-/*  */
-/*  */
+/* ////////////////////// NAV-LINKS ////////////////////// */
 
 .label {
-    display: flex;
     height: 110px;
     overflow: hidden;
     border-bottom: 2px dashed #1C1B1B;
 }
 
 .label .container {
-    width: 1200px;
-    margin: 0 auto;
     display: flex;
 }
 
-.label .container div {
+.label div {
     width: 90%;
-}
-
-.label .container p {
-    width: 10%;
-    margin-top: 60px;
-    text-align: end;
 }
 
 .label .logo {
     max-height: 100px;
     margin-left: -25px;
+}
+
+.label p {
+    text-align: end;
+    width: 10%;
+    margin-top: 60px;
 }
 
 .label a {
@@ -848,11 +817,6 @@ article {
     color: #1C1B1B;
 }
 
-.content .container {
-    width: 840px;
-    margin: 0 auto;
-}
-
 .main-intro {
     padding-bottom: 100px;
 }
@@ -861,25 +825,12 @@ article {
     padding-bottom: 50px;
 }
 
-/* ABOUT */
-
-.about .bg {
-    background-repeat: no-repeat;
+.intro a {
+    color: #FF6E29;
+    font-weight: 700;
 }
 
-.about ul {
-    list-style: none;
-    padding-left: 0px;
-    width: 35.5%;
-    line-height: 27px;
-    text-align: right;
-    margin-left: auto;
-    margin-bottom: 10px;
-}
-
-.about .links-box {
-    margin-bottom: 70px;
-}
+/*///// ABOUT /////*/
 
 .side {
     width: 26%;
@@ -889,6 +840,12 @@ article {
 
 .side.first {
     padding-top: 15px;
+}
+
+.side+ul {
+    list-style-type: none;
+    line-height: 27px;
+    text-align: right;
 }
 
 .side.space {
@@ -947,11 +904,10 @@ article {
     background-size: 500px;
 }
 
-/* CONTACT */
-
-/* COUSINS */
-
-.intro a {
-    color: #FF6E29;
-    font-weight: 700;
+.about .links-box {
+    margin-bottom: 70px;
 }
+
+/*///// CONTACT /////*/
+
+/*///// COUSINS /////*/
