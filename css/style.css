@@ -80,7 +80,6 @@ h2,
 h3,
 h4 {
     font-family: 'misobold';
-    font-weight: 700;
     text-transform: uppercase;
 }
 
@@ -99,6 +98,16 @@ h2 {
 h3 {
     margin: 12px auto 8px;
     font-size: 24px;
+}
+
+.legende,
+.ce .intro.subtitle,
+.post-it .subtitle,
+.post-it .strong,
+.enseignements ul strong,
+.variations-box li {
+    font-style: italic;
+    font-weight: bold;
 }
 
 img {
@@ -150,6 +159,7 @@ img {
 
 .mainNav .nav_links {
     font-family: sans-serif;
+    font-weight: light;
     font-size: 18px;
     list-style-type: none;
 }
@@ -374,9 +384,7 @@ article {
 }
 
 .legende {
-    font-style: italic;
     font-size: 26px;
-    font-weight: 700;
     margin-bottom: 100px;
 }
 
@@ -400,8 +408,6 @@ article {
 
 .ce .intro.subtitle {
     font-family: 'termes', serif;
-    font-style: italic;
-    font-weight: 700;
     font-size: 26px;
 }
 
@@ -432,9 +438,7 @@ article {
 
 .post-it .subtitle,
 .post-it .strong {
-    font-weight: 700;
     font-size: 18px;
-    font-style: italic;
 }
 
 .post-it .subtitle {
@@ -475,7 +479,7 @@ article {
 
 .post-its a {
     text-decoration: none;
-    font-weight: 700;
+    font-weight: bold;
     font-size: 18px;
     color: #FF6E29;
 }
@@ -700,13 +704,9 @@ article {
     margin-top: 0;
 }
 
-.enseignements ul strong,
+/* .enseignements ul strong, */
 .observations ul strong {
-    font-weight: 700;
-}
-
-.enseignements ul strong {
-    font-style: italic;
+    font-weight: bold;
 }
 
 .enseignements li {
@@ -724,8 +724,6 @@ article {
 }
 
 .variations-box li {
-    font-weight: 700;
-    font-style: italic;
     margin-top: 12px;
 }
 
@@ -826,8 +824,8 @@ article {
 }
 
 .intro a {
+    font-weight: bold;
     color: #FF6E29;
-    font-weight: 700;
 }
 
 /*///// ABOUT /////*/
