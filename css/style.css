@@ -13,41 +13,41 @@
 
 /* NE FONCTIONNE PAS */
 
-/* @font-face {
+@font-face {
     font-family: 'misobold';
-    src: url('/fonts/miso/miso-bold.ttf') format('truetype'),
-        url('/fonts/miso/miso-bold.woff') format('woff');
+    src: url('../fonts/misobold/miso-bold-webfont.ttf') format('truetype'),
+        url('../fonts/misobold/miso-bold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-} */
+}
 
 /* TEX GYRE TERMES */
 
 /* NE FONCTIONNE PAS */
 
-/* @font-face {
+@font-face {
     font-family: 'termes';
-    src: url('/fonts/termes/texgyretermes-regular-webfont.woff') format('woff'),
-        url('/fonts/termes/texgyretermes-regular-webfont.ttf') format('truetype');
+    src: url('../fonts/termes/texgyretermes-regular-webfont.woff') format('woff'),
+        url('../fonts/termes/texgyretermes-regular-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'termes';
-    src: url('/fonts/termes/texgyretermes-bold-webfont.woff') format('woff'),
-        url('/fonts/termes/texgyretermes-bold-webfont.ttf') format('truetype');
-    font-weight: normal;
+    src: url('../fonts/termes/texgyretermes-bold-webfont.woff') format('woff'),
+        url('../fonts/termes/texgyretermes-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'termes';
-    src: url('/fonts/termes/texgyretermes-bolditalic-webfont.woff') format('woff'),
-        url('/fonts/termes/texgyretermes-bolditalic-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-} */
+    src: url('../fonts/termes/texgyretermes-bolditalic-webfont.woff') format('woff'),
+        url('../fonts/termes/texgyretermes-bolditalic-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
 
 * {
     box-sizing: border-box;
@@ -85,7 +85,7 @@ h4 {
 
 h1 {
     font-size: 88px;
-    line-height: 100px;
+    line-height: 95px;
     margin: 0;
 }
 
@@ -202,6 +202,7 @@ img {
 
 .tabs {
     overflow: hidden;
+    padding-bottom: 100vh;
 }
 
 .tab {
@@ -219,6 +220,7 @@ img {
 }
 
 section>header {
+    width: 100%;
     background: #1C1B1B;
     border-bottom: 2px dashed #1C1B1B;
     color: #F8F8F8;
@@ -256,6 +258,9 @@ section>header:hover {
 
 section.show header {
     background-color: #F8F8F8;
+    /* position: fixed;
+    top: 0;
+    z-index: 2; */
 }
 
 section.show header:hover {

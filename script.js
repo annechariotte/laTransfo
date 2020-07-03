@@ -12,14 +12,21 @@ docReady(function () {
     // DOM is loaded and ready for manipulation here
     for (let $i = 0; $i < 7; $i++) {
         let header = document.getElementById('section' + $i);
+        let parent = header.parentElement;
+        let parentTop = parent.offsetTop;
+
         header.addEventListener('click', function () {
-            let parent = header.parentElement,
-                show = document.getElementsByClassName('show')[0];
-            if (show && show != parent) {
-                show.classList.remove('show')
+            let currentShow = document.getElementsByClassName('show')[0];
+
+            if (currentShow) {
+                currentShow.classList.remove('show');
+                window.scrollTo(0, 100);
             };
-            parent.classList.contains('show') ? parent.classList.remove('show') : parent.classList.add('show');
+
+            if (currentShow != parent) {
+                parent.classList.add('show');
+                window.scrollTo(0, parentTop);
+            }
         })
     }
-
 });
