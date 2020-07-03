@@ -868,42 +868,42 @@ article {
 }
 
 .general-bg {
-    background-position: 48% 36%;
-    background-size: 1030px;
+    background-position: 50% 36%, 48% 36%;
+    background-size: 840px, 1030px;
 }
 
 .mp-bg {
-    background-position: 43% 1%;
-    background-size: 410px;
+    background-position: 46% 1%, 43% 1%;
+    background-size: 500px, 410px;
 }
 
 .a-bg {
-    background-position: 19% 9%;
+    background-position: 20% 5.5%, 19% 9%;
     background-size: 430px;
 }
 
 .fl-bg {
-    background-position: 25% 61%;
+    background-position: 26% 64%, 25% 61%;
     background-size: 650px;
 }
 
 .cc-bg {
     background-position: 50% 70%;
-    background-size: 400px;
+    background-size: 450px, 400px;
 }
 
 .e-bg {
-    background-position: 50% 23%;
-    background-size: 250px;
+    background-position: 49% 21%, 50% 23%;
+    background-size: 331px, 250px;
 }
 
 .ce-bg {
-    background-position: 33% 88%;
+    background-position: 33% 89%, 33% 88%;
     background-size: 600px;
 }
 
 .p-bg {
-    background-position: 29% 99%;
+    background-position: 30% 101.2%, 29% 99%;
     background-size: 500px;
 }
 
