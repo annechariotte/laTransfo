@@ -79,6 +79,10 @@ h1 {
     margin: 0;
 }
 
+h1 span {
+    opacity: 0;
+}
+
 h2 {
     font-size: 36px;
     margin-top: 15px;
@@ -220,15 +224,17 @@ section>header {
 }
 
 .tab-close {
+    display: none
+}
+
+section.show .tab-close {
+    display: block;
     position: absolute;
     font-family: "misobold";
     font-size: 30px;
     opacity: 0;
     right: 35px;
     bottom: 10px;
-}
-
-section.show .tab-close {
     opacity: 1
 }
 
@@ -251,25 +257,8 @@ section>header:hover {
     -webkit-text-stroke: 1px #F8F8F8;
 }
 
-/* 
-section>header .marquee,
-section>header:hover .tab-title {
-    display: none;
-}
-
-section>header:hover .marquee {
-    display: block;
-}
-
-marquee div {
-    display: flex;
-} */
-
 section.show header {
     background-color: #F8F8F8;
-    /* position: fixed;
-    top: 0;
-    z-index: 2; */
 }
 
 section.show header:hover {

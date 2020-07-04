@@ -40,16 +40,11 @@ docReady(function () {
     // DOM is loaded and ready for manipulation here
     for (let $i = 0; $i <= 6; $i++) {
 
+        // ACCORDION //
+
         let header = document.getElementById('section' + $i);
         let parent = header.parentElement;
         let parentTop = parent.offsetTop;
-
-        let currentTitle = document.getElementsByClassName("tab-title" + $i)[0];
-        let fixedTitle = currentTitle.getElementsByTagName("h1")[0];
-        let titleContent = fixedTitle.textContent;
-        let marqueeTitle = document.createElement("marquee");
-        let marqueeContent = document.createElement("h1");
-        marqueeContent.textContent = titleContent + " " + titleContent + " " + titleContent + " " + titleContent;
 
         let show;
 
@@ -70,7 +65,17 @@ docReady(function () {
             }
         });
 
-        header.addEventListener("mouseenter", function () {
+        // SCROLL HOVER //
+
+        let currentTitle = document.getElementsByClassName("tab-title" + $i)[0];
+        let fixedTitle = currentTitle.getElementsByTagName("h1")[0];
+        let marqueeTitle = document.createElement("marquee");
+        let marqueeContent = document.createElement("h1");
+
+        let titleContent = fixedTitle.textContent;
+        marqueeContent.textContent = titleContent + " " + titleContent + " " + titleContent + " " + titleContent;
+
+        header.addEventListener("mouseover", function () {
 
             let defile = false;
 
@@ -88,6 +93,12 @@ docReady(function () {
                         })
 
                         header.addEventListener("mouseleave", function () {
+
+                            stopScrolling(currentTitle, fixedTitle, marqueeTitle)
+                            defile = false;
+                        });
+
+                        header.addEventListener("mouseout", function () {
 
                             stopScrolling(currentTitle, fixedTitle, marqueeTitle)
                             defile = false;
