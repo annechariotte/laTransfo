@@ -8,61 +8,63 @@ function docReady(fn) {
     }
 };
 
-function openTab(parent, parentTop) {
-
+function openTab(parent, parentTop, header) {
     parent.classList.add("show");
     window.scrollTo(0, parentTop);
-
 };
 
-function closeTab(currentShow) {
-
+function closeTab(currentShow, header) {
     currentShow.classList.remove("show");
     window.scrollTo(0, 100);
 };
 
 function startScrolling(currentTitle, fixedTitle, marqueeTitle, marqueeContent) {
-
     currentTitle.appendChild(marqueeTitle);
     marqueeTitle.appendChild(marqueeContent);
     currentTitle.removeChild(fixedTitle);
-
 };
 
 function stopScrolling(currentTitle, fixedTitle, marqueeTitle) {
-
     currentTitle.removeChild(marqueeTitle);
     currentTitle.appendChild(fixedTitle);
-
 };
 
 docReady(function () {
-    // DOM is loaded and ready for manipulation here
+
     for (let $i = 0; $i <= 6; $i++) {
 
         // ACCORDION //
 
         let header = document.getElementById('section' + $i);
-        let parent = header.parentElement;
-        let parentTop = parent.offsetTop;
+        let tab = header.parentElement;
+        let tabTop = tab.offsetTop;
 
         let show;
 
         header.addEventListener("click", function () {
+            let currentTabShow = document.getElementsByClassName("show")[0];
 
-            let currentShow = document.getElementsByClassName("show")[0];
+            if (!currentTabShow) {
+                tab.classList.add("show");
+                window.scrollTo(0, tabTop);
 
-            if (currentShow) {
-
-                closeTab(currentShow)
-                return show = false;
-            };
-
-            if (currentShow != parent) {
-
-                openTab(parent, parentTop)
-                return show = true;
+                show = true;
             }
+
+            if (currentTabShow) {
+                currentTabShow.classList.remove("show");
+                window.scrollTo(0, 100);
+
+                show = false;
+
+                if (currentTabShow != tab) {
+                    tab.classList.add("show");
+                    window.scrollTo(0, tabTop);
+
+                    show = true;
+                }
+            }
+            return show;
         });
 
         // SCROLL HOVER //
@@ -73,40 +75,31 @@ docReady(function () {
         let marqueeContent = document.createElement("h1");
 
         let titleContent = fixedTitle.textContent;
-        marqueeContent.textContent = titleContent + " " + titleContent + " " + titleContent + " " + titleContent;
+        marqueeContent.textContent = titleContent + " " + titleContent + " " + titleContent;
+
+        let defile;
 
         header.addEventListener("mouseover", function () {
 
-            let defile = false;
+            defile = false;
 
             if (!show) {
                 if (!defile) {
-
                     startScrolling(currentTitle, fixedTitle, marqueeTitle, marqueeContent);
                     defile = true;
 
-                    if (defile) {
-                        header.addEventListener("click", function () {
-
-                            stopScrolling(currentTitle, fixedTitle, marqueeTitle)
-                            defile = false;
-                        })
-
-                        header.addEventListener("mouseleave", function () {
-
-                            stopScrolling(currentTitle, fixedTitle, marqueeTitle)
-                            defile = false;
-                        });
-
-                        header.addEventListener("mouseout", function () {
-
-                            stopScrolling(currentTitle, fixedTitle, marqueeTitle)
-                            defile = false;
-                        });
-                    };
-
-                    return defile;
+                    header.addEventListener("mouseout", function () {
+                        stopScrolling(currentTitle, fixedTitle, marqueeTitle)
+                        defile = false;
+                    });
                 };
+
+                header.addEventListener("click", function () {
+                    stopScrolling(currentTitle, fixedTitle, marqueeTitle)
+                    defile = false;
+                })
+
+                return defile;
             }
         });
     };
