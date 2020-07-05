@@ -301,12 +301,21 @@ section.show .tab-content {
     opacity: 1;
 }
 
+.mp .marquee .marquee-content,
+.a .marquee .marquee-content,
+.cc .marquee .marquee-content {
+    display: inline-block;
+    animation: marquee 45s linear infinite;
+}
+
 .marquee .marquee-content {
-    display: inline-flex;
-    animation: marquee 60s linear infinite;
+    display: inline-block;
+    animation: marquee 50s linear infinite;
 }
 
 .h1 {
+    position: relative;
+    left: 0%;
     animation: swap 15s linear infinite;
 }
 
@@ -681,8 +690,8 @@ article {
 /*  5 - CAS CONCRETS */
 
 .cc .observations .bg {
-    background-position: 0% 3%, 100% 20%, -20% 62%, 30% 44%, 100% 91%;
-    height: 2100px;
+    background-position: 0% 3%, 100% 20%, -11% 64%, 30% 43%, 100% 90%;
+    height: 2200px;
 }
 
 .post-its .metz {
@@ -696,23 +705,23 @@ article {
 }
 
 .post-its .mulhouse {
-    top: 1080px;
-    right: 320px;
+    top: 1140px;
+    right: 250px;
 }
 
 .post-its .strasbourg {
     top: 740px;
-    right: -30px;
+    right: -10px;
 }
 
 .post-its .paris {
-    top: 1480px;
+    top: 1540px;
     left: 30px;
 }
 
 .post-its .dunkerque {
     left: 400px;
-    top: 1580px;
+    top: 1670px;
 }
 
 /* 6 - ECOSYSTEME */
