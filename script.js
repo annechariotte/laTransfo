@@ -8,13 +8,13 @@ function docReady(fn) {
     }
 };
 
-function openTab(parent, parentTop, header) {
+function openTab(parent, parentTop) {
     parent.classList.add("show");
     window.scrollTo(0, parentTop);
 };
 
-function closeTab(currentShow, header) {
-    currentShow.classList.remove("show");
+function closeTab(currentElement) {
+    currentElement.classList.remove("show");
     window.scrollTo(0, 100);
 };
 
@@ -45,21 +45,18 @@ docReady(function () {
             let currentTabShow = document.getElementsByClassName("show")[0];
 
             if (!currentTabShow) {
-                tab.classList.add("show");
-                window.scrollTo(0, tabTop);
+                openTab(tab, tabTop);
 
                 show = true;
             }
 
             if (currentTabShow) {
-                currentTabShow.classList.remove("show");
-                window.scrollTo(0, 100);
+                closeTab(currentTabShow);
 
                 show = false;
 
                 if (currentTabShow != tab) {
-                    tab.classList.add("show");
-                    window.scrollTo(0, tabTop);
+                    openTab(tab, tabTop);
 
                     show = true;
                 }
@@ -69,38 +66,38 @@ docReady(function () {
 
         // SCROLL HOVER //
 
-        let currentTitle = document.getElementsByClassName("tab-title" + $i)[0];
-        let fixedTitle = currentTitle.getElementsByTagName("h1")[0];
-        let marqueeTitle = document.createElement("marquee");
-        let marqueeContent = document.createElement("h1");
+        // let currentTitle = document.getElementsByClassName("tab-title" + $i)[0];
+        // let fixedTitle = currentTitle.getElementsByTagName("h1")[0];
+        // let marqueeTitle = document.createElement("marquee");
+        // let marqueeContent = document.createElement("h1");
 
-        let titleContent = fixedTitle.textContent;
-        marqueeContent.textContent = titleContent + " " + titleContent + " " + titleContent;
+        // let titleContent = fixedTitle.textContent;
+        // marqueeContent.textContent = titleContent + " " + titleContent + " " + titleContent;
 
-        let defile;
+        // let defile;
 
-        header.addEventListener("mouseover", function () {
+        // header.addEventListener("mouseover", function () {
 
-            defile = false;
+        //     defile = false;
 
-            if (!show) {
-                if (!defile) {
-                    startScrolling(currentTitle, fixedTitle, marqueeTitle, marqueeContent);
-                    defile = true;
+        //     if (!show) {
+        //         if (!defile) {
+        //             startScrolling(currentTitle, fixedTitle, marqueeTitle, marqueeContent);
+        //             defile = true;
 
-                    header.addEventListener("mouseout", function () {
-                        stopScrolling(currentTitle, fixedTitle, marqueeTitle)
-                        defile = false;
-                    });
-                };
+        //             header.addEventListener("mouseout", function () {
+        //                 stopScrolling(currentTitle, fixedTitle, marqueeTitle)
+        //                 defile = false;
+        //             });
+        //         };
 
-                header.addEventListener("click", function () {
-                    stopScrolling(currentTitle, fixedTitle, marqueeTitle)
-                    defile = false;
-                })
+        //         header.addEventListener("click", function () {
+        //             stopScrolling(currentTitle, fixedTitle, marqueeTitle)
+        //             defile = false;
+        //         })
 
-                return defile;
-            }
-        });
+        //         return defile;
+        //     }
+        // });
     };
 });
