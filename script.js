@@ -11,6 +11,7 @@ function docReady(fn) {
 function openTab(parent, parentTop) {
     parent.classList.add("show");
     window.scrollTo(0, parentTop);
+
 };
 
 function closeTab(currentElement) {
