@@ -18,17 +18,6 @@ function closeTab(currentElement) {
     window.scrollTo(0, 100);
 };
 
-function startScrolling(currentTitle, fixedTitle, marqueeTitle, marqueeContent) {
-    currentTitle.appendChild(marqueeTitle);
-    marqueeTitle.appendChild(marqueeContent);
-    currentTitle.removeChild(fixedTitle);
-};
-
-function stopScrolling(currentTitle, fixedTitle, marqueeTitle) {
-    currentTitle.removeChild(marqueeTitle);
-    currentTitle.appendChild(fixedTitle);
-};
-
 docReady(function () {
 
     for (let $i = 0; $i <= 6; $i++) {
@@ -36,68 +25,39 @@ docReady(function () {
         // ACCORDION //
 
         let header = document.getElementById('section' + $i);
-        let tab = header.parentElement;
-        let tabTop = tab.offsetTop;
-
-        let show;
+        let currentTabShow = header.parentElement;
+        let tabTop = currentTabShow.offsetTop;
 
         header.addEventListener("click", function () {
-            let currentTabShow = document.getElementsByClassName("show")[0];
+            let lastTabShow = document.getElementsByClassName("show")[0];
 
-            if (!currentTabShow) {
-                openTab(tab, tabTop);
-
-                show = true;
+            if (!lastTabShow) {
+                openTab(currentTabShow, tabTop);
             }
 
-            if (currentTabShow) {
-                closeTab(currentTabShow);
+            if (lastTabShow) {
+                closeTab(lastTabShow);
 
-                show = false;
-
-                if (currentTabShow != tab) {
-                    openTab(tab, tabTop);
-
-                    show = true;
+                if (lastTabShow != currentTabShow) {
+                    openTab(currentTabShow, tabTop);
                 }
             }
-            return show;
+
         });
 
         // SCROLL HOVER //
 
-        // let currentTitle = document.getElementsByClassName("tab-title" + $i)[0];
-        // let fixedTitle = currentTitle.getElementsByTagName("h1")[0];
-        // let marqueeTitle = document.createElement("marquee");
-        // let marqueeContent = document.createElement("h1");
+        let currentTitle = document.getElementsByClassName("tab-title" + $i)[0];
 
-        // let titleContent = fixedTitle.textContent;
-        // marqueeContent.textContent = titleContent + " " + titleContent + " " + titleContent;
+        header.addEventListener("mouseenter", function () {
 
-        // let defile;
+            currentTitle.classList.add("marquee");
 
-        // header.addEventListener("mouseover", function () {
+        });
+        header.addEventListener("mouseleave", function () {
 
-        //     defile = false;
+            currentTitle.classList.remove("marquee");
+        });
 
-        //     if (!show) {
-        //         if (!defile) {
-        //             startScrolling(currentTitle, fixedTitle, marqueeTitle, marqueeContent);
-        //             defile = true;
-
-        //             header.addEventListener("mouseout", function () {
-        //                 stopScrolling(currentTitle, fixedTitle, marqueeTitle)
-        //                 defile = false;
-        //             });
-        //         };
-
-        //         header.addEventListener("click", function () {
-        //             stopScrolling(currentTitle, fixedTitle, marqueeTitle)
-        //             defile = false;
-        //         })
-
-        //         return defile;
-        //     }
-        // });
     };
 });
