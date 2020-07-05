@@ -71,8 +71,13 @@ h1,
 .h1 span {
     font-size: 88px;
     line-height: 95px;
-    padding-left: 35px;
+    padding-left: 15px;
     margin: 0;
+}
+
+h1,
+.h1 .fixed {
+    padding-left: 35px;
 }
 
 h1 span {
@@ -298,7 +303,7 @@ section.show .tab-content {
 
 .marquee .marquee-content {
     display: inline-flex;
-    animation: marquee 45s linear infinite;
+    animation: marquee 60s linear infinite;
 }
 
 .h1 {
