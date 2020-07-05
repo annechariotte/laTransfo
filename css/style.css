@@ -116,6 +116,9 @@ img {
 .tabs .container,
 .label .container {
     width: 1270px;
+}
+
+.mainNav .container {
     padding: 0 35px;
 }
 
@@ -222,6 +225,12 @@ section>header {
     border-bottom: 2px dashed #1C1B1B;
     cursor: pointer;
 }
+
+/* header .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+ */
 
 .tab-close {
     display: none
