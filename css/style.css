@@ -113,10 +113,13 @@ img {
 }
 
 .mainNav .container,
-.label .container,
+.label .container {
+    padding: 0 35px;
+}
+
 h1,
 .h1 .fixed {
-    padding: 0 35px;
+    padding-left: 35px;
 }
 
 .tab-content .container,
