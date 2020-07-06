@@ -289,18 +289,6 @@ section.show .tab-content {
     white-space: nowrap;
 }
 
-.marquee-content span {
-    opacity: 0;
-}
-
-.marquee-content .fixed {
-    opacity: 1;
-}
-
-.marquee .marquee-content span {
-    opacity: 1;
-}
-
 .mp .marquee .marquee-content,
 .a .marquee .marquee-content,
 .cc .marquee .marquee-content {
@@ -309,14 +297,35 @@ section.show .tab-content {
 }
 
 .marquee .marquee-content {
+    position: relative;
     display: inline-block;
     animation: marquee 50s linear infinite;
 }
 
 .h1 {
-    position: relative;
-    left: 0%;
     animation: swap 15s linear infinite;
+}
+
+section.show .marquee .marquee-content {
+    animation: none;
+}
+
+section.show .marquee .marquee-content {
+    animation: none;
+}
+
+section.show header:hover .marquee .marquee-content span,
+.marquee-content span {
+    opacity: 0;
+}
+
+section.show header:hover .marquee .marquee-content .fixed,
+.marquee-content .fixed {
+    opacity: 1;
+}
+
+.marquee .marquee-content span {
+    opacity: 1;
 }
 
 @keyframes swap {
