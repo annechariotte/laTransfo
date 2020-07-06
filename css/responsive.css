@@ -1,0 +1,193 @@
+/* ///// MOBIL ///// */
+
+@media screen and (max-width: 760px) {
+
+    body,
+    .title-box p {
+        font-size: 14px;
+    }
+
+    .h1 {
+        padding-left: 10px;
+    }
+
+    .h1 span,
+    .h1 .fixed {
+        display: flex;
+        font-size: 53px;
+        line-height: 47px;
+        padding: 0px;
+        margin-top: 8px;
+    }
+
+    .mainNav nav {
+        height: 100px;
+    }
+
+    .mainNav nav,
+    .logo_ctn {
+        display: block;
+    }
+
+    .mainNav .nav_links li,
+    .mainNav .nav_links {
+        padding-left: 0;
+    }
+
+    .mainNav .nav_links {
+        height: 30px;
+        font-size: 16px;
+    }
+
+    .logo_ctn {
+        margin: auto;
+        height: 40px;
+        width: 100%;
+    }
+
+    section>header {
+        max-height: 110px;
+    }
+
+    section.show>header>.header-content .marquee,
+    section.show>header>.header-content,
+    section>header>.header-content,
+    section>header>.header-content .marquee {
+        white-space: normal;
+        text-align: left;
+    }
+
+    section>header:hover {
+        -webkit-text-stroke: 0px #F8F8F8;
+        color: #F8F8F8;
+    }
+
+    section.show header:hover {
+        color: #1C1B1B;
+    }
+
+    .marquee-content {
+        animation: none !important;
+    }
+
+    h2 {
+        font-size: 29px;
+    }
+
+    .sheet {
+        font-size: 20px;
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    .subtitle,
+    .legende {
+        font-size: 18px;
+    }
+
+    .mainNav .container,
+    .tab-content .container,
+    .content .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    article {
+        padding-bottom: 100px;
+    }
+
+    .post-it,
+    .post-it .container {
+        width: 300px
+    }
+
+    .title-box {
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .title-box h2,
+    .title-box div {
+        width: 100%;
+    }
+
+    .title-box h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    .title-box p {
+        font-size: 14px;
+    }
+
+    .cousins .title-box div {
+        display: none;
+    }
+
+    .side {
+        min-width: 26%;
+        max-width: 100%;
+    }
+
+    .links-box {
+        background-image: none !important;
+    }
+
+    .links-box,
+    .variations-box {
+        padding: 20px;
+    }
+
+    figure {
+        margin: 0 auto;
+    }
+
+    audio {
+        width: 220px;
+    }
+
+    section.show .tab-close,
+    .label p {
+        opacity: 0;
+    }
+
+    .mini-img {
+        background-size: 62%;
+    }
+}
+
+/* ///// TABLET ///// */
+
+@media screen and (min-width: 767px) and (max-width: 980px) {
+
+    h1,
+    .h1 span {
+        font-size: 56px;
+    }
+
+    .tab-content .container,
+    .content .container {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    .post-it,
+    .post-it .container {
+        width: 380px
+    }
+
+    .title-box h2,
+    .title-box div {
+        width: 100%;
+    }
+
+    .cousins .title-box div {
+        display: none;
+    }
+
+    section.show .tab-close,
+    .label p {
+        opacity: 0;
+    }
+
+}

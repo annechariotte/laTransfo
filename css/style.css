@@ -75,11 +75,6 @@ h1,
     margin: 0;
 }
 
-h1,
-.h1 .fixed {
-    padding-left: 35px;
-}
-
 h1 span {
     opacity: 0;
 }
@@ -96,8 +91,7 @@ h3 {
 }
 
 .legende,
-.ce .intro.subtitle,
-.post-it .subtitle,
+.subtitle,
 .post-it .strong,
 .enseignements ul strong,
 .variations-box li {
@@ -113,20 +107,29 @@ img {
     margin: 0 auto;
 }
 
-.mainNav .container,
-.tabs .container,
-.label .container {
-    width: 1270px;
+.container {
+    width: 100%;
+    max-width: 1270px;
 }
 
 .mainNav .container,
-.label .container {
+.label .container,
+h1,
+.h1 .fixed {
     padding: 0 35px;
 }
 
 .tab-content .container,
 .content .container {
-    width: 840px;
+    max-width: 840px;
+}
+
+article {
+    padding-bottom: 150px;
+}
+
+.post-its .container {
+    width: 340px;
 }
 
 /* ////////////////////// HEADER ////////////////////// */
@@ -309,10 +312,6 @@ section.show .marquee .marquee-content {
     animation: none;
 }
 
-section.show .marquee .marquee-content {
-    animation: none;
-}
-
 section.show header:hover .marquee .marquee-content span,
 .marquee-content span {
     opacity: 0;
@@ -368,6 +367,7 @@ section.show header:hover .marquee .marquee-content .fixed,
 
 .title-box h2 {
     width: 75%;
+    text-align: left;
 }
 
 .title-box div {
@@ -394,10 +394,6 @@ section.show header:hover .marquee .marquee-content .fixed,
     text-transform: uppercase;
 }
 
-article {
-    padding-bottom: 150px;
-}
-
 /*///// HYPOTHESE /////*/
 
 .mini-img,
@@ -409,7 +405,7 @@ article {
 .mini-img {
     margin-left: auto;
     background-position: right 0%;
-    background-size: 280px;
+    background-size: 32%;
 }
 
 .mini-img p {
@@ -440,8 +436,8 @@ article {
 }
 
 .mp .hypothese .bg {
-    background-position: left 4%, 35% 15%;
-    background-size: 840px, 500px;
+    background-position: left 0%, 18% 15%;
+    background-size: 840px, 450px;
 }
 
 .p .hypothese .bg {
@@ -477,7 +473,7 @@ article {
 .legende p {
     text-align: end;
     margin: 0;
-    padding-bottom: 5px;
+    /* padding-bottom: 5px; */
 }
 
 .legende a {
@@ -492,7 +488,7 @@ article {
     max-width: 1300px;
 }
 
-.ce .intro.subtitle {
+.subtitle {
     font-family: 'termes', serif;
     font-size: 26px;
 }
@@ -502,9 +498,9 @@ article {
     text-align: left;
 }
 
-.post-its .container {
+/* .post-its .container {
     width: 340px;
-}
+} */
 
 .post-it {
     position: absolute;
@@ -862,6 +858,11 @@ article {
     color: #FF6E29;
 }
 
+audio {
+    width: 300px;
+    height: 54px;
+}
+
 :focus {
     outline: none;
 }
@@ -878,7 +879,7 @@ article {
     display: flex;
 }
 
-.label div {
+.label .container div {
     width: 90%;
 }
 
@@ -917,7 +918,8 @@ article {
 /*///// ABOUT /////*/
 
 .side {
-    width: 26%;
+    min-width: 230px;
+    max-width: 26%;
     text-align: right;
     margin-left: auto;
 }
