@@ -266,7 +266,7 @@ section.show header {
     transition: all .2s ease-in-out;
 }
 
-section>header:hover {
+section>header:hover span {
     -webkit-text-stroke: 1px #F8F8F8;
 }
 
@@ -274,7 +274,7 @@ section.show header {
     background-color: #F8F8F8;
 }
 
-section.show header:hover {
+section.show header:hover span {
     -webkit-text-stroke: 0px #1C1B1B;
 }
 

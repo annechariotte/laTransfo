@@ -57,12 +57,17 @@
         text-align: left;
     }
 
-    section>header:hover {
-        -webkit-text-stroke: 0px #F8F8F8;
+    section>header:hover span {
+        -webkit-text-stroke: 0px#F8F8F8;
         color: #F8F8F8;
+        display: none;
     }
 
-    section.show header:hover {
+    section>header:hover span.fixed {
+        display: block;
+    }
+
+    section.show header:hover span {
         color: #1C1B1B;
     }
 
