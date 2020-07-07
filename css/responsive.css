@@ -15,8 +15,8 @@
     .h1 .fixed {
         display: flex;
         font-size: 53px;
-        line-height: 52px;
-        padding: 3px 0 0 0;
+        line-height: 50px;
+        padding: 5px 0 0 0;
         max-width: 415px;
         height: 110px;
     }
@@ -195,8 +195,9 @@
 
     .h1,
     .h1 span {
+        display: flex;
         font-size: 56px;
-        padding-top: 12px;
+        line-height: 110px;
     }
 
     .marquee-info {
@@ -255,7 +256,12 @@
     .h1,
     .h1 span {
         font-size: 76px;
-        margin-top: -8px;
+    }
+
+    .h1,
+    .h1 span,
+    .h1 .fixed {
+        display: flex;
     }
 
     .marquee-info {
