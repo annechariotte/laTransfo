@@ -84,12 +84,12 @@ docReady(function () {
 
 //         if (nextHeader !== null) {
 //             nextSticky = nextHeader.offsetTop;
-//             if (window.pageYOffset < currentSticky || window.pageYOffset > nextSticky - 400 || window.pageYOffset < 100) {
+//             if (window.pageYOffset < currentSticky || window.pageYOffset > nextSticky - 100 || window.pageYOffset < 100) {
 //                 currentHeader.classList.remove("sticky");
 //                 nextHeader.classList.remove("sticky");
 //             }
 //             console.log(currentSticky);
-//         };
+//         }
 
 //     }
 // };

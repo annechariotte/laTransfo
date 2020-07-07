@@ -141,7 +141,6 @@ article {
 
 .mainNav {
     background-color: #1C1B1B;
-    /* z-index: 2; */
 }
 
 .logo_ctn {
@@ -212,7 +211,6 @@ article {
 
 .tab {
     color: #F8F8F8;
-    /* overflow: hidden; */
     border-bottom: 1px solid #F8F8F8;
 }
 
@@ -248,7 +246,6 @@ section.show .tab-close {
 }
 
 section>header>.header-content {
-    display: flex;
     position: relative;
     max-width: 100%;
     white-space: nowrap;
@@ -268,6 +265,7 @@ section>header:hover span {
 
 section.show header {
     background-color: #F8F8F8;
+    z-index: 10;
 }
 
 section.show header:hover span {
@@ -279,13 +277,6 @@ section.show .tab-content {
 }
 
 /* MARQUEE */
-
-.marquee {
-    width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    white-space: nowrap;
-}
 
 .mp .marquee .marquee-content,
 .a .marquee .marquee-content,
@@ -411,7 +402,7 @@ section.show header:hover .marquee .marquee-content .fixed,
 .mini-img {
     margin-left: auto;
     background-position: right 0%;
-    background-size: 32%;
+    background-size: 280px;
 }
 
 .mini-img p {
@@ -504,11 +495,8 @@ section.show header:hover .marquee .marquee-content .fixed,
     text-align: left;
 }
 
-/* .post-its .container {
-    width: 340px;
-} */
-
 .post-it {
+    z-index: 0;
     position: absolute;
     background-color: #FFB18C;
     width: 400px;
@@ -517,7 +505,6 @@ section.show header:hover .marquee .marquee-content .fixed,
     box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
     outline: 2px dashed #1C1B1B;
     outline-offset: -12px;
-    /* border-image-source: url(images/pointille.png); */
 }
 
 .post-it h3 {
@@ -849,6 +836,10 @@ section.show header:hover .marquee .marquee-content .fixed,
     margin-top: 12px;
 }
 
+.links-box figure {
+    z-index: 0;
+}
+
 .links-box.video figure {
     margin-bottom: 40px;
 }
@@ -877,7 +868,7 @@ audio {
 
 .label {
     height: 110px;
-    overflow: hidden;
+    /* overflow: hidden; */
     border-bottom: 2px dashed #1C1B1B;
 }
 
