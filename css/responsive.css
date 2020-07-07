@@ -9,7 +9,6 @@
 
     .h1 {
         padding-left: 10px;
-        padding-top: 3px;
     }
 
     .h1 span,
@@ -17,9 +16,18 @@
         display: flex;
         font-size: 53px;
         line-height: 52px;
-        padding: 0px;
-        margin-top: 3px;
+        padding: 3px 0 0 0;
         max-width: 415px;
+        height: 110px;
+    }
+
+    h2 {
+        font-size: 29px;
+    }
+
+    .enseignements h3 {
+        font-size: 21px;
+        text-align: left;
     }
 
     .mainNav nav {
@@ -80,10 +88,6 @@
         animation: none !important;
     }
 
-    h2 {
-        font-size: 29px;
-    }
-
     .sheet {
         font-size: 20px;
         margin-bottom: 30px;
@@ -119,13 +123,6 @@
         margin-bottom: 50px;
     }
 
-    .cousins .title-box h2,
-    .cousins .title-box div,
-    .title-box h2,
-    .title-box div {
-        width: 100%;
-    }
-
     .title-box h2 {
         margin-top: 0px;
         margin-bottom: 0px;
@@ -135,8 +132,19 @@
         font-size: 14px;
     }
 
+    .title-box h2,
+    .title-box div,
+    .cousins .title-box h2,
+    .cousins .title-box div {
+        width: 100%;
+    }
+
     .cousins .title-box div {
         display: none;
+    }
+
+    .subtitle {
+        text-align: left;
     }
 
     .side {
