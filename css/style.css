@@ -208,17 +208,16 @@ article {
 
 .tabs {
     overflow: hidden;
-    /* padding-bottom: 100vh; */
 }
 
 .tab {
-    /* width: 100%; */
     color: #F8F8F8;
-    overflow: hidden;
+    /* overflow: hidden; */
     border-bottom: 1px solid #F8F8F8;
 }
 
 .tab-content {
+    overflow: hidden;
     max-height: 0;
     color: #1C1B1B;
     background: #F8F8F8;
@@ -233,12 +232,6 @@ section>header {
     border-bottom: 2px dashed #1C1B1B;
     cursor: pointer;
 }
-
-/* header .sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0px;
- */
 
 .tab-close {
     display: none
@@ -342,8 +335,6 @@ section.show header:hover .marquee .marquee-content .fixed,
     }
 }
 
-/* Transition */
-
 @keyframes marquee {
     0% {
         transform: translateX(0%)
@@ -352,6 +343,18 @@ section.show header:hover .marquee .marquee-content .fixed,
     100% {
         transform: translateX(-100%)
     }
+}
+
+/* STICKY */
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.tab-content {
+    padding-top: 95px;
 }
 
 /* //////// 7 MECANIQUES ///////// */
