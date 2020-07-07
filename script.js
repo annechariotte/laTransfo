@@ -8,13 +8,13 @@ function docReady(fn) {
     }
 };
 
-function openTab(parent) {
+function openTab(parent, parentTop) {
     parent.classList.add("show");
     window.scrollTo(0, 100);
 
 };
 
-function closeTab(currentElement, parentTop) {
+function closeTab(currentElement) {
     currentElement.classList.remove("show");
     window.scrollTo(0, 100);
 };
@@ -27,7 +27,7 @@ docReady(function () {
 
         let header = document.getElementById('section' + $i);
         let currentTabShow = header.parentElement;
-        let tabTop = currentTabShow.offsetTop;
+        // let tabTop = currentTabShow.offsetTop;
 
         header.addEventListener("click", function () {
             let lastTabShow = document.getElementsByClassName("show")[0];
