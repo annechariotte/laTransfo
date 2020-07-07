@@ -63,8 +63,8 @@
     }
 
     section>header:hover span {
-        -webkit-text-stroke: 0px#F8F8F8;
-        color: #F8F8F8;
+        /* -webkit-text-stroke: 0px#F8F8F8; */
+        /* color: #F8F8F8; */
         display: none;
     }
 
