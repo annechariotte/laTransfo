@@ -106,9 +106,12 @@
         padding-bottom: 100px;
     }
 
-    .post-it,
+    .post-it {
+        width: 380px;
+    }
+
     .post-it .container {
-        width: 300px
+        width: 320px
     }
 
     .title-box {
