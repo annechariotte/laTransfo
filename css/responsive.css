@@ -1,6 +1,6 @@
 /* ///// MOBIL ///// */
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 759px) {
 
     body,
     .title-box p {
@@ -18,10 +18,11 @@
         line-height: 47px;
         padding: 0px;
         margin-top: 8px;
+        max-width: 415px;
     }
 
     .mainNav nav {
-        height: 100px;
+        height: 90px;
     }
 
     .mainNav nav,
@@ -37,12 +38,15 @@
     .mainNav .nav_links {
         height: 30px;
         font-size: 16px;
+        max-width: 380px;
+        margin: 20px auto;
     }
 
     .logo_ctn {
-        margin: auto;
-        height: 40px;
+        margin: 20px auto 0 auto;
+        height: 30px;
         width: 100%;
+        max-width: 385px;
     }
 
     section>header {
@@ -55,6 +59,7 @@
     section>header>.header-content .marquee {
         white-space: normal;
         text-align: left;
+        height: 108px;
     }
 
     section>header:hover span {
@@ -159,11 +164,25 @@
     .mini-img {
         background-size: 62%;
     }
+
+    .marquee-info {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .marquee-info .marquee-info-content {
+        position: relative;
+        display: inline-block;
+        animation: marquee 8s linear infinite;
+    }
+
 }
 
 /* ///// TABLET ///// */
 
-@media screen and (min-width: 767px) and (max-width: 980px) {
+@media screen and (min-width: 760px) and (max-width: 1023px) {
 
     .h1,
     .h1 span {
@@ -171,9 +190,27 @@
         margin-top: 12px;
     }
 
+    .marquee-info {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .marquee-info .marquee-info-content {
+        position: relative;
+        display: inline-block;
+        animation: marquee 8s linear infinite;
+    }
+
     section>header {
         height: 120px;
         max-height: 120px;
+    }
+
+    .mainNav nav,
+    .mainNav .nav_links {
+        height: 90px;
     }
 
     .tab-content .container,
@@ -201,4 +238,26 @@
         opacity: 0;
     }
 
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+    .h1,
+    .h1 span {
+        font-size: 76px;
+        margin-top: -8px;
+    }
+
+    .marquee-info {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .marquee-info .marquee-info-content {
+        position: relative;
+        display: inline-block;
+        animation: marquee 8s linear infinite;
+    }
 }

@@ -8,15 +8,15 @@ function docReady(fn) {
     }
 };
 
-function openTab(parent, parentTop) {
+function openTab(parent) {
     parent.classList.add("show");
-    window.scrollTo(0, 100);
+    window.scrollTo(0, 0);
 
 };
 
 function closeTab(currentElement) {
     currentElement.classList.remove("show");
-    window.scrollTo(0, 100);
+    window.scrollTo(0, 0);
 };
 
 docReady(function () {
