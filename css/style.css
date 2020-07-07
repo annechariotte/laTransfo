@@ -362,13 +362,21 @@ section.show header:hover .marquee .marquee-content .fixed,
     border-top: none;
 }
 
+.title-box div {
+    width: 40%
+}
+
+.cousins .title-box div {
+    width: 25%;
+}
+
 .title-box h2 {
-    width: 75%;
+    width: 60%;
     text-align: left;
 }
 
-.title-box div {
-    width: 25%;
+.cousins .title-box h2 {
+    width: 75%;
 }
 
 .title-box p {

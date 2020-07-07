@@ -9,15 +9,16 @@
 
     .h1 {
         padding-left: 10px;
+        padding-top: 3px;
     }
 
     .h1 span,
     .h1 .fixed {
         display: flex;
         font-size: 53px;
-        line-height: 47px;
+        line-height: 52px;
         padding: 0px;
-        margin-top: 8px;
+        margin-top: 3px;
         max-width: 415px;
     }
 
@@ -59,7 +60,6 @@
     section>header>.header-content .marquee {
         white-space: normal;
         text-align: left;
-        height: 108px;
     }
 
     section>header:hover span {
@@ -119,6 +119,8 @@
         margin-bottom: 50px;
     }
 
+    .cousins .title-box h2,
+    .cousins .title-box div,
     .title-box h2,
     .title-box div {
         width: 100%;
@@ -186,7 +188,7 @@
     .h1,
     .h1 span {
         font-size: 56px;
-        margin-top: 12px;
+        padding-top: 12px;
     }
 
     .marquee-info {
@@ -223,6 +225,7 @@
         width: 380px
     }
 
+    .cousins .title-box h2,
     .title-box h2,
     .title-box div {
         width: 100%;
