@@ -182,13 +182,20 @@
     }
 
     /* OBSERVATIONS */
-
-    .post-it {
-        width: 380px;
+    .observations .bg {
+        height: 100% !important;
     }
 
-    .post-it .container {
-        width: 320px
+    .post-it {
+        position: initial;
+        width: 375px;
+        min-height: 0px;
+        margin: 0 auto;
+    }
+
+    .post-its .container {
+        padding: 0;
+        width: 325px;
     }
 
     .subtitle,
@@ -213,6 +220,18 @@
 
     figure {
         margin: 0 auto;
+    }
+
+    .links-box.video figure {
+        padding-bottom: 20px;
+    }
+
+    .temoignages .links-box.video {
+        padding-top: 40px;
+    }
+
+    .links-box.video iframe {
+        min-height: 170px;
     }
 
     audio {
@@ -260,11 +279,36 @@
 
     /* /// 7 MECANIQUES /// */
 
+    /* HYPOTHESES */
+
+    .mp .hypothese .bg {
+        background-position: left 5%, 28% 15%;
+    }
+
     /* OBSERVATIONS */
 
-    .post-it,
-    .post-it .container {
-        width: 380px
+    .post-it {
+        width: 380px;
+    }
+
+    .post-its .container {
+        padding: 0;
+        width: 320px;
+    }
+
+    /* LINKS-BOX */
+
+    .links-box {
+        background-size: 100px;
+    }
+
+    .temoignages .links-box {
+        background-size: 80px;
+    }
+
+    .temoignages .links-box.video {
+        background-image: none !important;
+        padding-top: 46px;
     }
 
 }

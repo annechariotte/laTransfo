@@ -430,7 +430,7 @@ section.show header:hover .marquee .marquee-content span,
 }
 
 .mp .hypothese .bg {
-    background-position: left 0%, 18% 15%;
+    background-position: left 5%, 18% 15%;
     background-size: 840px, 450px;
 }
 
@@ -679,7 +679,7 @@ section.show header:hover .marquee .marquee-content span,
 /*  5 - CAS CONCRETS */
 
 .cc .observations .bg {
-    background-position: 0% 2%, 100% 18%, -7% 55%, 23% 38%, 90% 82%, 0% 95%;
+    background-position: 0% 2%, 100% 18%, -7% 55%, 23% 38%, 90% 82%, 0% 94%;
     height: 2500px;
 }
 
@@ -805,7 +805,7 @@ section.show header:hover .marquee .marquee-content span,
     text-align: center;
 }
 
-.outils .links-box {
+.links-box {
     background-size: 150px;
 }
 
@@ -832,7 +832,12 @@ section.show header:hover .marquee .marquee-content span,
 }
 
 .links-box.video figure {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.links-box.video iframe {
+    width: 100%;
+    min-height: 300px;
 }
 
 .links-box figcaption {
