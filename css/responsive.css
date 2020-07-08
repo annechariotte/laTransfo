@@ -25,9 +25,6 @@
     .info-content span {
         display: block;
     }
-}
-
-@media screen and (max-width: 1023px) {
 
     /* HEADER */
 
@@ -35,6 +32,9 @@
     .label p {
         opacity: 0;
     }
+}
+
+@media screen and (max-width: 1023px) {
 
     /* TITLE-BOX */
 
@@ -273,12 +273,11 @@
 
     .h1,
     .h1 span {
-        font-size: 76px;
+        font-size: 75px;
     }
 
     .h1,
-    .h1 span,
-    .h1 .fixed {
+    .h1 span {
         display: flex;
     }
 
