@@ -695,38 +695,38 @@ section.show header:hover .marquee .marquee-content .fixed,
 /*  5 - CAS CONCRETS */
 
 .cc .observations .bg {
-    background-position: 0% 3%, 100% 20%, -11% 64%, 30% 43%, 100% 90%;
-    height: 2200px;
+    background-position: 0% 2%, 100% 20%, -10% 54%, 23% 40%, 100% 81%, 5% 94%;
+    height: 2500px;
 }
 
 .post-its .metz {
-    top: 310px;
+    top: 370px;
     left: 80px;
 }
 
 .post-its .lille {
-    top: 10px;
-    right: 40px;
+    top: 0px;
+    right: 90px;
 }
 
 .post-its .mulhouse {
-    top: 1140px;
+    top: 1210px;
     right: 250px;
 }
 
 .post-its .strasbourg {
-    top: 740px;
-    right: -10px;
+    top: 810px;
+    right: -30px;
 }
 
 .post-its .paris {
-    top: 1540px;
-    left: 30px;
+    top: 1580px;
+    left: 190px;
 }
 
 .post-its .dunkerque {
-    left: 400px;
-    top: 1670px;
+    top: 1970px;
+    right: 10px;
 }
 
 /* 6 - ECOSYSTEME */
