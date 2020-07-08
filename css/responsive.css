@@ -1,4 +1,57 @@
-/* ///// MOBIL ///// */
+/*/////////////// MOBIL & TABLET /////////////// */
+
+@media screen and (max-width: 1200px) {
+
+    /* INFO-BAND */
+
+    .marquee-info {
+        width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .marquee-info .marquee-info-content {
+        width: 450%;
+        position: relative;
+        display: inline-block;
+        animation: marquee 12s linear infinite;
+    }
+
+    .info-content {
+        display: flex;
+    }
+
+    .info-content span {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+
+    /* HEADER */
+
+    section.show .tab-close,
+    .label p {
+        opacity: 0;
+    }
+
+    /* TITLE-BOX */
+
+    .cousins .title-box div {
+        display: none;
+    }
+
+    .title-box h2,
+    .title-box div,
+    .cousins .title-box h2,
+    .cousins .title-box div {
+        width: 100%;
+    }
+
+}
+
+/* /////////////// MOBIL /////////////// */
 
 @media screen and (max-width: 759px) {
 
@@ -30,6 +83,15 @@
         text-align: left;
     }
 
+    .mainNav .container,
+    .tab-content .container,
+    .content .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* /// NAV-BAR /// */
+
     .mainNav nav {
         height: 90px;
     }
@@ -58,6 +120,8 @@
         max-width: 385px;
     }
 
+    /* /// ACCORDION /// */
+
     section>header {
         max-height: 110px;
     }
@@ -84,9 +148,12 @@
         color: #1C1B1B;
     }
 
-    .marquee-content {
+    .marquee .marquee-content {
+        width: 100%;
         animation: none !important;
     }
+
+    /* /// 7 MECANIQUES /// */
 
     .sheet {
         font-size: 20px;
@@ -94,29 +161,11 @@
         padding-top: 30px;
     }
 
-    .subtitle,
-    .legende {
-        font-size: 18px;
-    }
-
-    .mainNav .container,
-    .tab-content .container,
-    .content .container {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
     article {
         padding-bottom: 100px;
     }
 
-    .post-it {
-        width: 380px;
-    }
-
-    .post-it .container {
-        width: 320px
-    }
+    /* TITLE-BOX */
 
     .title-box {
         align-items: center;
@@ -132,25 +181,26 @@
         font-size: 14px;
     }
 
-    .title-box h2,
-    .title-box div,
-    .cousins .title-box h2,
-    .cousins .title-box div {
-        width: 100%;
+    /* OBSERVATIONS */
+
+    .post-it {
+        width: 380px;
     }
 
-    .cousins .title-box div {
-        display: none;
+    .post-it .container {
+        width: 320px
+    }
+
+    .subtitle,
+    .legende {
+        font-size: 18px;
     }
 
     .subtitle {
         text-align: left;
     }
 
-    .side {
-        min-width: 26%;
-        max-width: 100%;
-    }
+    /* LINKS-BOX */
 
     .links-box {
         background-image: none !important;
@@ -169,27 +219,15 @@
         width: 220px;
     }
 
-    section.show .tab-close,
-    .label p {
-        opacity: 0;
-    }
+    /* /// ABOUT /// */
 
-    .marquee-info {
-        width: 100%;
-        margin: 0 auto;
-        overflow: hidden;
-        white-space: nowrap;
+    .side {
+        min-width: 26%;
+        max-width: 100%;
     }
-
-    .marquee-info .marquee-info-content {
-        position: relative;
-        display: inline-block;
-        animation: marquee 8s linear infinite;
-    }
-
 }
 
-/* ///// TABLET ///// */
+/* /////////////// TABLET /////////////// */
 
 @media screen and (min-width: 760px) and (max-width: 1023px) {
 
@@ -200,53 +238,33 @@
         line-height: 110px;
     }
 
-    .marquee-info {
-        width: 100%;
-        margin: 0 auto;
-        overflow: hidden;
-        white-space: nowrap;
-    }
-
-    .marquee-info .marquee-info-content {
-        position: relative;
-        display: inline-block;
-        animation: marquee 8s linear infinite;
-    }
-
-    section>header {
-        height: 120px;
-        max-height: 120px;
-    }
-
-    .mainNav nav,
-    .mainNav .nav_links {
-        height: 90px;
-    }
-
     .tab-content .container,
     .content .container {
         padding-left: 35px;
         padding-right: 35px;
     }
 
+    /* /// NAV-BAR /// */
+
+    .mainNav nav,
+    .mainNav .nav_links {
+        height: 90px;
+    }
+
+    /* /// ACCORDION /// */
+
+    section>header {
+        height: 120px;
+        max-height: 120px;
+    }
+
+    /* /// 7 MECANIQUES /// */
+
+    /* OBSERVATIONS */
+
     .post-it,
     .post-it .container {
         width: 380px
-    }
-
-    .cousins .title-box h2,
-    .title-box h2,
-    .title-box div {
-        width: 100%;
-    }
-
-    .cousins .title-box div {
-        display: none;
-    }
-
-    section.show .tab-close,
-    .label p {
-        opacity: 0;
     }
 
 }
@@ -264,16 +282,4 @@
         display: flex;
     }
 
-    .marquee-info {
-        width: 100%;
-        margin: 0 auto;
-        overflow: hidden;
-        white-space: nowrap;
-    }
-
-    .marquee-info .marquee-info-content {
-        position: relative;
-        display: inline-block;
-        animation: marquee 8s linear infinite;
-    }
 }

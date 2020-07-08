@@ -59,7 +59,7 @@ body {
 }
 
 h1,
-.h1 span,
+.h1,
 h2,
 h3,
 h4 {
@@ -67,16 +67,15 @@ h4 {
     text-transform: uppercase;
 }
 
-h1,
-.h1 span {
+.h1 {
     font-size: 88px;
     line-height: 95px;
-    padding-left: 15px;
+    padding-left: 35px;
     margin: 0;
 }
 
-h1 span {
-    opacity: 0;
+.h1 span {
+    padding-left: 15px;
 }
 
 h2 {
@@ -86,21 +85,16 @@ h2 {
 }
 
 h3 {
-    margin: 12px auto 8px;
     font-size: 24px;
-}
-
-.legende,
-.subtitle,
-.post-it .strong,
-.enseignements ul strong,
-.variations-box li {
-    font-style: italic;
-    font-weight: bold;
+    margin: 12px auto 8px;
 }
 
 img {
     max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .container {
@@ -117,11 +111,6 @@ img {
     padding: 0 35px;
 }
 
-h1,
-.h1 .fixed {
-    padding-left: 35px;
-}
-
 .tab-content .container,
 .content .container {
     max-width: 840px;
@@ -129,10 +118,6 @@ h1,
 
 article {
     padding-bottom: 150px;
-}
-
-.post-its .container {
-    width: 340px;
 }
 
 /* ////////////////////// HEADER ////////////////////// */
@@ -166,7 +151,6 @@ article {
     font-family: sans-serif;
     font-weight: light;
     font-size: 18px;
-    list-style-type: none;
 }
 
 .mainNav .nav_links li {
@@ -195,10 +179,15 @@ article {
     align-items: center;
 }
 
-.information p {
+.info-content {
     font-size: 18.8px;
     padding-bottom: 2px;
     white-space: nowrap;
+}
+
+.info-content span {
+    padding-left: 10px;
+    display: none;
 }
 
 /* ////////////////////// MAIN ////////////////////// */
@@ -242,7 +231,6 @@ section.show .tab-close {
     font-size: 30px;
     right: 35px;
     bottom: 10px;
-    opacity: 1;
 }
 
 section>header>.header-content {
@@ -278,39 +266,31 @@ section.show .tab-content {
 
 /* MARQUEE */
 
-.mp .marquee .marquee-content,
-.a .marquee .marquee-content,
-.cc .marquee .marquee-content {
-    display: inline-block;
-    animation: marquee 45s linear infinite;
-}
-
 .marquee .marquee-content {
+    width: 50%;
     position: relative;
     display: inline-block;
-    animation: marquee 50s linear infinite;
-}
-
-.h1 {
-    animation: swap 15s linear infinite;
+    animation: marquee 8s linear infinite;
 }
 
 section.show .marquee .marquee-content {
     animation: none;
 }
 
-section.show header:hover .marquee .marquee-content span,
-.marquee-content span {
-    opacity: 0;
+.h1 {
+    animation: swap 15s linear infinite;
 }
 
 section.show header:hover .marquee .marquee-content .fixed,
-.marquee-content .fixed {
+.marquee-content .fixed,
+.marquee .marquee-content span,
+section.show .tab-close {
     opacity: 1;
 }
 
-.marquee .marquee-content span {
-    opacity: 1;
+section.show header:hover .marquee .marquee-content span,
+.marquee-content span {
+    opacity: 0;
 }
 
 @keyframes swap {
@@ -399,6 +379,15 @@ section.show header:hover .marquee .marquee-content .fixed,
     text-transform: uppercase;
 }
 
+.legende,
+.subtitle,
+.post-it .strong,
+.enseignements ul strong,
+.variations-box li {
+    font-style: italic;
+    font-weight: bold;
+}
+
 /*///// HYPOTHESE /////*/
 
 .mini-img,
@@ -478,7 +467,6 @@ section.show header:hover .marquee .marquee-content .fixed,
 .legende p {
     text-align: end;
     margin: 0;
-    /* padding-bottom: 5px; */
 }
 
 .legende a {
@@ -495,7 +483,7 @@ section.show header:hover .marquee .marquee-content .fixed,
 
 .subtitle {
     font-family: 'termes', serif;
-    font-size: 26px;
+    font-size: 22px;
 }
 
 .post-its {
@@ -507,16 +495,16 @@ section.show header:hover .marquee .marquee-content .fixed,
     z-index: 0;
     position: absolute;
     background-color: #FFB18C;
-    width: 400px;
+    width: 420px;
     min-height: 280px;
-    padding: 20px 0;
+    padding: 20px 0 50px 0;
     box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2);
     outline: 2px dashed #1C1B1B;
     outline-offset: -12px;
 }
 
-.post-it h3 {
-    margin-bottom: 30px;
+.post-its .container {
+    width: 360px;
 }
 
 .post-it .subtitle,
@@ -524,40 +512,36 @@ section.show header:hover .marquee .marquee-content .fixed,
     font-size: 18px;
 }
 
-.post-it .subtitle {
-    padding-bottom: 20px;
-}
-
-.post-it .strong {
-    padding-top: 20px;
-}
-
 .post-its ul,
 .post-its p {
     font-size: 14px;
 }
 
-.post-its ul {
-    list-style-type: none;
-}
-
+.post-its p,
+.post-it .strong,
+.post-it .subtitle,
 .post-its li {
-    margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .post-its li ul,
 .post-its p {
-    margin-top: 5px;
+    margin-top: 0;
 }
 
 .post-its li li,
+.post-its li p {
+    padding-top: 0;
+}
+
+.post-its ul,
 .post-its p {
     margin-bottom: 0;
 }
 
 .post-it .links {
     text-align: center;
-    padding: 30px;
+    padding: 30px auto 0;
 }
 
 .post-its a {
@@ -623,12 +607,12 @@ section.show header:hover .marquee .marquee-content .fixed,
 
 .post-its .politiques {
     top: 870px;
-    right: 90px;
+    right: 10px;
 }
 
 .post-its .education {
-    left: 0px;
-    top: 1080px;
+    left: -10px;
+    top: 1140px;
 }
 
 /* 3 - RYTHMER */
@@ -664,12 +648,12 @@ section.show header:hover .marquee .marquee-content .fixed,
 
 .post-its .second {
     top: 130px;
-    right: 410px;
+    right: 430px;
 }
 
 .post-its .superieur {
     top: 10px;
-    right: 40px;
+    right: 60px;
 }
 
 .post-its .ouvert {
@@ -684,18 +668,18 @@ section.show header:hover .marquee .marquee-content .fixed,
 
 .post-its .collectif {
     left: -20px;
-    top: 1260px;
+    top: 1240px;
 }
 
 .post-its .formation {
-    left: 350px;
-    top: 1430px;
+    left: 360px;
+    top: 1440px;
 }
 
 /*  5 - CAS CONCRETS */
 
 .cc .observations .bg {
-    background-position: 0% 2%, 100% 20%, -10% 54%, 23% 40%, 100% 81%, 5% 94%;
+    background-position: 0% 2%, 100% 18%, -7% 55%, 23% 38%, 90% 82%, 0% 95%;
     height: 2500px;
 }
 
@@ -710,23 +694,23 @@ section.show header:hover .marquee .marquee-content .fixed,
 }
 
 .post-its .mulhouse {
-    top: 1210px;
+    top: 1180px;
     right: 250px;
 }
 
 .post-its .strasbourg {
     top: 810px;
-    right: -30px;
+    right: 0px;
 }
 
 .post-its .paris {
-    top: 1580px;
-    left: 190px;
+    top: 1610px;
+    left: 140px;
 }
 
 .post-its .dunkerque {
-    top: 1970px;
-    right: 10px;
+    top: 2040px;
+    right: 20px;
 }
 
 /* 6 - ECOSYSTEME */
@@ -787,10 +771,9 @@ section.show header:hover .marquee .marquee-content .fixed,
     margin-top: 0;
 }
 
-/* .enseignements ul strong, */
-.observations ul strong {
+/* .observations ul strong {
     font-weight: bold;
-}
+} */
 
 .enseignements li {
     margin-top: 12px;
@@ -934,7 +917,6 @@ audio {
 }
 
 .side+ul {
-    list-style-type: none;
     line-height: 27px;
     text-align: right;
 }
