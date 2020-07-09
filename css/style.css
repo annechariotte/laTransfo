@@ -477,8 +477,9 @@ section.show header:hover .marquee .marquee-content span,
 /*///// OBSERVATIONS /////*/
 
 .observations .bg {
-    background-size: 700px;
+    background-size: 55%;
     max-width: 1300px;
+    margin: 0 auto;
 }
 
 .subtitle {
@@ -619,7 +620,7 @@ section.show header:hover .marquee .marquee-content span,
 
 .p .observations .bg {
     background-position: 100% 100%, 0% 0%;
-    background-size: 780px;
+    background-size: 60%;
     height: 1000px;
 }
 
@@ -642,7 +643,7 @@ section.show header:hover .marquee .marquee-content span,
 
 .a .observations .bg {
     background-position: 0% 0%, 120% 20%, 50% 40%, 20% 70%, 100% 100%;
-    background-size: 450px, 700px, 700px, 700px, 700px;
+    background-size: 35%, 55%, 55%, 55%, 55%;
     height: 1750px;
 }
 
