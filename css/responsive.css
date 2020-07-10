@@ -296,10 +296,14 @@
     }
 
     /* / OBSERVATIONS / */
+    .observations .bg {
+        background-size: 60%;
+    }
 
     /* CE */
     .ce .observations .bg {
-        height: 1000px;
+        background-position: 0% 2%, 110% 84%;
+        height: 900px;
     }
 
     .post-its .contrat {
@@ -312,27 +316,27 @@
     }
 
     .post-its .inter-collectivites {
-        top: 390px;
+        top: 340px;
         left: 50px;
     }
 
     .post-its .coordination {
-        top: 740px;
+        top: 710px;
         left: 390px;
     }
 
     .post-its .adhesion {
         left: -20px;
-        top: 610px;
+        top: 540px;
     }
 
     /* MP */
     .mp .observations .bg {
-        background-position: 90% 0%, 110% 45%, 110% 100%, 0% 75%;
+        /* background-position: 90% 0%, 110% 45%, 110% 100%, 0% 75%; */
         height: 1350px;
     }
 
-    .post-its .design {
+    /* .post-its .design {
         top: -20px;
         right: 450px;
     }
@@ -354,7 +358,7 @@
 
     .post-its .education {
         top: 1090px;
-    }
+    } */
 
     /* P */
     .p .observations .bg {
@@ -373,6 +377,7 @@
     /* A */
     .a .observations .bg {
         background-position: 0% 0%, 120% 24%, 64% 36%, 0% 70%, 100% 100%;
+        background-size: 40%, 60%, 60%, 60%, 60%;
         height: 1400px;
     }
 
@@ -517,15 +522,19 @@
     /* POST-IT */
 
     .post-it {
-        width: 360px;
+        width: 380px;
     }
 
     .post-its .container {
-        width: 300px;
+        width: 320px;
         padding: 0 !important;
     }
 
     /* CE */
+    .ce .observations .bg {
+        background-position: 0% 0%, 100% 70%;
+        height: 1000px;
+    }
 
     .post-its .contrat {
         right: 150px;
@@ -535,13 +544,50 @@
         right: -20px;
     }
 
+    .post-its .inter-collectivites {
+        top: 370px;
+        left: 120px;
+    }
+
+    .post-its .adhesion {
+        left: 10px;
+        top: 590px;
+    }
+
+    .post-its .coordination {
+        top: 720px;
+        left: 420px;
+    }
+
     /* MP */
+    .mp .observations .bg {
+        background-position: -10% 0%, 105% 53%, 90% 100%, 10% 77%;
+        height: 1350px;
+    }
+
     .post-its .design {
         right: 230px;
+        top: 10px;
     }
 
     .post-its .coaching {
         right: -25px;
+        top: 310px;
+    }
+
+    .post-its .sociologie {
+        top: 400px;
+        left: 10px;
+    }
+
+    .post-its .politiques {
+        top: 800px;
+        right: 10px;
+    }
+
+    .post-its .education {
+        left: -10px;
+        top: 1100px;
     }
 
     /* P */

@@ -59,38 +59,33 @@ docReady(function () {
 
             currentTitle.classList.remove("marquee");
         });
-
     };
 });
 
 // TICKY //
 
-// window.onscroll = function () {
+window.onscroll = function () {
 
-//     for (let $i = 0; $i <= 6; $i++) {
-//         let lastHeader = document.getElementById("section" + ($i - 1));
-//         let currentHeader = document.getElementById("section" + $i);
-//         let nextHeader = document.getElementById("section" + ($i + 1));
+    for (let $i = 1; $i <= 6; $i++) {
+        let lastHeader = document.getElementById("section" + ($i - 1));
+        let currentHeader = document.getElementById("section" + $i);
+        let nextHeader = document.getElementById("section" + ($i + 1));
 
-//         let currentSticky = currentHeader.offsetTop;
-//         let nextSticky;
+        let currentSticky = currentHeader.offsetTop;
+        let nextSticky;
 
-//         if (window.pageYOffset > currentSticky) {
-//             currentHeader.classList.add("sticky");
-//             if (lastHeader !== null) {
-//                 lastHeader.classList.remove("sticky");
-//             }
-//         }
-//         console.log(currentSticky);
+        if (window.pageYOffset > currentSticky) {
+            currentHeader.classList.add("sticky");
+            lastHeader.classList.remove("sticky");
+        }
 
-//         if (nextHeader !== null) {
-//             nextSticky = nextHeader.offsetTop;
-//             if (window.pageYOffset < currentSticky || window.pageYOffset > nextSticky - 100 || window.pageYOffset < 100) {
-//                 currentHeader.classList.remove("sticky");
-//                 nextHeader.classList.remove("sticky");
-//             }
-//             console.log(currentSticky);
-//         }
+        if (nextHeader !== null) {
+            nextSticky = nextHeader.offsetTop;
 
-//     }
-// };
+            if (window.pageYOffset < currentSticky || window.pageYOffset > nextSticky) {
+                currentHeader.classList.remove("sticky");
+                nextHeader.classList.remove("sticky");
+            }
+        }
+    }
+};
