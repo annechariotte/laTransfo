@@ -332,36 +332,37 @@
 
     /* MP */
     .mp .observations .bg {
-        /* background-position: 90% 0%, 110% 45%, 110% 100%, 0% 75%; */
+        background-position: 120% 0%, 100% 49%, 110% 100%, 6% 75%;
         height: 1350px;
     }
 
-    /* .post-its .design {
-        top: -20px;
-        right: 450px;
+    .post-its .design {
+        right: 380px;
+        top: -30px;
     }
 
     .post-its .coaching {
-        top: 250px;
         right: -25px;
+        top: 280px;
     }
 
     .post-its .sociologie {
-        top: 430px;
-        left: 40px;
+        top: 410px;
+        left: -20px;
     }
 
     .post-its .politiques {
-        top: 820px;
-        right: -20px;
+        top: 780px;
+        right: 30px;
     }
 
     .post-its .education {
-        top: 1090px;
-    } */
+        left: 10px;
+        top: 1080px;
+    }
 
     /* P */
-    .p .observations .bg {
+    /* .p .observations .bg {
         height: 800px;
     }
 
@@ -372,10 +373,10 @@
     .post-its .pedagogie {
         top: 430px;
         left: -20px;
-    }
+    } */
 
     /* A */
-    .a .observations .bg {
+    /* .a .observations .bg {
         background-position: 0% 0%, 120% 24%, 64% 36%, 0% 70%, 100% 100%;
         background-size: 40%, 60%, 60%, 60%, 60%;
         height: 1400px;
@@ -407,10 +408,10 @@
     .post-its .formation {
         left: 390px;
         top: 870px;
-    }
+    } */
 
     /* CC */
-    .cc .observations .bg {
+    /* .cc .observations .bg {
         background-position: 0% 2%, 95% 23%, -10% 35%, 130% 40%, 100% 79%, 0% 98%;
         height: 2200px;
     }
@@ -443,10 +444,10 @@
     .post-its .dunkerque {
         top: 1365px;
         right: 393px;
-    }
+    } */
 
     /* E */
-    .e .observations .bg {
+    /* .e .observations .bg {
         background-position: 0% 0%, 110% 46%, 60% 100%;
     }
 
@@ -468,10 +469,10 @@
     .post-its .e-dunkerque {
         top: 730px;
         right: 450px;
-    }
+    } */
 
     /* FL */
-    .fl .observations .bg {
+    /* .fl .observations .bg {
         background-position: 0% 5%, 90% 56%, 40% 100%, 0% 83%;
     }
 
@@ -488,7 +489,7 @@
     .post-its .exception {
         top: 930px;
         right: -20px;
-    }
+    } */
 
     /* / LINKS-BOX / */
 
