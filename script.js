@@ -79,13 +79,12 @@ window.onscroll = function () {
             lastHeader.classList.remove("sticky");
         }
 
-        if (nextHeader !== null) {
-            nextSticky = nextHeader.offsetTop;
+        nextSticky = nextHeader.offsetTop;
 
-            if (window.pageYOffset < currentSticky || window.pageYOffset > nextSticky) {
-                currentHeader.classList.remove("sticky");
-                nextHeader.classList.remove("sticky");
-            }
+        if (window.pageYOffset < currentSticky + 100) {
+            currentHeader.classList.remove("sticky");
+            nextHeader.classList.remove("sticky");
         }
+
     }
 };
