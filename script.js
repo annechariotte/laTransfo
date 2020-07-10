@@ -85,6 +85,5 @@ window.onscroll = function () {
             currentHeader.classList.remove("sticky");
             nextHeader.classList.remove("sticky");
         }
-
     }
 };
