@@ -10,13 +10,13 @@ function docReady(fn) {
 
 function openTab(parent) {
     parent.classList.add("show");
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 100);
 
 };
 
 function closeTab(currentElement) {
     currentElement.classList.remove("show");
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 100);
 };
 
 docReady(function () {
@@ -66,22 +66,22 @@ docReady(function () {
 
 window.onscroll = function () {
 
-    for (let $i = 1; $i <= 6; $i++) {
+    for (let $i = 0; $i <= 6; $i++) {
         let lastHeader = document.getElementById("section" + ($i - 1));
         let currentHeader = document.getElementById("section" + $i);
         let nextHeader = document.getElementById("section" + ($i + 1));
 
         let currentSticky = currentHeader.offsetTop;
-        let nextSticky;
+        let nextSticky = nextHeader.offsetTop;
 
         if (window.pageYOffset > currentSticky) {
             currentHeader.classList.add("sticky");
-            lastHeader.classList.remove("sticky");
+            if (lastHeader != null) {
+                lastHeader.classList.remove("sticky");
+            }
         }
 
-        nextSticky = nextHeader.offsetTop;
-
-        if (window.pageYOffset < currentSticky + 100) {
+        if (window.pageYOffset < currentSticky || window.pageYOffset > nextSticky - 100 || window.pageYOffset < 100) {
             currentHeader.classList.remove("sticky");
             nextHeader.classList.remove("sticky");
         }
