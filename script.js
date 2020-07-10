@@ -21,7 +21,7 @@ function closeTab(currentElement) {
 
 docReady(function () {
 
-    for (let $i = 0; $i <= 6; $i++) {
+    for (let $i = 1; $i <= 7; $i++) {
 
         // ACCORDION //
 
@@ -66,7 +66,7 @@ docReady(function () {
 
 window.onscroll = function () {
 
-    for (let $i = 0; $i <= 6; $i++) {
+    for (let $i = 1; $i <= 7; $i++) {
         let lastHeader = document.getElementById("section" + ($i - 1));
         let currentHeader = document.getElementById("section" + $i);
         let nextHeader = document.getElementById("section" + ($i + 1));
@@ -76,9 +76,7 @@ window.onscroll = function () {
 
         if (window.pageYOffset > currentSticky) {
             currentHeader.classList.add("sticky");
-            if (lastHeader != null) {
-                lastHeader.classList.remove("sticky");
-            }
+            lastHeader.classList.remove("sticky");
         }
 
         if (window.pageYOffset < currentSticky || window.pageYOffset > nextSticky - 100 || window.pageYOffset < 100) {
