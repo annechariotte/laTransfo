@@ -72,11 +72,8 @@ docReady(function () {
                 }
             }
 
-            // si la section est ouverte
-
             window.onscroll = function () {
-                console.log(tab);
-
+                // si la section est ouverte
                 if (tab.classList.contains("show")) {
 
                     // calculer la position initiale de la section, avec le décalage de la nav bar
@@ -107,6 +104,35 @@ docReady(function () {
             tab.querySelector(".tab-title").classList.remove("marquee");
 
         })
+
+        // window.onscroll = function () {
+        //     // cibler la section ouverte
+        //     let tabShow = document.getElementsByClassName("show");
+
+        //     // calculer la position initiale de la section, avec le décalage de la nav bar
+        //     let tabMinOffset;
+        //     // en responsive
+        //     if (window.matchMedia("(max-width: 759px)").matches) {
+        //         tabMinOffset = tabShow[0].offsetTop - 140;
+        //         console.log(tabMinOffset);
+        //     } else if (window.matchMedia("(min-width: 760px) and (max-width: 999px)").matches) {
+        //         tabMinOffset = tabShow[0].offsetTop - 120;
+        //         console.log(tabMinOffset);
+        //     } else {
+        //         tabMinOffset = tabShow[0].offsetTop - 101;
+        //         console.log(tabMinOffset);
+        //     }
+
+        //     console.log(tabShow[0]);
+        //     // fixer le header si il est situé entre sa position Y initiale et le prochain header
+        //     if (tabMinOffset < window.pageYOffset && window.pageYOffset < 5200) {
+        //         tabShow[0].children[0].classList.add("sticky");
+        //     }
+        //     // ne plus fixer le header au dela de ces positions
+        //     else {
+        //         tabShow[0].children[0].classList.remove("sticky");
+        //     }
+        // }
 
         // quand la souris est sur une section
         tab.addEventListener("mouseenter", function () {

@@ -65,17 +65,6 @@
         width: 100%;
     }
 
-    /* POST-IT */
-
-    .post-it {
-        width: 340px;
-    }
-
-    .post-its .container {
-        width: 280px;
-        padding: 0 !important;
-    }
-
 }
 
 @media screen and (max-width: 840px) {}
@@ -222,6 +211,83 @@
         text-align: left;
     }
 
+    /* BACKGROUND IMG */
+
+    .observations .bg {
+        background-size: 100% !important;
+        height: 100% !important;
+    }
+
+    .ce .observations .bg {
+        background-position: 50% 380px, 50% 1020px;
+    }
+
+    .mp .observations .bg {
+        background-position: 50% 450px, 50% 940px, 50% 2120px, 50% 1570px;
+    }
+
+    .p .observations .bg {
+        background-position: 50% 660px, 50% 200px;
+    }
+
+    .a .observations .bg {
+        background-position: 50% 260px, 50% 890px, 50% 1330px, 50% 1830px, 50% 2320px;
+    }
+
+    .cc .observations .bg {
+        background-position: 50% 420px, 50% 1100px, 50% 1785px, 50% 2460px, 50% 3760px, 50% 3100px;
+        padding-bottom: 240px;
+    }
+
+    .e .observations .bg {
+        background-position: 50% 410px, 50% 1060px, 50% 1610px;
+    }
+
+    .fl .observations .bg {
+        background-position: 50% 770px, 50% 0px, 50% 1590px, 50% 2190px;
+        padding: 240px 0;
+    }
+
+    /* POST-IT */
+
+    .post-it {
+        position: initial;
+        width: 375px;
+        min-height: 100%;
+        margin: 0 auto;
+    }
+
+    .post-its .container {
+        width: 315px;
+        padding: 0 !important;
+    }
+
+    .post-it {
+        margin-top: 240px;
+    }
+
+    .post-it.top {
+        margin-top: 0px;
+    }
+
+    .post-it.superieur {
+        margin-top: 380px;
+    }
+
+    .post-it.ouvert,
+    .post-it.semi-pro,
+    .post-it.collectif,
+    .post-its .lille,
+    .post-its .strasbourg,
+    .post-its .paris,
+    .post-its .exception {
+        margin-top: 200px;
+    }
+
+    .post-its .iterations {
+        margin-top: 40px;
+    }
+
     /* LINKS-BOX */
 
     .links-box {
@@ -313,8 +379,20 @@
     }
 
     /* / OBSERVATIONS / */
+
     .observations .bg {
         background-size: 60%;
+    }
+
+    /* POST-IT */
+
+    .post-it {
+        width: 340px;
+    }
+
+    .post-its .container {
+        width: 280px;
+        padding: 0 !important;
     }
 
     /* CE */
