@@ -126,6 +126,7 @@ article {
 
 .mainNav {
     background-color: #1C1B1B;
+    z-index: 5;
 }
 
 .logo_ctn {
@@ -192,16 +193,13 @@ article {
 
 /* ////////////////////// FOOTER ////////////////////// */
 
-footer {
-    padding-top: 100px;
-}
-
 /* ////////////////////// MAIN ////////////////////// */
 
 /* //////// ACCORDION ///////// */
 
 .tabs {
     overflow: hidden;
+    padding-top: 100px;
 }
 
 .tab {
@@ -215,6 +213,10 @@ footer {
     color: #1C1B1B;
     background: #F8F8F8;
     transition: all 0.35s;
+}
+
+section.section0 {
+    height: 0px;
 }
 
 section>header {
@@ -279,24 +281,18 @@ section.show .tab-content {
     animation: marquee 8s linear infinite;
 }
 
-section.show .marquee .marquee-content {
-    animation: none;
-}
-
 .h1 {
     animation: swap 15s linear infinite;
 }
 
-section.show header:hover .marquee .marquee-content .fixed,
 .marquee-content .fixed,
 .marquee .marquee-content span,
 section.show .tab-close {
-    opacity: 1;
+    display: initial;
 }
 
-section.show header:hover .marquee .marquee-content span,
 .marquee-content span {
-    opacity: 0;
+    display: none;
 }
 
 @keyframes swap {
@@ -326,12 +322,25 @@ section.show header:hover .marquee .marquee-content span,
 
 .sticky {
     position: fixed;
-    top: 0;
     width: 100%;
 }
 
+.mainNav.sticky {
+    top: 0px;
+}
+
+.header.sticky {
+    top: 100px;
+}
+
+.tab-content {
+    transition: all 0s;
+    padding-top: 0px;
+}
+
 .sticky+.tab-content {
-    padding-top: 95px;
+    transition: all 0s;
+    padding-top: 96px;
 }
 
 /* //////// 7 MECANIQUES ///////// */
@@ -871,7 +880,7 @@ audio {
 
 .label {
     height: 110px;
-    /* overflow: hidden; */
+    background-color: #F8F8F8;
     border-bottom: 2px dashed #1C1B1B;
 }
 
@@ -916,6 +925,12 @@ audio {
 }
 
 /*///// ABOUT /////*/
+
+.about .content,
+.contact .content,
+.cousins .content {
+    padding-top: 180px;
+}
 
 .side {
     min-width: 230px;

@@ -2,6 +2,10 @@
 
 @media screen and (max-width: 1200px) {
 
+    .h1 .fixed {
+        display: flex;
+    }
+
     /* INFO-BAND */
 
     .marquee-info {
@@ -89,9 +93,7 @@
         padding-left: 10px;
     }
 
-    .h1 span,
     .h1 .fixed {
-        display: flex;
         font-size: 53px;
         line-height: 50px;
         padding: 5px 0 0 0;
@@ -151,6 +153,10 @@
         max-height: 110px;
     }
 
+    .tabs {
+        padding-top: 139px;
+    }
+
     section.show>header>.header-content .marquee,
     section.show>header>.header-content,
     section>header>.header-content,
@@ -159,23 +165,21 @@
         text-align: left;
     }
 
-    section>header:hover span {
-        /* -webkit-text-stroke: 0px#F8F8F8; */
-        /* color: #F8F8F8; */
-        display: none;
-    }
-
-    section>header:hover span.fixed {
-        display: block;
-    }
-
-    section.show header:hover span {
-        color: #1C1B1B;
-    }
-
     .marquee .marquee-content {
         width: 100%;
         animation: none !important;
+    }
+
+    .marquee .marquee-content span {
+        display: none;
+    }
+
+    .header.sticky {
+        top: 140px;
+    }
+
+    .sticky+.tab-content {
+        padding-top: 110px;
     }
 
     /* /// 7 MECANIQUES /// */
@@ -261,8 +265,7 @@
 @media screen and (min-width: 760px) and (max-width: 999px) {
 
     .h1,
-    .h1 span {
-        display: flex;
+    .h1 .fixed {
         font-size: 56px;
         line-height: 110px;
     }
@@ -277,7 +280,7 @@
 
     .mainNav nav,
     .mainNav .nav_links {
-        height: 90px;
+        height: 91px;
     }
 
     /* /// ACCORDION /// */
@@ -285,6 +288,14 @@
     section>header {
         height: 120px;
         max-height: 120px;
+    }
+
+    .tabs {
+        padding-top: 120px;
+    }
+
+    .header.sticky {
+        top: 120px;
     }
 
     /* /// 7 MECANIQUES /// */
@@ -511,13 +522,8 @@
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
 
     .h1,
-    .h1 span {
+    .h1 .fixed {
         font-size: 75px;
-    }
-
-    .h1,
-    .h1 span {
-        display: flex;
     }
 
     /* POST-IT */
