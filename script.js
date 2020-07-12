@@ -83,9 +83,9 @@ docReady(function () {
                     let tabMinOffset;
                     // en responsive
                     if (window.matchMedia("(max-width: 759px)").matches) {
-                        tabMinOffset = tab.offsetTop - 144;
+                        tabMinOffset = tab.offsetTop - 147;
                     } else if (window.matchMedia("(min-width: 760px) and (max-width: 999px)").matches) {
-                        tabMinOffset = tab.offsetTop - 125;
+                        tabMinOffset = tab.offsetTop - 126;
                     } else {
                         tabMinOffset = tab.offsetTop - 104;
                     }

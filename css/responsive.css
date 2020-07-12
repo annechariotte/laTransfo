@@ -154,7 +154,7 @@
     }
 
     .tabs {
-        padding-top: 139px;
+        padding-top: 140px;
     }
 
     section.show>header>.header-content .marquee,
@@ -179,6 +179,7 @@
     }
 
     .sticky+.tab-content {
+        transition: all 0s;
         padding-top: 110px;
     }
 
@@ -280,7 +281,7 @@
 
     .mainNav nav,
     .mainNav .nav_links {
-        height: 91px;
+        height: 90px;
     }
 
     /* /// ACCORDION /// */
@@ -296,6 +297,11 @@
 
     .header.sticky {
         top: 120px;
+    }
+
+    .sticky+.tab-content {
+        transition: all 0s;
+        padding-top: 120px;
     }
 
     /* /// 7 MECANIQUES /// */
