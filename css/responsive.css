@@ -320,6 +320,11 @@
     }
 
     /* /// ABOUT /// */
+    .about .content,
+    .contact .content,
+    .cousins .content {
+        padding-top: 220px;
+    }
 
     .side {
         min-width: 26%;
