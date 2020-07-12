@@ -184,6 +184,8 @@ article {
     font-size: 18.8px;
     padding-bottom: 2px;
     white-space: nowrap;
+    height: 30px;
+    margin: 0 auto;
 }
 
 .info-content span {
