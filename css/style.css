@@ -323,6 +323,7 @@ section.show .tab-close {
 /* STICKY */
 
 .sticky {
+    transition: all 0s;
     position: fixed;
     width: 100%;
 }
