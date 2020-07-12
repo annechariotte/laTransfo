@@ -101,6 +101,8 @@ docReady(function () {
                 }
             }
 
+            // ne plus fixer le header quand la section est fermée
+            tab.children[0].classList.remove("sticky");
             // stopper le scroll du titre quand la section est ouverte
             tab.querySelector(".tab-title").classList.remove("marquee");
 
