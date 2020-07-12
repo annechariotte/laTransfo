@@ -83,11 +83,11 @@ docReady(function () {
                     let tabMinOffset;
                     // en responsive
                     if (window.matchMedia("(max-width: 759px)").matches) {
-                        tabMinOffset = tab.offsetTop - 147;
+                        tabMinOffset = tab.offsetTop - 141;
                     } else if (window.matchMedia("(min-width: 760px) and (max-width: 999px)").matches) {
-                        tabMinOffset = tab.offsetTop - 126;
+                        tabMinOffset = tab.offsetTop - 121;
                     } else {
-                        tabMinOffset = tab.offsetTop - 104;
+                        tabMinOffset = tab.offsetTop - 101;
                     }
 
                     // fixer le header si il est situé entre sa position Y initiale et le prochain header
