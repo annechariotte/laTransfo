@@ -50,23 +50,6 @@
 
 }
 
-@media screen and (max-width: 999px) {
-
-    /* TITLE-BOX */
-
-    .cousins .title-box div {
-        display: none;
-    }
-
-    .title-box h2,
-    .title-box div,
-    .cousins .title-box h2,
-    .cousins .title-box div {
-        width: 100%;
-    }
-
-}
-
 /* /////////////// MOBIL /////////////// */
 
 @media screen and (max-width: 449px) {
@@ -75,6 +58,18 @@
         font-size: 50px;
         line-height: 55px;
         max-width: 395px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    section>header,
+    section.show>header {
+        max-height: 120px;
+    }
+
+    .sticky+.tab-content {
+        transition: all 0s;
+        padding-top: 110px;
     }
 
     section>header>.header-content,
@@ -97,24 +92,32 @@
     .marquee .marquee-content span.fixed {
         display: flex;
     }
+
+    .header.sticky {
+        position: unset;
+    }
+
+    .header.sticky+.tab-content {
+        padding-top: 0px;
+    }
 }
 
 @media screen and (min-width: 450px) and (max-width: 759px) {
     .h1 {
         padding-left: 0px;
         font-size: 56px;
-        line-height: 110px;
-    }
-
-    section.show>header>.header-content .h1 {
-        padding-left: 0px;
-        font-size: 56px;
-        line-height: 55px;
-        max-width: 740px;
     }
 
     section.show>header {
-        display: flex
+        display: flex;
+        min-height: 95px;
+        max-height: 120px;
+    }
+
+    section.show>header .h1 {
+        line-height: 55px;
+        padding-top: 5px;
+        padding-bottom: 5px;
     }
 
     section.show>header>.header-content,
@@ -181,23 +184,12 @@
 
     /* /// ACCORDION /// */
 
-    section>header,
-    section.show>header {
-        height: 110px;
-        max-height: 110px;
-    }
-
     .tabs {
         padding-top: 140px;
     }
 
     .header.sticky {
         top: 140px;
-    }
-
-    .sticky+.tab-content {
-        transition: all 0s;
-        padding-top: 110px;
     }
 
     /* /// 7 MECANIQUES /// */
@@ -213,6 +205,17 @@
     }
 
     /* TITLE-BOX */
+
+    .cousins .title-box div {
+        display: none;
+    }
+
+    .title-box h2,
+    .title-box div,
+    .cousins .title-box h2,
+    .cousins .title-box div {
+        width: 100%;
+    }
 
     .title-box {
         align-items: center;
@@ -374,7 +377,6 @@
 
     .h1 {
         font-size: 56px;
-        line-height: 110px;
     }
 
     .tab-content .container,
@@ -383,34 +385,22 @@
         padding-right: 35px;
     }
 
-    /* /// NAV-BAR /// */
-
-    .mainNav nav,
-    .mainNav .nav_links {
-        height: 90px;
-    }
-
     /* /// ACCORDION /// */
 
-    section>header {
-        height: 120px;
-        max-height: 120px;
-    }
-
-    .tabs {
-        padding-top: 120px;
-    }
-
-    .header.sticky {
-        top: 120px;
-    }
-
-    .sticky+.tab-content {
-        transition: all 0s;
-        padding-top: 120px;
-    }
-
     /* /// 7 MECANIQUES /// */
+
+    /* TITLE-BOX */
+
+    .cousins .title-box div {
+        display: none;
+    }
+
+    .title-box h2,
+    .title-box div,
+    .cousins .title-box h2,
+    .cousins .title-box div {
+        width: 100%;
+    }
 
     /* / HYPOTHESES / */
 
@@ -876,15 +866,6 @@
     }
 
     /* FL */
-    /* .post-it.iterations {
-        top: 0px;
-        right: 50px;
-    } */
-
-    /* .post-it.impliquation {
-        top: 300px;
-        left: 0px;
-    } */
 
     .post-it.exception {
         top: 870px;

@@ -80,15 +80,20 @@ docReady(function () {
                     let tabMinOffset;
                     // en responsive
                     if (window.matchMedia("(max-width: 759px)").matches) {
-                        tabMinOffset = tab.offsetTop - 141;
-                    } else if (window.matchMedia("(min-width: 760px) and (max-width: 999px)").matches) {
-                        tabMinOffset = tab.offsetTop - 121;
+                        tabMinOffset = tab.offsetTop - 140;
                     } else {
-                        tabMinOffset = tab.offsetTop - 101;
+                        tabMinOffset = tab.offsetTop - 100;
+                    }
+
+                    let tabMaxOffset;
+                    if (tab == tabs[2]) {
+                        tabMaxOffset = 4500;
+                    } else {
+                        tabMaxOffset = 5200;
                     }
 
                     // fixer le header si il est situé entre sa position Y initiale et le prochain header
-                    if (tabMinOffset < window.pageYOffset && window.pageYOffset < 5200) {
+                    if (tabMinOffset < window.pageYOffset && window.pageYOffset < tabMaxOffset) {
                         tab.children[0].classList.add("sticky");
                     }
                     // ne plus fixer le header au dela de ces positions
