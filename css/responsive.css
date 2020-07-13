@@ -62,6 +62,8 @@
         padding-bottom: 5px;
     }
 
+    /* /// ACCORDION /// */
+
     section>header,
     section.show>header {
         max-height: 120px;
@@ -100,6 +102,84 @@
     .header.sticky+.tab-content {
         padding-top: 0px;
     }
+
+    /* /// 7 MECANIQUES /// */
+
+    /* / OBSERVATIONS / */
+
+    /* BACKGROUND-IMG */
+
+    .observations .bg {
+        max-width: 415px;
+        height: 100% !important;
+    }
+
+    .ce .observations .bg {
+        background-position: 50% 340px, 50% 940px;
+    }
+
+    .mp .observations .bg {
+        background-position: 50% 420px, 50% 900px, 50% 1970px, 50% 1470px;
+    }
+
+    .p .observations .bg {
+        background-position: 50% 610px, 50% 190px;
+    }
+
+    .a .observations .bg {
+        background-position: 50% 250px, 50% 870px, 50% 1280px, 50% 1770px, 50% 2240px;
+    }
+
+    .cc .observations .bg {
+        background-position: 50% 370px, 50% 970px, 50% 1610px, 50% 2220px, 50% 3430px, 50% 2810px;
+        padding-bottom: 240px;
+    }
+
+    .e .observations .bg {
+        background-position: 50% 335px, 50% 940px, 50% 1440px;
+    }
+
+    .fl .observations .bg {
+        background-position: 50% 710px, 50% 0px, 50% 1450px, 50% 2000px;
+        padding: 240px 0;
+    }
+
+    /* POST-ITS */
+
+    .post-it {
+        position: initial;
+        width: 100%;
+        min-width: 375px;
+        max-width: 415px;
+        min-height: 100%;
+        margin: 0 auto;
+    }
+
+    .post-it {
+        margin-top: 240px;
+    }
+
+    .post-it.top {
+        margin-top: 0px;
+    }
+
+    .post-it.superieur {
+        margin-top: 380px;
+    }
+
+    .post-it.ouvert,
+    .post-it.semi-pro,
+    .post-it.collectif,
+    .post-its .lille,
+    .post-its .strasbourg,
+    .post-its .paris,
+    .post-its .exception {
+        margin-top: 200px;
+    }
+
+    .post-its .iterations {
+        margin-top: 40px;
+    }
 }
 
 @media screen and (min-width: 450px) and (max-width: 759px) {
@@ -107,6 +187,8 @@
         padding-left: 0px;
         font-size: 56px;
     }
+
+    /* /// ACCORDION /// */
 
     section.show>header {
         display: flex;
@@ -246,38 +328,6 @@
 
     .observations .bg {
         background-size: 100% !important;
-        max-width: 415px;
-        height: 100% !important;
-    }
-
-    .ce .observations .bg {
-        background-position: 50% 340px, 50% 940px;
-    }
-
-    .mp .observations .bg {
-        background-position: 50% 420px, 50% 900px, 50% 1970px, 50% 1470px;
-    }
-
-    .p .observations .bg {
-        background-position: 50% 610px, 50% 190px;
-    }
-
-    .a .observations .bg {
-        background-position: 50% 250px, 50% 870px, 50% 1280px, 50% 1770px, 50% 2240px;
-    }
-
-    .cc .observations .bg {
-        background-position: 50% 370px, 50% 970px, 50% 1610px, 50% 2220px, 50% 3430px, 50% 2810px;
-        padding-bottom: 240px;
-    }
-
-    .e .observations .bg {
-        background-position: 50% 335px, 50% 940px, 50% 1440px;
-    }
-
-    .fl .observations .bg {
-        background-position: 50% 710px, 50% 0px, 50% 1450px, 50% 2000px;
-        padding: 240px 0;
     }
 
     /* POST-IT */
@@ -291,44 +341,9 @@
         font-size: 13px;
     }
 
-    .post-it {
-        position: initial;
-        width: 100%;
-        min-width: 375px;
-        max-width: 415px;
-        min-height: 100%;
-        margin: 0 auto;
-    }
-
-    .post-its .container {
+    .post-it .container {
         width: 315px;
         padding: 0 !important;
-    }
-
-    .post-it {
-        margin-top: 240px;
-    }
-
-    .post-it.top {
-        margin-top: 0px;
-    }
-
-    .post-it.superieur {
-        margin-top: 380px;
-    }
-
-    .post-it.ouvert,
-    .post-it.semi-pro,
-    .post-it.collectif,
-    .post-its .lille,
-    .post-its .strasbourg,
-    .post-its .paris,
-    .post-its .exception {
-        margin-top: 200px;
-    }
-
-    .post-its .iterations {
-        margin-top: 40px;
     }
 
     /* LINKS-BOX */
@@ -456,186 +471,172 @@
         width: 340px;
     }
 
-    .post-its .container {
-        width: 280px;
+    .post-it .container {
+        width: 281px;
         padding: 0 !important;
     }
 
     .post-it .subtitle,
     .post-it .strong {
-        line-height: 1.3;
+        line-height: 1.2;
     }
 
     /* CE */
     .post-it.contrat {
-        top: 35px;
-        right: 30px;
+        right: 5%;
     }
 
     .post-it.co-financement {
-        top: 210px;
-        right: -20px;
+        right: -1%;
     }
 
     .post-it.inter-collectivites {
         top: 410px;
-        left: 20px;
+        left: 3%;
     }
 
     .post-it.coordination {
         top: 710px;
-        left: 390px;
+        left: 47%;
     }
 
     .post-it.adhesion {
         top: 600px;
-        left: -20px;
     }
 
     /* MP */
     .post-it.design {
         top: 0px;
-        right: -30px;
+        right: -4%;
         z-index: 1;
     }
 
     .post-it.coaching {
         top: 410px;
-        right: 85px;
+        right: 11%;
     }
 
     .post-it.sociologie {
         top: 350px;
-        left: -20px;
+        left: -2%;
     }
 
     .post-it.politiques {
         top: 940px;
-        right: 20px;
     }
 
     .post-it.education {
         top: 1120px;
-        left: 10px;
+        left: 1%;
     }
 
     /* P */
     .post-it.travail {
         top: 20px;
-        right: 90px;
+        right: 12%;
     }
 
     .post-it.co-construction {
         top: 180px;
-        right: 30px;
     }
 
     .post-it.pedagogie {
         top: 390px;
-        left: -20px;
+        left: -3%;
     }
 
     /* A */
-
     .post-it.second {
         top: 180px;
-        right: 10px;
+        right: 2%;
         z-index: 1;
     }
 
     .post-it.superieur {
         top: -20px;
-        right: 110px;
+        right: 14%;
     }
 
     .post-it.ouvert {
         top: 525px;
-        left: -10px;
     }
 
     .post-it.semi-pro {
         top: 960px;
-        right: 10px;
     }
 
     .post-it.collectif {
-        left: 0px;
         top: 1120px;
     }
 
     .post-it.formation {
-        left: 100px;
+        left: 14%;
         top: 1370px;
     }
 
     /* CC */
-
     .post-it.metz {
         top: 320px;
-        left: -20px;
+        left: -2%;
     }
 
     .post-it.lille {
         top: -40px;
-        right: 20px;
+        right: 2%;
     }
 
     .post-it.mulhouse {
         top: 1130px;
-        right: 40px;
+        right: 5%;
         z-index: 1;
     }
 
     .post-it.strasbourg {
         top: 680px;
-        right: -30px;
     }
 
     .post-it.paris {
         top: 1360px;
-        left: 10px;
+        left: 1%;
     }
 
     .post-it.dunkerque {
         top: 1810px;
-        right: 10px;
     }
 
     /* E */
     .post-it.ecosysteme {
         top: -30px;
-        right: 20px;
+        right: 2%;
     }
 
     .post-it.acteurs {
         top: 360px;
-        left: 10px;
+        left: 1%;
     }
 
     .post-it.grand-est {
         top: 580px;
-        left: 370px;
+        left: 48%;
     }
 
     .post-it.e-dunkerque {
         top: 840px;
-        right: -20px;
+        right: -2%;
     }
 
     /* FL */
     .post-it.iterations {
         top: 50px;
-        right: -20px;
+        right: -2%;
     }
 
     .post-it.impliquation {
         top: 300px;
-        left: 20px;
     }
 
     .post-it.exception {
         top: 890px;
-        right: 10px;
     }
 
     /* / LINKS-BOX / */
@@ -664,7 +665,6 @@
     /* /// 7 MECANIQUES /// */
 
     /* / OBSERVATIONS / */
-
     /* BACKBROUND-IMG */
 
     .ce .observations .bg {
@@ -682,7 +682,7 @@
     }
 
     .a .observations .bg {
-        background-position: 0% 0%, 120% 20%, 83% 41%, 20% 71%, 100% 100%;
+        background-position: 0% 0%, 120% 23%, 83% 44%, 5% 71%, 100% 100%;
         height: 1500px;
     }
 
@@ -706,169 +706,128 @@
         width: 380px;
     }
 
-    .post-its .container {
+    .post-it .container {
         width: 320px;
         padding: 0 !important;
     }
 
     /* CE */
-
-    .post-it.contrat {
-        right: 150px;
-    }
-
-    .post-it.co-financement {
-        right: -20px;
-    }
-
     .post-it.inter-collectivites {
         top: 370px;
-        left: 120px;
     }
 
     .post-it.adhesion {
         top: 590px;
-        left: 10px;
     }
 
     .post-it.coordination {
         top: 720px;
-        left: 420px;
+        left: 41%;
     }
 
     /* MP */
-
     .post-it.design {
         top: 0px;
-        right: 230px;
     }
 
     .post-it.coaching {
         top: 300px;
-        right: -25px;
+        right: -2%;
     }
 
     .post-it.sociologie {
         top: 400px;
-        left: 30px;
     }
 
     .post-it.politiques {
         top: 800px;
-        right: 10px;
     }
 
     .post-it.education {
         top: 1120px;
-        left: -10px;
     }
 
     /* P */
     .post-it.travail {
         top: 20px;
-        right: 220px;
     }
 
     .post-it.co-construction {
         top: 180px;
-        right: 30px;
     }
 
     .post-it.pedagogie {
         top: 500px;
-        left: 30px;
     }
 
     /* A */
-
     .post-it.second {
         top: 160px;
-        right: 350px;
         z-index: 1;
     }
 
     .post-it.superieur {
         top: -40px;
-        right: 50px;
     }
 
     .post-it.ouvert {
         top: 575px;
-        left: -20px;
     }
 
     .post-it.semi-pro {
         top: 790px;
-        right: 20px;
     }
 
     .post-it.collectif {
-        left: 10px;
         top: 1080px;
     }
 
     .post-it.formation {
-        left: 200px;
         top: 1320px;
     }
 
     /* CC */
-
     .post-it.metz {
         top: 300px;
-        left: 40px;
-    }
-
-    .post-it.lille {
-        top: 0px;
-        right: 80px;
     }
 
     .post-it.mulhouse {
         top: 1110px;
-        right: 210px;
     }
 
     .post-it.strasbourg {
         top: 720px;
-        right: -30px;
     }
 
     .post-it.paris {
         top: 1400px;
-        left: 20px;
+        left: 3%;
     }
 
     .post-it.dunkerque {
         top: 1800px;
-        right: 20px;
     }
 
     /* E */
     .post-it.ecosysteme {
         top: 30px;
-        right: 70px;
     }
 
     .post-it.acteurs {
         top: 310px;
-        left: -10px;
     }
 
     .post-it.grand-est {
-        top: 450px;
-        left: 340px;
+        top: 500px;
+        left: 35%;
     }
 
     .post-it.e-dunkerque {
         top: 830px;
-        right: 20px;
     }
 
     /* FL */
-
     .post-it.exception {
         top: 870px;
-        right: 10px;
     }
 }

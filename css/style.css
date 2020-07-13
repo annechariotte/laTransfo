@@ -493,16 +493,57 @@ section.show .tab-close {
 
 /*///// OBSERVATIONS /////*/
 
+.subtitle {
+    font-family: 'termes', serif;
+    font-size: 22px;
+}
+
+/* BACKGROUND-IMG */
+
 .observations .bg {
     background-size: 55%;
     max-width: 1300px;
     margin: 0 auto;
 }
 
-.subtitle {
-    font-family: 'termes', serif;
-    font-size: 22px;
+.ce .observations .bg {
+    background-position: 0% 0%, 100% 75%;
+    height: 1100px;
 }
+
+.mp .observations .bg {
+    background-position: -10% 0%, 110% 45%, 90% 100%, 10% 70%;
+    height: 1550px;
+}
+
+.p .observations .bg {
+    background-position: 100% 100%, 0% 0%;
+    background-size: 60%;
+    height: 1000px;
+}
+
+.a .observations .bg {
+    background-position: 0% 0%, 120% 20%, 80% 40%, 7% 70%, 100% 100%;
+    background-size: 40%, 55%, 55%, 55%, 55%;
+    height: 1750px;
+}
+
+.cc .observations .bg {
+    background-position: 0% 2%, 100% 18%, -7% 55%, 23% 38%, 90% 82%, 0% 94%;
+    height: 2500px;
+}
+
+.e .observations .bg {
+    background-position: 0% 0%, 110% 50%, 17% 100%;
+    height: 1300px;
+}
+
+.fl .observations .bg {
+    background-position: 0% 5%, 110% 40%, 62% 100%, 10% 75%;
+    height: 1500px;
+}
+
+/* POST-ITS */
 
 .post-its {
     position: relative;
@@ -521,8 +562,8 @@ section.show .tab-close {
     outline-offset: -12px;
 }
 
-.post-its .container {
-    width: 360px;
+.post-it .container {
+    width: 361px;
 }
 
 .post-it .subtitle,
@@ -535,6 +576,16 @@ section.show .tab-close {
     font-size: 14px;
 }
 
+.post-its li ul,
+.post-its p {
+    margin-top: 0;
+}
+
+.post-its ul,
+.post-its p {
+    margin-bottom: 0;
+}
+
 .post-its p,
 .post-it .strong,
 .post-it .subtitle,
@@ -542,19 +593,9 @@ section.show .tab-close {
     padding-top: 20px;
 }
 
-.post-its li ul,
-.post-its p {
-    margin-top: 0;
-}
-
 .post-its li li,
 .post-its li p {
     padding-top: 0;
-}
-
-.post-its ul,
-.post-its p {
-    margin-bottom: 0;
 }
 
 .post-it .links {
@@ -571,213 +612,176 @@ section.show .tab-close {
 
 /* 1 - CADRE EXPERIMENTAL */
 
-.ce .observations .bg {
-    background-position: 0% 0%, 100% 75%;
-    height: 1100px;
-}
-
 .post-it.contrat {
     top: 35px;
-    right: 200px;
+    right: 16%;
 }
 
 .post-it.co-financement {
     top: 210px;
-    right: 30px;
+    right: 5%;
 }
 
 .post-it.inter-collectivites {
     top: 470px;
-    left: 120px;
+    left: 9%;
 }
 
 .post-it.coordination {
     top: 820px;
-    left: 450px;
+    left: 35%;
 }
 
 .post-it.adhesion {
-    left: -20px;
     top: 690px;
+    left: -1%;
 }
 
 /* 2 - PLURIDISCIPLINAIRE */
 
-.mp .observations .bg {
-    background-position: -10% 0%, 110% 45%, 90% 100%, 10% 70%;
-    height: 1550px;
-}
-
 .post-it.design {
     top: 30px;
-    right: 330px;
+    right: 24%;
 }
 
 .post-it.coaching {
     top: 350px;
-    right: 50px;
+    right: 3%;
 }
 
 .post-it.sociologie {
     top: 430px;
-    left: 30px;
+    left: 2%;
 }
 
 .post-it.politiques {
     top: 870px;
-    right: 10px;
+    right: 2%;
 }
 
 .post-it.education {
-    left: -10px;
     top: 1140px;
+    left: -1%;
 }
 
 /* 3 - RYTHMER */
 
-.p .observations .bg {
-    background-position: 100% 100%, 0% 0%;
-    background-size: 60%;
-    height: 1000px;
-}
-
 .post-it.travail {
     top: 40px;
-    right: 320px;
+    right: 24%;
 }
 
 .post-it.co-construction {
     top: 210px;
-    right: 30px;
+    right: 2%;
 }
 
 .post-it.pedagogie {
     top: 530px;
-    left: 30px;
+    left: 2%;
 }
 
 /* 4 - LES AGENTS */
 
-.a .observations .bg {
-    background-position: 0% 0%, 120% 20%, 80% 40%, 20% 70%, 100% 100%;
-    background-size: 40%, 55%, 55%, 55%, 55%;
-    height: 1750px;
-}
-
 .post-it.second {
     top: 160px;
-    right: 430px;
+    right: 33%;
 }
 
 .post-it.superieur {
     top: -10px;
-    right: 50px;
+    right: 4%;
 }
 
 .post-it.ouvert {
     top: 635px;
-    left: 20px;
+    left: -1%;
 }
 
 .post-it.semi-pro {
     top: 930px;
-    right: 20px;
+    right: 2%;
 }
 
 .post-it.collectif {
-    left: 30px;
     top: 1280px;
+    left: 5%;
 }
 
 .post-it.formation {
-    left: 300px;
     top: 1520px;
+    left: 24%;
 }
 
 /*  5 - CAS CONCRETS */
 
-.cc .observations .bg {
-    background-position: 0% 2%, 100% 18%, -7% 55%, 23% 38%, 90% 82%, 0% 94%;
-    height: 2500px;
-}
-
 .post-it.metz {
     top: 370px;
-    left: 80px;
+    left: 6%;
 }
 
 .post-it.lille {
     top: 0px;
-    right: 90px;
+    right: 7%;
 }
 
 .post-it.mulhouse {
     top: 1180px;
-    right: 250px;
+    right: 20%;
 }
 
 .post-it.strasbourg {
     top: 810px;
-    right: 0px;
+    right: -3%;
 }
 
 .post-it.paris {
     top: 1610px;
-    left: 140px;
+    left: 11%;
 }
 
 .post-it.dunkerque {
     top: 2040px;
-    right: 20px;
+    right: 2%;
 }
 
 /* 6 - ECOSYSTEME */
 
-.e .observations .bg {
-    background-position: 0% 0%, 110% 50%, 17% 100%;
-    height: 1300px;
-}
-
 .post-it.ecosysteme {
     top: 50px;
-    right: 80px;
+    right: 6%;
 }
 
 .post-it.acteurs {
     top: 370px;
-    left: 20px;
+    left: -1%;
 }
 
 .post-it.grand-est {
-    top: 510px;
-    left: 390px;
+    top: 560px;
+    left: 29%;
 }
 
 .post-it.e-dunkerque {
     top: 930px;
-    right: 90px;
+    right: 7%;
 }
 
 /* 7 - FUTUR */
 
-.fl .observations .bg {
-    background-position: 10% 5%, 110% 40%, 62% 100%, 10% 75%;
-    height: 1500px;
-}
-
 .post-it.iterations {
     top: 0px;
-    right: 50px;
+    right: 5%;
 }
 
 .post-it.impliquation {
     top: 300px;
-    left: 0px;
+    left: 2%;
 }
 
 .post-it.exception {
     top: 970px;
-    right: 50px;
+    right: 2%;
 }
 
 /*///// ENSEIGNEMENTS /////*/
