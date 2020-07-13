@@ -577,27 +577,27 @@ section.show .tab-close {
     height: 1100px;
 }
 
-.post-its .contrat {
+.post-it.contrat {
     top: 35px;
     right: 200px;
 }
 
-.post-its .co-financement {
+.post-it.co-financement {
     top: 210px;
     right: 30px;
 }
 
-.post-its .inter-collectivites {
+.post-it.inter-collectivites {
     top: 470px;
     left: 120px;
 }
 
-.post-its .coordination {
+.post-it.coordination {
     top: 820px;
     left: 450px;
 }
 
-.post-its .adhesion {
+.post-it.adhesion {
     left: -20px;
     top: 690px;
 }
@@ -609,27 +609,27 @@ section.show .tab-close {
     height: 1550px;
 }
 
-.post-its .design {
+.post-it.design {
     top: 30px;
     right: 330px;
 }
 
-.post-its .coaching {
+.post-it.coaching {
     top: 350px;
     right: 50px;
 }
 
-.post-its .sociologie {
+.post-it.sociologie {
     top: 430px;
     left: 30px;
 }
 
-.post-its .politiques {
+.post-it.politiques {
     top: 870px;
     right: 10px;
 }
 
-.post-its .education {
+.post-it.education {
     left: -10px;
     top: 1140px;
 }
@@ -642,17 +642,17 @@ section.show .tab-close {
     height: 1000px;
 }
 
-.post-its .travail {
+.post-it.travail {
     top: 40px;
     right: 320px;
 }
 
-.post-its .co-construction {
+.post-it.co-construction {
     top: 210px;
     right: 30px;
 }
 
-.post-its .pedagogie {
+.post-it.pedagogie {
     top: 530px;
     left: 30px;
 }
@@ -660,39 +660,39 @@ section.show .tab-close {
 /* 4 - LES AGENTS */
 
 .a .observations .bg {
-    background-position: 0% 0%, 120% 20%, 50% 40%, 20% 70%, 100% 100%;
-    background-size: 35%, 55%, 55%, 55%, 55%;
+    background-position: 0% 0%, 120% 20%, 80% 40%, 20% 70%, 100% 100%;
+    background-size: 40%, 55%, 55%, 55%, 55%;
     height: 1750px;
 }
 
-.post-its .second {
-    top: 130px;
+.post-it.second {
+    top: 160px;
     right: 430px;
 }
 
-.post-its .superieur {
-    top: 10px;
-    right: 60px;
+.post-it.superieur {
+    top: -10px;
+    right: 50px;
 }
 
-.post-its .ouvert {
+.post-it.ouvert {
     top: 635px;
     left: 20px;
 }
 
-.post-its .semi-pro {
-    top: 890px;
+.post-it.semi-pro {
+    top: 930px;
     right: 20px;
 }
 
-.post-its .collectif {
-    left: -20px;
-    top: 1240px;
+.post-it.collectif {
+    left: 30px;
+    top: 1280px;
 }
 
-.post-its .formation {
-    left: 360px;
-    top: 1440px;
+.post-it.formation {
+    left: 300px;
+    top: 1520px;
 }
 
 /*  5 - CAS CONCRETS */
@@ -702,32 +702,32 @@ section.show .tab-close {
     height: 2500px;
 }
 
-.post-its .metz {
+.post-it.metz {
     top: 370px;
     left: 80px;
 }
 
-.post-its .lille {
+.post-it.lille {
     top: 0px;
     right: 90px;
 }
 
-.post-its .mulhouse {
+.post-it.mulhouse {
     top: 1180px;
     right: 250px;
 }
 
-.post-its .strasbourg {
+.post-it.strasbourg {
     top: 810px;
     right: 0px;
 }
 
-.post-its .paris {
+.post-it.paris {
     top: 1610px;
     left: 140px;
 }
 
-.post-its .dunkerque {
+.post-it.dunkerque {
     top: 2040px;
     right: 20px;
 }
@@ -735,27 +735,27 @@ section.show .tab-close {
 /* 6 - ECOSYSTEME */
 
 .e .observations .bg {
-    background-position: 0% 0%, 110% 50%, 20% 100%;
-    height: 1200px;
+    background-position: 0% 0%, 110% 50%, 17% 100%;
+    height: 1300px;
 }
 
-.post-its .ecosysteme {
+.post-it.ecosysteme {
     top: 50px;
     right: 80px;
 }
 
-.post-its .acteurs {
+.post-it.acteurs {
     top: 370px;
     left: 20px;
 }
 
-.post-its .grand-est {
+.post-it.grand-est {
     top: 510px;
     left: 390px;
 }
 
-.post-its .e-dunkerque {
-    top: 870px;
+.post-it.e-dunkerque {
+    top: 930px;
     right: 90px;
 }
 
@@ -766,17 +766,17 @@ section.show .tab-close {
     height: 1500px;
 }
 
-.post-its .iterations {
-    top: 370px;
+.post-it.iterations {
+    top: 0px;
+    right: 50px;
+}
+
+.post-it.impliquation {
+    top: 300px;
     left: 0px;
 }
 
-.post-its .impliquation {
-    top: 0px;
-    right: 80px;
-}
-
-.post-its .exception {
+.post-it.exception {
     top: 970px;
     right: 50px;
 }
@@ -789,10 +789,6 @@ section.show .tab-close {
     padding-left: 0;
     margin-top: 0;
 }
-
-/* .observations ul strong {
-    font-weight: bold;
-} */
 
 .enseignements li {
     margin-top: 12px;
@@ -835,23 +831,21 @@ section.show .tab-close {
 .links-box.video {
     background-position: 24% 5%, 76% 5%;
     background-size: 160px;
-    padding-top: 200px;
+    padding-top: 160px;
 }
 
 .a .links-box.video {
     margin-top: 100px;
 }
 
-.links-box audio {
-    margin-top: 12px;
-}
-
 .links-box figure {
     z-index: 0;
+    margin-bottom: 40px;
 }
 
-.links-box.video figure {
-    padding-bottom: 40px;
+.links-box figcaption {
+    color: #FF6E29;
+    padding-bottom: 20px;
 }
 
 .links-box.video iframe {
@@ -859,20 +853,16 @@ section.show .tab-close {
     min-height: 300px;
 }
 
-.links-box figcaption {
-    color: #FF6E29;
-    margin-bottom: 12px;
+audio {
+    width: 300px;
+    min-height: 40px;
+    max-height: 54px;
 }
 
 .links-box a,
 .links-box a:hover {
     text-decoration: none;
     color: #FF6E29;
-}
-
-audio {
-    width: 300px;
-    height: 54px;
 }
 
 :focus {
