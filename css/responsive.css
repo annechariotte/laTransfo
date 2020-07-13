@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 1200px) {
 
-    .h1 .fixed {
+    .h1 {
         display: flex;
     }
 
@@ -67,27 +67,70 @@
 
 }
 
-@media screen and (max-width: 840px) {}
-
 /* /////////////// MOBIL /////////////// */
+
+@media screen and (max-width: 449px) {
+    .h1 {
+        padding-left: 0px;
+        font-size: 50px;
+        line-height: 55px;
+        max-width: 395px;
+    }
+
+    section>header>.header-content,
+    section.show>header>.header-content,
+    section>header>.header-content .marquee,
+    section.show>header>.header-content .marquee {
+        white-space: normal;
+        text-align: left;
+    }
+
+    .marquee .marquee-content {
+        width: 100%;
+        animation: none !important;
+    }
+
+    .marquee .marquee-content span {
+        display: none;
+    }
+
+    .marquee .marquee-content span.fixed {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 450px) and (max-width: 759px) {
+    .h1 {
+        padding-left: 0px;
+        font-size: 56px;
+        line-height: 110px;
+    }
+
+    section.show>header>.header-content .h1 {
+        padding-left: 0px;
+        font-size: 56px;
+        line-height: 55px;
+        max-width: 740px;
+    }
+
+    section.show>header {
+        display: flex
+    }
+
+    section.show>header>.header-content,
+    section.show>header>.header-content .marquee {
+        white-space: normal;
+        margin: auto 0;
+        text-align: left;
+    }
+
+}
 
 @media screen and (max-width: 759px) {
 
     body,
     .title-box p {
         font-size: 14px;
-    }
-
-    .h1 {
-        padding-left: 10px;
-    }
-
-    .h1 .fixed {
-        font-size: 53px;
-        line-height: 50px;
-        padding: 5px 0 0 0;
-        max-width: 415px;
-        height: 110px;
     }
 
     h2 {
@@ -138,29 +181,14 @@
 
     /* /// ACCORDION /// */
 
-    section>header {
+    section>header,
+    section.show>header {
+        height: 110px;
         max-height: 110px;
     }
 
     .tabs {
         padding-top: 140px;
-    }
-
-    section.show>header>.header-content .marquee,
-    section.show>header>.header-content,
-    section>header>.header-content,
-    section>header>.header-content .marquee {
-        white-space: normal;
-        text-align: left;
-    }
-
-    .marquee .marquee-content {
-        width: 100%;
-        animation: none !important;
-    }
-
-    .marquee .marquee-content span {
-        display: none;
     }
 
     .header.sticky {
@@ -215,6 +243,7 @@
 
     .observations .bg {
         background-size: 100% !important;
+        max-width: 415px;
         height: 100% !important;
     }
 
@@ -343,8 +372,7 @@
 
 @media screen and (min-width: 760px) and (max-width: 999px) {
 
-    .h1,
-    .h1 .fixed {
+    .h1 {
         font-size: 56px;
         line-height: 110px;
     }
@@ -639,8 +667,7 @@
 
 @media screen and (min-width: 1000px) and (max-width: 1200px) {
 
-    .h1,
-    .h1 .fixed {
+    .h1 {
         font-size: 75px;
     }
 
