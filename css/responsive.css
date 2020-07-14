@@ -108,6 +108,10 @@
 
     /* HYPOTHESE */
 
+    .mini-img {
+        background-size: 180px;
+    }
+
     .mp .mini-img,
     .p .mini-img,
     .a .mini-img,
@@ -424,10 +428,6 @@
     /* HYPOTHESE */
     .legende {
         margin-bottom: 50px;
-    }
-
-    .mini-img {
-        background-size: 180px;
     }
 
     .fig,
