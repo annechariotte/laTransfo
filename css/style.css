@@ -449,23 +449,23 @@ section.show .tab-close {
 }
 
 .mp .hypothese .bg {
-    background-position: left 5%, left 5%;
+    /* background-position: left 5%, left 5%; */
     background-size: 100%, 62%;
 }
 
 .p .hypothese .bg {
-    background-position: left 100%, left 40%;
+    background-position: left 45%, left 45%;
     background-size: 100%, 71%;
 }
 
 .a .hypothese .bg {
-    background-position: left 80%, left 100%;
+    background-position: left 100%, left 100%;
     background-size: 100%, 60%;
 }
 
 .cc .hypothese .bg {
-    background-position: left 65%, left 70%;
-    background-size: 100%, 68%;
+    background-position: left 50%, left 50%;
+    background-size: 100%, 73%;
 }
 
 .e .hypothese .bg {
@@ -474,8 +474,8 @@ section.show .tab-close {
 }
 
 .fl .hypothese .bg {
-    background-position: left 0%, left 0%;
-    background-size: 100%, 61%;
+    background-position: left 50%, left 50%;
+    background-size: 100%, 62%;
 }
 
 .legende {
