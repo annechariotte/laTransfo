@@ -424,6 +424,7 @@
 
     .links-box.video iframe {
         min-height: 170px;
+        max-width: 320px;
     }
 
     audio {
