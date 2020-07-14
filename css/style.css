@@ -421,13 +421,17 @@ section.show .tab-close {
     background-size: 280px;
 }
 
-.mini-img p {
+.fig,
+.fig-cs {
     font-family: "misobold";
-    font-size: 45px;
-    text-align: end;
     text-transform: uppercase;
     line-height: 0;
     margin-top: 0;
+    font-size: 45px;
+}
+
+.fig-cs {
+    text-align: end;
 }
 
 .mp .mini-img,
@@ -443,9 +447,28 @@ section.show .tab-close {
     height: 400px;
 }
 
-.ce .hypothese .bg {
+.hypothese .bg {
+    position: relative;
+}
+
+.fig {
+    position: absolute;
+}
+
+.ce .hypothese .bg,
+.cc .hypothese .bg,
+.e .hypothese .bg,
+.fl .hypothese .bg {
     background-position: left 50%, left 50%;
+}
+
+.ce .hypothese .bg {
     background-size: 100%, 76%;
+}
+
+.ce .fig {
+    top: 75%;
+    left: 14%;
 }
 
 .mp .hypothese .bg {
@@ -453,9 +476,19 @@ section.show .tab-close {
     background-size: 100%, 66%;
 }
 
+.mp .fig {
+    top: 60%;
+    left: 5%;
+}
+
 .p .hypothese .bg {
     background-position: left 45%, left 45%;
     background-size: 100%, 71%;
+}
+
+.p .fig {
+    top: 15%;
+    left: 3%;
 }
 
 .a .hypothese .bg {
@@ -463,19 +496,36 @@ section.show .tab-close {
     background-size: 100%, 60%;
 }
 
+.a .fig {
+    top: 25%;
+    left: 14%;
+}
+
 .cc .hypothese .bg {
-    background-position: left 50%, left 50%;
     background-size: 100%, 73%;
 }
 
+.cc .fig {
+    top: 15%;
+    left: 14%;
+}
+
 .e .hypothese .bg {
-    background-position: left 50%, left 50%;
     background-size: 100%, 54%;
 }
 
+.e .fig {
+    top: 55%;
+    left: 55%;
+}
+
 .fl .hypothese .bg {
-    background-position: left 50%, left 50%;
     background-size: 100%, 62%;
+}
+
+.fl .fig {
+    top: 65%;
+    left: 65%;
 }
 
 .legende {

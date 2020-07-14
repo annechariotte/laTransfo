@@ -106,6 +106,62 @@
 
     /* /// 7 MECANIQUES /// */
 
+    /* HYPOTHESE */
+
+    .mp .mini-img,
+    .p .mini-img,
+    .a .mini-img,
+    .e .mini-img {
+        height: 250px;
+    }
+
+    .ce .mini-img,
+    .cc .mini-img,
+    .fl .mini-img {
+        height: 300px;
+    }
+
+    .ce .hypothese .bg {
+        background-size: 114%, 87%;
+    }
+
+    .mp .hypothese .bg {
+        background-size: 114%, 75%;
+    }
+
+    .mp .fig {
+        top: 50%;
+    }
+
+    .p .hypothese .bg {
+        background-size: 114%, 82%;
+    }
+
+    .a .hypothese .bg {
+        background-size: 114%, 67%;
+    }
+
+    .cc .hypothese .bg {
+        background-position: left 45%, left 45%;
+        background-size: 114%, 87%;
+    }
+
+    .e .hypothese .bg {
+        background-size: 114%, 64%;
+    }
+
+    .e .fig {
+        left: 65%;
+    }
+
+    .fl .hypothese .bg {
+        background-size: 114%, 70%;
+    }
+
+    .fl .fig {
+        left: 70%;
+    }
+
     /* / OBSERVATIONS / */
     /* BACKGROUND-IMG */
 
@@ -363,6 +419,20 @@
 
     .title-box p {
         font-size: 14px;
+    }
+
+    /* HYPOTHESE */
+    .legende {
+        margin-bottom: 50px;
+    }
+
+    .mini-img {
+        background-size: 180px;
+    }
+
+    .fig,
+    .fig-cs {
+        font-size: 35px;
     }
 
     /* OBSERVATIONS */
