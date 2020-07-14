@@ -193,8 +193,6 @@ article {
     display: none;
 }
 
-/* ////////////////////// FOOTER ////////////////////// */
-
 /* ////////////////////// MAIN ////////////////////// */
 
 /* //////// ACCORDION ///////// */
@@ -895,7 +893,6 @@ audio {
 
 .label .logo {
     max-height: 100px;
-    margin-left: -25px;
 }
 
 .label p {

@@ -34,7 +34,7 @@
 
     section.show .tab-close,
     .label p {
-        opacity: 0;
+        display: none;
     }
 
     /* 7 MECANIQUES */
@@ -279,6 +279,7 @@
     }
 
     .mainNav .container,
+    .label .container,
     .tab-content .container,
     .content .container {
         padding-left: 15px;
@@ -304,6 +305,7 @@
     .mainNav .nav_links {
         height: 10px;
         margin: 0 auto;
+        white-space: nowrap;
     }
 
     .logo_ctn {
@@ -426,10 +428,6 @@
         max-width: 320px;
     }
 
-    audio {
-        width: 220px;
-    }
-
     /* /// ABOUT /// */
 
     .label {
@@ -441,7 +439,7 @@
     }
 
     .label .logo {
-        margin-left: -45px;
+        /* margin-left: -45px; */
     }
 
     .about .content,
