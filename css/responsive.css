@@ -57,7 +57,8 @@
         padding-left: 0px;
         font-size: 50px;
         line-height: 55px;
-        max-width: 395px;
+        min-width: 360px;
+        max-width: 410px;
         padding-top: 5px;
         padding-bottom: 5px;
     }
@@ -109,37 +110,38 @@
     /* BACKGROUND-IMG */
 
     .observations .bg {
+        min-width: 360px;
         max-width: 415px;
         height: 100% !important;
     }
 
     .ce .observations .bg {
-        background-position: 50% 340px, 50% 940px;
+        background-position: 50% 31%, 50% 82%;
     }
 
     .mp .observations .bg {
-        background-position: 50% 420px, 50% 900px, 50% 1970px, 50% 1470px;
+        background-position: 50% 18%, 50% 40%, 50% 87.6%, 50% 66%;
     }
 
     .p .observations .bg {
-        background-position: 50% 610px, 50% 190px;
+        background-position: 50% 80%, 50% 26%;
     }
 
     .a .observations .bg {
-        background-position: 50% 250px, 50% 870px, 50% 1280px, 50% 1770px, 50% 2240px;
+        background-position: 50% 11%, 50% 34.5%, 50% 53%, 50% 71%, 50% 91%;
     }
 
     .cc .observations .bg {
-        background-position: 50% 370px, 50% 970px, 50% 1610px, 50% 2220px, 50% 3430px, 50% 2810px;
+        background-position: 50% 10.5%, 50% 28%, 50% 46.3%, 50% 64%, 50% 100%, 50% 82%;
         padding-bottom: 240px;
     }
 
     .e .observations .bg {
-        background-position: 50% 335px, 50% 940px, 50% 1440px;
+        background-position: 50% 20%, 50% 55%, 50% 84%;
     }
 
     .fl .observations .bg {
-        background-position: 50% 710px, 50% 0px, 50% 1450px, 50% 2000px;
+        background-position: 50% 36%, 50% 0%, 50% 70%, 50% 100%;
         padding: 240px 0;
     }
 
@@ -147,14 +149,13 @@
     .post-it {
         position: initial;
         width: 100%;
-        min-width: 375px;
         max-width: 415px;
         min-height: 100%;
         margin: 0 auto;
     }
 
     .post-it {
-        margin-top: 240px;
+        margin-top: 220px;
     }
 
     .post-it.top {
@@ -172,7 +173,7 @@
     .post-its .strasbourg,
     .post-its .paris,
     .post-its .exception {
-        margin-top: 200px;
+        margin-top: 195px;
     }
 
     .post-its .iterations {
@@ -393,8 +394,13 @@
     }
 
     .post-it .container {
-        width: 315px;
-        padding: 0 !important;
+        padding: 0 30px !important;
+        width: 100%;
+    }
+
+    .post-it .subtitle,
+    .post-it .strong {
+        line-height: 1.2;
     }
 
     /* LINKS-BOX */
