@@ -242,10 +242,6 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 759px) {
-    .h1 {
-        padding-left: 0px;
-        font-size: 56px;
-    }
 
     /* /// ACCORDION /// */
 
@@ -380,6 +376,17 @@
 
     .tabs {
         padding-top: 140px;
+    }
+
+    .h1,
+    .marquee .h1 {
+        padding-left: 15px;
+        font-size: 56px;
+        margin: 0;
+    }
+
+    .marquee .h1 span.fixed {
+        padding-left: 0px;
     }
 
     .header.sticky {

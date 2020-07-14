@@ -71,11 +71,8 @@ h4 {
     font-size: 88px;
     line-height: 95px;
     padding-left: 35px;
-    margin: 0;
-}
-
-.h1 span {
-    padding-left: 15px;
+    max-width: 1300px;
+    margin: 0 auto;
 }
 
 h2 {
@@ -281,8 +278,13 @@ section.show .tab-content {
     animation: marquee 8s linear infinite;
 }
 
-.h1 {
+.marquee .h1 span {
+    padding-left: 15px;
+}
+
+.marquee .h1 {
     animation: swap 15s linear infinite;
+    padding-left: 20px;
 }
 
 .marquee-content .fixed,
@@ -455,10 +457,7 @@ section.show .tab-close {
     position: absolute;
 }
 
-.ce .hypothese .bg,
-.cc .hypothese .bg,
-.e .hypothese .bg,
-.fl .hypothese .bg {
+.hypothese .bg {
     background-position: left 50%, left 50%;
 }
 
