@@ -106,7 +106,6 @@
     /* /// 7 MECANIQUES /// */
 
     /* / OBSERVATIONS / */
-
     /* BACKGROUND-IMG */
 
     .observations .bg {
@@ -145,7 +144,6 @@
     }
 
     /* POST-ITS */
-
     .post-it {
         position: initial;
         width: 100%;
@@ -209,6 +207,58 @@
         text-align: left;
     }
 
+    /* /// 7 MECANIQUES /// */
+
+    /* / OBSERVATIONS / */
+    .mp .observations .bg {
+        background-position: -10% 0%, 110% 34%, 90% 100%, 10% 70%;
+    }
+
+    .cc .observations .bg {
+        background-position: 0% 2%, 100% 18%, -7% 55%, 23% 38%, 90% 74%, 0% 94%;
+    }
+
+    .fl .observations .bg {
+        background-position: 0% 5%, 110% 30%, 62% 100%, 10% 75%;
+    }
+
+    /* POST-ITS */
+    /* CE */
+    .post-it.inter-collectivites {
+        top: 430px;
+    }
+
+    .post-it.coordination {
+        top: 570px;
+    }
+
+    /* MP */
+    .post-it.coaching {
+        top: 410px;
+    }
+
+    .post-it.sociologie {
+        top: 630px;
+    }
+
+    .post-it.politiques {
+        top: 930px;
+    }
+
+    /* A */
+    .post-it.superieur {
+        top: 370px;
+    }
+
+    /* E */
+    .post-it.grand-est {
+        top: 700px;
+    }
+
+    /* FL */
+    .post-it.impliquation {
+        top: 400px;
+    }
 }
 
 @media screen and (max-width: 759px) {
@@ -315,12 +365,12 @@
 
     /* OBSERVATIONS */
 
-    .subtitle,
     .legende {
         font-size: 18px;
     }
 
     .subtitle {
+        font-size: 16px;
         text-align: left;
     }
 
@@ -331,6 +381,7 @@
     }
 
     /* POST-IT */
+
     .post-it .subtitle,
     .post-it .strong {
         font-size: 16px;
@@ -403,7 +454,6 @@
     /* /// ACCORDION /// */
 
     /* /// 7 MECANIQUES /// */
-
     /* TITLE-BOX */
 
     .cousins .title-box div {
@@ -424,8 +474,8 @@
     }
 
     /* / OBSERVATIONS / */
-
     /* BACKGROUND_IMG */
+
     .observations .bg {
         background-size: 65%;
     }
