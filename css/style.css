@@ -449,8 +449,8 @@ section.show .tab-close {
 }
 
 .mp .hypothese .bg {
-    /* background-position: left 5%, left 5%; */
-    background-size: 100%, 62%;
+    background-position: left 20%, left 20%;
+    background-size: 100%, 66%;
 }
 
 .p .hypothese .bg {
