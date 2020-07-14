@@ -288,7 +288,7 @@
     /* /// NAV-BAR /// */
 
     .mainNav nav {
-        height: 90px;
+        height: 110px;
     }
 
     .mainNav nav,
@@ -302,17 +302,16 @@
     }
 
     .mainNav .nav_links {
-        height: 30px;
-        font-size: 16px;
-        max-width: 380px;
-        margin: 20px auto;
+        height: 10px;
+        margin: 0 auto;
     }
 
     .logo_ctn {
-        margin: 20px auto 0 auto;
-        height: 30px;
+        display: flex;
+        margin: auto;
+        height: 80px;
         width: 100%;
-        max-width: 385px;
+        max-width: 500px;
     }
 
     /* /// ACCORDION /// */
@@ -432,10 +431,23 @@
     }
 
     /* /// ABOUT /// */
+
+    .label {
+        margin-top: 110px;
+    }
+
+    .label.sticky {
+        position: unset;
+    }
+
+    .label .logo {
+        margin-left: -45px;
+    }
+
     .about .content,
     .contact .content,
     .cousins .content {
-        padding-top: 220px;
+        padding-top: 0px;
     }
 
     .side {

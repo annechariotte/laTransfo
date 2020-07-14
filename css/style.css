@@ -123,8 +123,8 @@ article {
 /* ////////////////////// HEADER ////////////////////// */
 
 /* NAVBAR */
-
-.mainNav {
+.mainNav,
+.mainNav nav {
     background-color: #1C1B1B;
     z-index: 5;
 }
@@ -329,6 +329,10 @@ section.show .tab-close {
 
 .mainNav.sticky {
     top: 0px;
+}
+
+.label.sticky {
+    top: 70px;
 }
 
 .header.sticky {
@@ -872,7 +876,7 @@ audio {
     outline: none;
 }
 
-/* ////////////////////// NAV-LINKS ////////////////////// */
+/* ////////////////////// NAV-LINKS PAGES ////////////////////// */
 
 .label {
     height: 110px;
@@ -885,7 +889,8 @@ audio {
 }
 
 .label .container div {
-    width: 90%;
+    max-width: 100%;
+    min-width: 90%;
 }
 
 .label .logo {
