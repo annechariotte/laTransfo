@@ -995,60 +995,32 @@ audio {
     text-align: right;
 }
 
+.side+ul strong {
+    font-weight: bold;
+}
+
 .side.space {
-    padding-bottom: 700px;
+    padding-bottom: 90%;
 }
 
 .side.last {
-    padding-bottom: 100px;
+    padding-bottom: 35%;
 }
 
 .side.definition {
     font-style: italic;
 }
 
-.side.inventors {
-    width: 280px;
-}
-
 .general-bg {
-    background-position: 50% 36%, 48% 36%;
-    background-size: 840px, 1030px;
+    background-position: 50% 34%;
+    background-size: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
 }
 
-.mp-bg {
-    background-position: 46% 1%, 43% 1%;
-    background-size: 500px, 410px;
-}
-
-.a-bg {
-    background-position: 20% 5.5%, 19% 9%;
-    background-size: 430px;
-}
-
-.fl-bg {
-    background-position: 26% 64%, 25% 61%;
-    background-size: 650px;
-}
-
-.cc-bg {
-    background-position: 50% 70%;
-    background-size: 450px, 400px;
-}
-
-.e-bg {
-    background-position: 49% 21%, 50% 23%;
-    background-size: 331px, 250px;
-}
-
-.ce-bg {
-    background-position: 33% 89%, 33% 88%;
-    background-size: 600px;
-}
-
-.p-bg {
-    background-position: 30% 101.2%, 29% 99%;
-    background-size: 500px;
+.about-bg {
+    background-position: 0% 0%;
+    background-size: 100%;
 }
 
 .about .links-box {

@@ -239,6 +239,21 @@
     .post-its .iterations {
         margin-top: 40px;
     }
+
+    /* ABOUT */
+    .side,
+    .side+ul {
+        display: none;
+    }
+
+    .about .bg {
+        height: 0px;
+    }
+
+    .general-bg {
+        background-position: 50% 0%;
+        min-height: 400px;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 759px) {
@@ -315,6 +330,13 @@
     /* FL */
     .post-it.impliquation {
         top: 400px;
+    }
+
+    /* ABOUT */
+
+    .side {
+        min-width: 150px;
+        max-width: 23%;
     }
 }
 
@@ -521,10 +543,10 @@
         padding-top: 0px;
     }
 
-    .side {
-        min-width: 26%;
-        max-width: 100%;
+    .about-bg {
+        background-position: 15px 0%;
     }
+
 }
 
 /* /////////////// TABLET /////////////// */
@@ -786,6 +808,17 @@
     .links-box.video {
         background-image: none !important;
         padding-top: 46px;
+    }
+
+    /* / ABOUT / */
+
+    .about-bg {
+        background-position: 35px 20px;
+        background-size: 90%;
+    }
+
+    .side.space {
+        padding-bottom: 70%;
     }
 
 }
