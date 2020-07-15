@@ -308,15 +308,31 @@
         background-position: -10% 0%, 110% 34%, 90% 100%, 10% 70%;
     }
 
+    .p .observations .bg {
+        height: 900px;
+    }
+
+    .a .observations .bg {
+        background-position: 0% 0%, 120% 20%, 80% 45%, 7% 70%, 100% 100%;
+    }
+
     .cc .observations .bg {
         background-position: 0% 2%, 100% 18%, -7% 55%, 23% 38%, 90% 74%, 0% 94%;
     }
 
+    .e .observations .bg {
+        background-position: 0% 0%, 110% 45%, 17% 90%;
+    }
+
     .fl .observations .bg {
-        background-position: 0% 5%, 110% 30%, 62% 100%, 10% 75%;
+        background-position: 0% 5%, 110% 30%, 62% 100%, 10% 70%;
     }
 
     /* POST-ITS */
+    .post-it {
+        min-height: 100%;
+    }
+
     /* CE */
     .post-it.inter-collectivites {
         top: 430px;
