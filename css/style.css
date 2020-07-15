@@ -391,9 +391,7 @@ section.show .tab-close {
     font-family: "misobold";
     font-size: 30px;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 100px;
-    padding-top: 50px;
+    padding-bottom: 70px;
 }
 
 .tab .sheet {
@@ -979,6 +977,10 @@ audio {
     padding-top: 180px;
 }
 
+article.illustrations {
+    padding-bottom: 50px;
+}
+
 .side {
     min-width: 230px;
     max-width: 26%;
@@ -1007,8 +1009,12 @@ audio {
     padding-bottom: 35%;
 }
 
-.side.definition {
+.definition {
     font-style: italic;
+}
+
+.intro-mobil {
+    display: none;
 }
 
 .general-bg {

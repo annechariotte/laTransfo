@@ -246,6 +246,24 @@
         display: none;
     }
 
+    .intro-mobil {
+        display: block;
+        padding-bottom: 50px;
+    }
+
+    .intro-mobil p {
+        padding-bottom: 20px;
+    }
+
+    .intro-mobil strong {
+        color: #FF6E29;
+        font-weight: bold;
+    }
+
+    .intro-mobil strong.black {
+        color: #1C1B1B;
+    }
+
     .about .bg {
         height: 0px;
     }
@@ -255,7 +273,11 @@
         min-height: 400px;
     }
 
-    article.general-bg {
+    article.illustrations {
+        padding-bottom: 0px;
+    }
+
+    article .general-bg {
         padding-bottom: 80%;
     }
 }
@@ -422,9 +444,7 @@
     /* /// 7 MECANIQUES /// */
 
     .sheet {
-        font-size: 20px;
-        margin-bottom: 30px;
-        padding-top: 30px;
+        font-size: 24px;
     }
 
     article {
