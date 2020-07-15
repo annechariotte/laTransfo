@@ -474,7 +474,7 @@
     .observations .bg img {
         position: unset;
         width: 100% !important;
-        margin: -5px auto;
+        margin-bottom: -5px;
     }
 
     /* POST-IT */
