@@ -2,10 +2,6 @@
 
 @media screen and (max-width: 1200px) {
 
-    .h1 {
-        display: flex;
-    }
-
     /* INFO-BAND */
 
     .marquee-info {
@@ -22,7 +18,8 @@
         animation: marquee 12s linear infinite;
     }
 
-    .info-content {
+    .info-content,
+    .h1 {
         display: flex;
     }
 
@@ -57,7 +54,7 @@
         padding-left: 0px;
         font-size: 50px;
         line-height: 55px;
-        min-width: 360px;
+        min-width: 391px;
         max-width: 410px;
         padding-top: 5px;
         padding-bottom: 5px;
