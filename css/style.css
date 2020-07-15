@@ -547,49 +547,194 @@ section.show .tab-close {
     font-size: 22px;
 }
 
-/* BACKGROUND-IMG */
+/* IMG */
 
 .observations .bg {
-    background-size: 55%;
     max-width: 1300px;
     margin: 0 auto;
 }
 
+.observations .bg img {
+    position: absolute;
+    width: 55%;
+    z-index: 1;
+}
+
+/* CE */
 .ce .observations .bg {
-    background-position: 0% 0%, 100% 75%;
     height: 1100px;
 }
 
+.observations .bg img.inter {
+    top: 0px;
+    left: 0%;
+}
+
+.observations .bg img.voyage {
+    top: 450px;
+    right: 0%;
+}
+
+/* MP */
 .mp .observations .bg {
-    background-position: -10% 0%, 110% 45%, 90% 100%, 10% 70%;
     height: 1550px;
 }
 
+.observations .bg img.design {
+    top: 0px;
+    left: -5%;
+}
+
+.observations .bg img.coaching {
+    top: 500px;
+    right: -2%;
+}
+
+.observations .bg img.equipe {
+    top: 1080px;
+    right: 4%;
+}
+
+.observations .bg img.ethnographie {
+    top: 750px;
+    left: 4%;
+    z-index: 0;
+}
+
+/* P */
 .p .observations .bg {
-    background-position: 100% 100%, 0% 0%;
-    background-size: 60%;
     height: 1000px;
 }
 
+.p .observations .bg img {
+    width: 60%;
+}
+
+.observations .bg img.timeline {
+    top: 0px;
+    left: 0%;
+    z-index: 0;
+}
+
+.observations .bg img.rythmer {
+    top: 460px;
+    right: 0%;
+}
+
+/* A */
 .a .observations .bg {
-    background-position: 0% 0%, 120% 20%, 80% 40%, 7% 70%, 100% 100%;
-    background-size: 40%, 55%, 55%, 55%, 55%;
     height: 1750px;
 }
 
+.observations .bg img.cohesion {
+    width: 40%;
+    top: 0px;
+    left: 0%;
+}
+
+.observations .bg img.immersion {
+    top: 270px;
+    right: -9%;
+}
+
+.observations .bg img.ideation {
+    top: 510px;
+    right: 9%;
+    z-index: 0;
+}
+
+.observations .bg img.embassadeurs {
+    top: 950px;
+    left: 3%;
+}
+
+.observations .bg img.creation {
+    top: 1280px;
+    right: 0%;
+    z-index: 0;
+}
+
+/* CC */
 .cc .observations .bg {
-    background-position: 0% 2%, 100% 18%, -7% 55%, 23% 38%, 90% 82%, 0% 94%;
     height: 2500px;
 }
 
+.observations .bg img.volants {
+    top: 0px;
+    left: 0%;
+}
+
+.observations .bg img.brico {
+    top: 360px;
+    right: 0%;
+}
+
+.observations .bg img.megotiers {
+    top: 1180px;
+    left: -4%;
+}
+
+.observations .bg img.scolaire {
+    top: 800px;
+    left: 10%;
+    z-index: 0;
+}
+
+.observations .bg img.bois {
+    top: 1670px;
+    right: 5%;
+}
+
+.observations .bg img.arbres {
+    top: 1940px;
+    left: 0%;
+}
+
+/* E */
 .e .observations .bg {
-    background-position: 0% 0%, 110% 50%, 17% 100%;
     height: 1300px;
 }
 
+.observations .bg img.lille {
+    top: 0px;
+    left: 0%;
+}
+
+.observations .bg img.mulhouse {
+    top: 410px;
+    right: -5%;
+}
+
+.observations .bg img.e-paris {
+    top: 770px;
+    left: 5%;
+}
+
+/* FL */
+
 .fl .observations .bg {
-    background-position: 0% 5%, 110% 40%, 62% 100%, 10% 75%;
     height: 1500px;
+}
+
+.observations .bg img.prefiguration {
+    top: 50px;
+    left: 0%;
+}
+
+.observations .bg img.dunkerque {
+    top: 400px;
+    right: -5%;
+    z-index: 0;
+}
+
+.observations .bg img.paris {
+    top: 840px;
+    left: 8%;
+}
+
+.observations .bg img.metz {
+    top: 1110px;
+    right: 17%;
 }
 
 /* POST-ITS */
@@ -600,7 +745,7 @@ section.show .tab-close {
 }
 
 .post-it {
-    z-index: 0;
+    z-index: 2;
     position: absolute;
     background-color: #FFB18C;
     width: 420px;
@@ -781,7 +926,7 @@ section.show .tab-close {
 
 .post-it.strasbourg {
     top: 810px;
-    right: -3%;
+    right: 0%;
 }
 
 .post-it.paris {
@@ -813,7 +958,7 @@ section.show .tab-close {
 
 .post-it.e-dunkerque {
     top: 930px;
-    right: 7%;
+    right: 11%;
 }
 
 /* 7 - FUTUR */
