@@ -1008,26 +1008,28 @@ section.show .tab-close {
 .links-box,
 .variations-box {
     width: 100%;
-    padding: 46px;
+    padding: 50px;
     outline: 2px dashed #1C1B1B;
 }
 
 .links-box {
+    background-size: 150px;
     background-position: 5% 50%, 95% 50%;
     text-align: center;
-}
-
-.links-box {
-    background-size: 150px;
 }
 
 .temoignages .links-box {
     background-size: 120px;
 }
 
+.links-box.audio {
+    padding-bottom: 95px;
+}
+
 .links-box.video {
-    background-position: 24% 5%, 76% 5%;
+    background-position: 24% 3%, 76% 3%;
     background-size: 160px;
+    padding: 95px;
     padding-top: 160px;
 }
 
@@ -1037,7 +1039,8 @@ section.show .tab-close {
 
 .links-box figure {
     z-index: 0;
-    margin-bottom: 40px;
+    padding-top: 30px;
+    margin: 0;
 }
 
 .links-box figcaption {
@@ -1045,9 +1048,13 @@ section.show .tab-close {
     padding-bottom: 20px;
 }
 
-.links-box.video iframe {
+.ytp-cued-thumbnail-overlay-image {
+    -webkit-background-size: auto;
+}
+
+iframe {
     width: 100%;
-    min-height: 300px;
+    height: 330px;
 }
 
 audio {

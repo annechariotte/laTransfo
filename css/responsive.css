@@ -179,31 +179,14 @@
         margin: 0 auto;
     }
 
-    /* .post-it {
-        margin-top: 220px;
-    } */
+    /* LINKS-BOX */
+    .links-box.video {
+        padding: 50px;
+    }
 
-    /* .post-it.top {
-        margin-top: 0px;
-    } */
-
-    /* .post-it.superieur {
-        margin-top: 380px;
-    } */
-
-    /* .post-it.ouvert,
-    .post-it.semi-pro,
-    .post-it.collectif,
-    .post-its .lille,
-    .post-its .strasbourg,
-    .post-its .paris,
-    .post-its .exception {
-        margin-top: 195px;
-    } */
-
-    /* .post-its .iterations {
-        margin-top: 40px;
-    } */
+    .temoignages .links-box {
+        padding: 20px 30px 50px 30px;
+    }
 
     /* ABOUT */
     .side,
@@ -245,6 +228,7 @@
     article .general-bg {
         padding-bottom: 80%;
     }
+
 }
 
 @media screen and (min-width: 600px) and (max-width: 759px) {
@@ -273,7 +257,7 @@
     /* /// 7 MECANIQUES /// */
 
     /* / OBSERVATIONS / */
-    .observations .bg img.cohesion,
+    .observations .bg img.ideation,
     .observations .bg img.dunkerque {
         display: none;
     }
@@ -322,6 +306,12 @@
     /* FL */
     .post-it.impliquation {
         top: 400px;
+    }
+
+    /* LINKS-BOX */
+
+    .temoignages .links-box {
+        padding-top: 50px;
     }
 
     /* ABOUT */
@@ -514,13 +504,9 @@
         margin: 0 auto;
     }
 
-    .temoignages .links-box {
-        padding-top: 50px;
-    }
-
-    .links-box.video iframe {
-        min-height: 170px;
-        max-width: 320px;
+    iframe {
+        max-width: 380px;
+        height: 190px;
     }
 
     /* /// ABOUT /// */
@@ -899,7 +885,12 @@
 
     .links-box.video {
         background-image: none !important;
-        padding-top: 46px;
+        padding-top: 50px;
+    }
+
+    iframe {
+        width: 500px;
+        height: 250px;
     }
 
     /* / ABOUT / */
