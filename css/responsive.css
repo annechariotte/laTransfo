@@ -220,21 +220,16 @@
         color: #1C1B1B;
     }
 
-    .about .bg {
-        height: 0px;
-    }
-
     .general-bg {
         background-position: 50% 0%;
-        min-height: 400px;
     }
 
     article.illustrations {
         padding-bottom: 0px;
     }
 
-    article .general-bg {
-        padding-bottom: 80%;
+    .about-bg.bottom {
+        padding-bottom: 0%;
     }
 
 }
