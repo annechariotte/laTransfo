@@ -530,7 +530,7 @@ section.show .tab-close {
     margin-bottom: 100px;
 }
 
-.legende p {
+.legende li {
     text-align: end;
     margin: 0;
 }
