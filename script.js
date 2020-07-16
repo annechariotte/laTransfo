@@ -16,10 +16,10 @@ docReady(function () {
 
     // boucler sur chaque section
     for (const tab of tabs) {
-
+        let header = tab.children[0];
         // au click sur une section
-        tab.addEventListener("click", function () {
-
+        header.addEventListener("click", function () {
+            console.log();
             // s'il n'y a aucune section d'ouverte : premier click
             if (lastSelectedTab == null) {
 
@@ -94,17 +94,17 @@ docReady(function () {
 
                     // fixer le header si il est situé entre sa position Y initiale et le prochain header
                     if (tabMinOffset < window.pageYOffset && window.pageYOffset < tabMaxOffset) {
-                        tab.children[0].classList.add("sticky");
+                        header.classList.add("sticky");
                     }
                     // ne plus fixer le header au dela de ces positions
                     else {
-                        tab.children[0].classList.remove("sticky");
+                        header.classList.remove("sticky");
                     }
                 }
             }
 
             // ne plus fixer le header quand la section est fermée
-            tab.children[0].classList.remove("sticky");
+            header.classList.remove("sticky");
             // stopper le scroll du titre quand la section est ouverte
             tab.querySelector(".tab-title").classList.remove("marquee");
 
