@@ -52,9 +52,9 @@
 @media screen and (max-width: 599px) {
     .h1 {
         padding-left: 0px;
-        font-size: 50px;
+        font-size: 52px;
         line-height: 55px;
-        width: 400px;
+        width: 370px;
         padding-top: 5px;
         padding-bottom: 5px;
     }
@@ -188,6 +188,10 @@
         padding: 20px 30px 50px 30px;
     }
 
+    iframe {
+        height: 150px;
+    }
+
     /* ABOUT */
     .side,
     .side+ul {
@@ -232,6 +236,9 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 759px) {
+    .h1 {
+        font-size: 56px;
+    }
 
     /* /// ACCORDION /// */
 
@@ -242,7 +249,9 @@
     }
 
     section.show>header .h1 {
+        font-size: 53px;
         line-height: 55px;
+        width: 370px;
         padding-top: 5px;
         padding-bottom: 5px;
     }
@@ -312,6 +321,10 @@
 
     .temoignages .links-box {
         padding-top: 50px;
+    }
+
+    iframe {
+        height: 190px;
     }
 
     /* ABOUT */
@@ -386,7 +399,6 @@
     .h1,
     .marquee .h1 {
         padding-left: 15px;
-        font-size: 56px;
         margin: 0;
     }
 
@@ -501,13 +513,8 @@
         padding: 20px;
     }
 
-    figure {
-        margin: 0 auto;
-    }
-
     iframe {
         max-width: 380px;
-        height: 190px;
     }
 
     /* /// ABOUT /// */

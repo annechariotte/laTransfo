@@ -1042,18 +1042,13 @@ section.show .tab-close {
 .links-box figure {
     z-index: 0;
     padding-top: 30px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 .links-box figcaption {
     color: #FF6E29;
     padding-bottom: 20px;
 }
-
-/* 
-.ytp-cued-thumbnail-overlay-image {
-    -webkit-background-size: auto;
-} */
 
 iframe {
     width: 100%;
