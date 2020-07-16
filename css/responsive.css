@@ -235,6 +235,11 @@
 }
 
 @media screen and (min-width: 600px) and (max-width: 759px) {
+
+    body {
+        font-size: 14px !important;
+    }
+
     .h1 {
         font-size: 56px;
     }
