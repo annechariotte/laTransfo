@@ -332,6 +332,10 @@
     }
 
     /* ABOUT */
+    .general-bg {
+        background-position: 50% 40%;
+    }
+
     .about-bg {
         background-size: 90%;
     }
@@ -343,6 +347,7 @@
 
     .about-bg.top {
         padding-top: 0%;
+        padding-bottom: 35%;
     }
 
     .about-bg.bottom {

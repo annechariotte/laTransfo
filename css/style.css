@@ -805,6 +805,13 @@ section.show .tab-close {
     color: #FF6E29;
 }
 
+.anchor {
+    display: block;
+    position: relative;
+    top: -220px;
+    visibility: hidden;
+}
+
 /* 1 - CADRE EXPERIMENTAL */
 
 .post-it.contrat {
