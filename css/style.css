@@ -1150,12 +1150,11 @@ article.illustrations {
     padding-top: 15px;
 }
 
-.side+ul {
-    line-height: 27px;
+.about li {
     text-align: right;
 }
 
-.side+ul strong {
+.about ul strong {
     font-weight: bold;
 }
 
