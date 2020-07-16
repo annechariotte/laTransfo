@@ -16,10 +16,13 @@ docReady(function () {
 
     // boucler sur chaque section
     for (const tab of tabs) {
+
+        // recuperer le header de la section
         let header = tab.children[0];
-        // au click sur une section
+
+        // au click sur le header
         header.addEventListener("click", function () {
-            console.log();
+
             // s'il n'y a aucune section d'ouverte : premier click
             if (lastSelectedTab == null) {
 
@@ -157,6 +160,7 @@ docReady(function () {
             tab.querySelector(".tab-title").classList.remove("marquee");
         });
     }
+
 });
 
 // docReady(function () {

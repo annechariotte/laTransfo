@@ -337,6 +337,7 @@ section.show .tab-close {
 
 .header.sticky {
     top: 100px;
+    transition: all 0s;
 }
 
 .tab-content {
@@ -1063,9 +1064,9 @@ iframe {
 audio {
     width: 420px;
     max-width: 90%;
-    height: 60px;
-    background: #1C1B1B;
-    padding: 10px;
+    height: 50px;
+    background: #403b3b;
+    padding: 5px;
     border-radius: 30px;
 }
 
