@@ -233,11 +233,6 @@
 
 @media screen and (min-width: 600px) and (max-width: 759px) {
 
-    body,
-    .title-box p {
-        font-size: 14px;
-    }
-
     /* /// ACCORDION /// */
 
     section.show>header {
@@ -332,7 +327,7 @@
 
     body,
     .title-box p {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 
     h2 {
@@ -533,10 +528,6 @@
 
     .about-bg {
         background-position: 15px 0%;
-    }
-
-    .about li {
-        font-size: 14px !important;
     }
 
 }
