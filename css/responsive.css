@@ -321,9 +321,6 @@
         max-width: 23%;
     }
 
-    .about li {
-        font-size: 14px;
-    }
 }
 
 @media screen and (max-width: 759px) {
@@ -531,6 +528,10 @@
 
     .about-bg {
         background-position: 15px 0%;
+    }
+
+    .about li {
+        font-size: 14px !important;
     }
 
 }
