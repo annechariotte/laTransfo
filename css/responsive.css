@@ -194,8 +194,12 @@
 
     /* ABOUT */
     .side,
-    .side+ul {
+    .about ul {
         display: none;
+    }
+
+    .about-bg {
+        background-image: none !important;
     }
 
     .intro-mobil {
@@ -328,12 +332,22 @@
     }
 
     /* ABOUT */
+    .about-bg {
+        background-size: 90%;
+    }
 
     .side {
         min-width: 150px;
         max-width: 23%;
     }
 
+    .about-bg.top {
+        padding-top: 0%;
+    }
+
+    .about-bg.bottom {
+        padding-top: 30%;
+    }
 }
 
 @media screen and (max-width: 759px) {
@@ -542,6 +556,9 @@
 /* /////////////// TABLET /////////////// */
 
 @media screen and (min-width: 760px) and (max-width: 999px) {
+    body {
+        font-size: 16px;
+    }
 
     .h1 {
         font-size: 56px;
@@ -903,13 +920,13 @@
 
     /* / ABOUT / */
 
-    .about-bg {
-        background-position: 35px 20px;
-        background-size: 90%;
+    .general-bg {
+        background-position: 50% 42%;
     }
 
-    .side.space {
-        padding-bottom: 70%;
+    .about-bg {
+        background-position: 35px 20px;
+        background-size: 85%;
     }
 
 }

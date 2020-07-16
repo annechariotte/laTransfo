@@ -1132,7 +1132,7 @@ audio {
 }
 
 article.illustrations {
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 .side {
@@ -1142,24 +1142,12 @@ article.illustrations {
     margin-left: auto;
 }
 
-.side.first {
-    padding-top: 15px;
-}
-
 .about li {
     text-align: right;
 }
 
 .about ul strong {
     font-weight: bold;
-}
-
-.side.space {
-    padding-bottom: 90%;
-}
-
-.side.last {
-    padding-bottom: 35%;
 }
 
 .definition {
@@ -1171,7 +1159,7 @@ article.illustrations {
 }
 
 .general-bg {
-    background-position: 50% 34%;
+    background-position: 50% 38%;
     background-size: 100%;
     max-width: 1050px;
     margin: 0 auto;
@@ -1180,6 +1168,16 @@ article.illustrations {
 .about-bg {
     background-position: 0% 0%;
     background-size: 100%;
+}
+
+.about-bg.top {
+    padding-top: 4%;
+    padding-bottom: 40%;
+}
+
+.about-bg.bottom {
+    padding-top: 40%;
+    padding-bottom: 25%;
 }
 
 .about .links-box {
