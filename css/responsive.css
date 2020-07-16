@@ -233,6 +233,11 @@
 
 @media screen and (min-width: 600px) and (max-width: 759px) {
 
+    body,
+    .title-box p {
+        font-size: 14px;
+    }
+
     /* /// ACCORDION /// */
 
     section.show>header {
