@@ -611,6 +611,7 @@
 
     .observations .bg img.voyage {
         top: 420px;
+        right: -3%;
     }
 
     /* MP */
@@ -623,16 +624,17 @@
     }
 
     .observations .bg img.coaching {
-        top: 660px;
-    }
-
-    .observations .bg img.equipe {
-        top: 1190px;
-        right: -7%;
+        top: 630px;
     }
 
     .observations .bg img.ethnographie {
+        top: 780px;
         left: -7%;
+    }
+
+    .observations .bg img.equipe {
+        top: 1210px;
+        right: -4%;
     }
 
     /* P */
@@ -770,12 +772,12 @@
     /* MP */
     .post-it.design {
         top: 0px;
-        right: -2%;
+        right: 0%;
         z-index: 3;
     }
 
     .post-it.coaching {
-        top: 420px;
+        top: 400px;
         right: 14%;
     }
 
@@ -785,12 +787,7 @@
     }
 
     .post-it.politiques {
-        top: 940px;
-    }
-
-    .post-it.education {
-        top: 1120px;
-        left: 1%;
+        top: 920px;
     }
 
     /* P */
@@ -974,8 +971,7 @@
     }
 
     .observations .bg img.rythmer {
-        top: 350px;
-        right: 7%;
+        top: 420px;
     }
 
     /* A */
