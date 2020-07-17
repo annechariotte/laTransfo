@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-    <script src="script.js"></script>
 
     <title>La Transfo • Code Source</title>
     <link rel="icon" type="image/png" href="images/logos/favicon.png" />
@@ -22,7 +21,7 @@
 
             <div class="logo_ctn">
                 <a href="#">
-                    <img src="images/logos/LogoNavBar.png" alt="">
+                    <img src="images/logos/LogoNavBar.png" alt="logo la Transfo Code Source">
                 </a>
             </div>
 
@@ -63,7 +62,7 @@
 
         <!-- 1 - CADRE EXPERIMENTAL -->
 
-        <section class="tab ce">
+        <section id="experimental" class="tab">
 
             <header class="header">
 
@@ -104,28 +103,28 @@
                     </div>
 
                     <div class="content bg"
-                        style="background-image:  url(images/ce/ce-legendes.svg), url(images/ce/carcasse.png);">
+                        style="background-image:  url(images/experimental/carcasse-legendes.svg), url(images/experimental/carcasse.png);">
                         <p class="fig">Fig.cc</p>
 
-                        <div class="mini-img" style="background-image: url(images/ce/carcasse-min.png);">
+                        <div class="mini-img" style="background-image: url(images/experimental/carcasse-min.png);">
                             <p class="fig-cs">Fig.cs</p>
                         </div>
 
                         <ul class="legende">
                             <li>
-                                <a href="#contrat">(c) Contrat</a>
+                                <a href="#contrat-anchor">(c) Contrat</a>
                             </li>
                             <li>
-                                <a href="#co-financement">(cf) Co-finencement</a>
+                                <a href="#co-financement-anchor">(cf) Co-finencement</a>
                             </li>
                             <li>
-                                <a href="#collectivites">(ic) Inter-collectivités</a>
+                                <a href="#collectivites-anchor">(ic) Inter-collectivités</a>
                             </li>
                             <li>
-                                <a href="#coordination">(co) Coordination</a>
+                                <a href="#coordination-anchor">(co) Coordination</a>
                             </li>
                             <li>
-                                <a href="#adhesion">(a) Adhésion</a>
+                                <a href="#adhesion-anchor">(a) Adhésion</a>
                             </li>
                         </ul>
 
@@ -166,8 +165,8 @@
 
                             <!-- CONTRAT -->
 
-                            <div class="post-it contrat top">
-                                <span id="contrat" class="anchor"></span>
+                            <div id="contrat" class="post-it contrat top">
+                                <span id="contrat-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>La forme du contrat</h3>
@@ -180,8 +179,8 @@
 
                             <!-- CO-FINANCEMANT -->
 
-                            <div class="post-it co-financement top">
-                                <span id="co-financement" class="anchor"></span>
+                            <div id="co-financement" class="post-it top">
+                                <span id="co-financement-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Le co-financement du programme</h3>
@@ -194,12 +193,13 @@
 
                             <!-- IMG -->
 
-                            <img class="voyage" src="images/ce/voyages-etude.jpg" alt="voyages-etude">
+                            <img id="studyTrip" src="images/experimental/voyages-etude.jpg"
+                                alt="voyages d'étude des villes transfo">
 
                             <!-- INTER-COLLECTIVITES -->
 
-                            <div class="post-it inter-collectivites">
-                                <span id="collectivites" class="anchor"></span>
+                            <div id="inter-collectivites" class="post-it">
+                                <span id="collectivites-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>La dimension inter-collectivités du programme </h3>
@@ -211,8 +211,8 @@
 
                             <!-- COORDINATION -->
 
-                            <div class="post-it coordination top">
-                                <span id="coordination" class="anchor"></span>
+                            <div id="coordination" class="post-it top">
+                                <span id="coordination-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>La coordination bicéphale</h3>
@@ -224,12 +224,12 @@
 
                             <!-- IMG -->
 
-                            <img class="inter" src="images/ce/intertransfo.jpg" alt="intertransfo">
+                            <img id="intertransfo" src="images/experimental/intertransfo.jpg" alt="intertransfo">
 
                             <!-- ADHESION -->
 
-                            <div class="post-it adhesion">
-                                <span id="adhesion" class="anchor"></span>
+                            <div id="adhesion" class="post-it">
+                                <span id="adhesion-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>L’adhésion des collectivités à La 27e Région</h3>
@@ -346,17 +346,19 @@
                         style="background-image: url(images/hand-1.png), url(images/right-hand.png);">
 
                         <p>
-                            <a href="assets/outils/ce/vademecum-transfo.pdf" download="Vademecum_de_la_Transfo"
-                                target="_blank">Vademecum de la Transfo
+                            <a href="assets/outils/experimental/vademecum-transfo.pdf"
+                                download="Vademecum_de_la_Transfo" target="_blank">Vademecum de la Transfo
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/ce/modele-convention-partenariat.pdf" download="" target="_blank">
+                            <a href="assets/outils/experimental/modele-convention-partenariat.pdf" download=""
+                                target="_blank">
                                 Modèle de convention de partenariat Transfo
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/ce/transfo-contrat-type-residents.pdf" download="" target="_blank">
+                            <a href="assets/outils/experimental/transfo-contrat-type-residents.pdf" download=""
+                                target="_blank">
                                 Modèle de contrat avec un résident
                             </a>
                         </p>
@@ -390,9 +392,10 @@
                                 expérimental<br> et partenarialde La Transfo selon toi?
                             </figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/ce/1-experimental.m4a">
+                                <source src="assets/audio/experimental/1-experimental.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
-                                    <a href="assets/audio/ce/1-experimental.m4a">lien vers le fichier audio </a>
+                                    <a href="assets/audio/experimental/1-experimental.m4a">lien vers le fichier audio
+                                    </a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -401,9 +404,9 @@
                         <figure>
                             <figcaption>Quel ont été selon toi les principaux bénéfices de ce cadre?</figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/ce/2-benefices.m4a">
+                                <source src="assets/audio/experimental/2-benefices.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
-                                    <a href="assets/audio/ce/2-benefices.m4a"> lien vers le fichier audio </a>
+                                    <a href="assets/audio/experimental/2-benefices.m4a"> lien vers le fichier audio </a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -413,9 +416,9 @@
                             <figcaption>Quels en ont été les limites ou les freins? <br>
                                 Comment aurait-on pu les prévenir ou les lever?</figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/ce/3-limites.m4a">
+                                <source src="assets/audio/experimental/3-limites.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
-                                    <a href="assets/audio/ce/3-limites.m4a"> lien vers le fichier audio </a>
+                                    <a href="assets/audio/experimental/3-limites.m4a"> lien vers le fichier audio </a>
                                     pour le télécharger.</p>
                             </audio>
                         </figure>
@@ -430,7 +433,7 @@
 
         <!-- 2 - PASSER EN MODE PLURIDISCIPLINAIRE-->
 
-        <section class="tab mp">
+        <section id="multidisciplinary" class="tab">
 
             <header class="header">
                 <div class="header-content">
@@ -471,28 +474,29 @@
                     </div>
 
                     <div class="content bg"
-                        style="background-image:  url(images/mp/mp-legendes.svg), url(images/mp/moissonneuse.png);">
+                        style="background-image:  url(images/multidisciplinary/moissonneuse-legendes.svg), url(images/multidisciplinary/moissonneuse.png);">
                         <p class="fig">Fig.mp</p>
 
-                        <div class="mini-img" style="background-image: url(images/mp/moissonneuse-min.png);">
+                        <div class="mini-img"
+                            style="background-image: url(images/multidisciplinary/moissonneuse-min.png);">
                             <p class="fig-cs">Fig.cs</p>
                         </div>
 
                         <ul class="legende">
                             <li>
-                                <a href="#design">(d) Design</a>
+                                <a href="#design-anchor">(d) Design</a>
                             </li>
                             <li>
-                                <a href="#sociologie">(s) Sociologie</a>
+                                <a href="#sociologie-anchor">(s) Sociologie</a>
                             </li>
                             <li>
-                                <a href="#politiques">(pu) Politiques Urbaines</a>
+                                <a href="#politiques-anchor">(pu) Politiques Urbaines</a>
                             </li>
                             <li>
-                                <a href="#coaching">(c) Coaching</a>
+                                <a href="#coaching-anchor">(c) Coaching</a>
                             </li>
                             <li>
-                                <a href="#education">(ep) Education Populaire</a>
+                                <a href="#education-anchor">(ep) Education Populaire</a>
                             </li>
                         </ul>
 
@@ -537,8 +541,8 @@
 
                             <!-- DESIGN -->
 
-                            <div class="post-it design top">
-                                <span id="design" class="anchor"></span>
+                            <div id="design" class="post-it top">
+                                <span id="design-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>DESIGN</h3>
@@ -574,12 +578,12 @@
 
                             <!-- IMG -->
 
-                            <img class="design" src="images/mp/design.jpg" alt="design">
+                            <img id="designProto" src="images/multidisciplinary/design.jpg" alt="design et prototypage">
 
                             <!-- COACHING -->
 
-                            <div class="post-it coaching">
-                                <span id="coaching" class="anchor"></span>
+                            <div id="coaching" class="post-it">
+                                <span id="coaching-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Coaching</h3>
@@ -600,12 +604,12 @@
 
                             <!-- IMG -->
 
-                            <img class="coaching" src="images/mp/coaching.jpg" alt="coaching">
+                            <img id="coachingParis" src="images/multidisciplinary/coaching.jpg" alt="coaching à Paris">
 
                             <!-- SOCIOLOGIE -->
 
-                            <div class="post-it sociologie">
-                                <span id="sociologie" class="anchor"></span>
+                            <div id="sociology" class="post-it">
+                                <span id="sociologie-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Sociologie</h3>
@@ -631,12 +635,13 @@
 
                             <!-- IMG -->
 
-                            <img class="ethnographie" src="images/mp/ethnographie.jpg" alt="ethnographie">
+                            <img id="ethnography" src="images/multidisciplinary/ethnographie.jpg"
+                                alt="ethnographie et enquête sociologique">
 
                             <!-- POLITIQUES URBAINES -->
 
-                            <div class="post-it politiques">
-                                <span id="politiques" class="anchor"></span>
+                            <div id="politics" class="post-it">
+                                <span id="politiques-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Politiques urbaines</h3>
@@ -656,12 +661,13 @@
 
                             <!-- IMG -->
 
-                            <img class="equipe" src="images/mp/equipe-paris.jpg" alt="equipe">
+                            <img id="team" src="images/multidisciplinary/equipe-paris.jpg"
+                                alt="équipe de résidents de choc à Paris">
 
                             <!-- EDUCATION POPULAIRE -->
 
-                            <div class="post-it education">
-                                <span id="education" class="anchor"></span>
+                            <div id="education" class="post-it">
+                                <span id="education-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Education populaire</h3>
@@ -807,8 +813,6 @@
 
                         <h2>Temoignages</h2>
                         <div>
-                            <!-- <p>04 MAI 2020</p>
-                            <p>( No Model ) N°. 002.006</p> -->
                             <p>MIREILLE DIESTCHY</p>
                             <p>CHLOË DUPUY</p>
                         </div>
@@ -830,9 +834,11 @@
                             <figcaption>Quels sont selon vous les apports principaux de vos disciplines respectives
                                 <br>à la démarche / au programme?
                             </figcaption>
-                            <audio controls="controls" preload="none" src="assets/audio/mp/1-apports.mp3" type="">
+                            <audio controls="controls" preload="none" src="assets/audio/multidisciplinary/1-apports.mp3"
+                                type="">
                                 <p>Votre navigateur ne prend pas en charge l'audio. Voici un
-                                    <a href="assets/audio/mp/1-apports.mp3"> lien vers le fichier audio </a>
+                                    <a href="assets/audio/multidisciplinary/1-apports.mp3"> lien vers le fichier audio
+                                    </a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -845,9 +851,10 @@
                                 de cette pluridisciplinarité?
                             </figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/mp/2-pluridisciplinarité.mp3" type="">
+                                <source src="assets/audio/multidisciplinary/2-pluridisciplinarité.mp3" type="">
                                 <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
-                                    <a href="assets/audio/mp/2-pluridisciplinarité.mp3"> lien vers le fichier audio</a>
+                                    <a href="assets/audio/multidisciplinary/2-pluridisciplinarité.mp3"> lien vers le
+                                        fichier audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -858,9 +865,10 @@
                                 ou les difficultés rencontrées pour la faire vivre?
                             </figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/mp/3-limites.mp3" type="">
+                                <source src="assets/audio/multidisciplinary/3-limites.mp3" type="">
                                 <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
-                                    <a href="assets/audio/mp/3-limites.mp3">lien vers le fichier audio</a>
+                                    <a href="assets/audio/multidisciplinary/3-limites.mp3">lien vers le fichier
+                                        audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -873,7 +881,8 @@
 
 
         <!-- 3 - RYTHMER LE PROGRAMME -->
-        <section class="tab p">
+
+        <section id="programRhythm" class="tab">
 
             <header class="header">
 
@@ -915,25 +924,25 @@
                     </div>
 
                     <div class="content bg"
-                        style="background-image:  url(images/p/p-legendes.svg), url(images/p/pedales.png);">
+                        style="background-image:  url(images/programRhythm/pedales-legendes.svg), url(images/programRhythm/pedales.png);">
                         <p class="fig">Fig.p</p>
 
-                        <div class="mini-img" style="background-image: url(images/p/pedales-min.png);">
+                        <div class="mini-img" style="background-image: url(images/programRhythm/pedales-min.png);">
                             <p class="fig-cs">Fig.cs</p>
                         </div>
 
                         <ul class="legende">
                             <li>
-                                <a href="#travail">(t) Travail</a>
+                                <a href="#travail-anchor">(t) Travail</a>
                             </li>
                             <li>
-                                <a href="#co-construction">(cc) Co-construction</a>
+                                <a href="#co-construction-anchor">(cc) Co-construction</a>
                             </li>
                             <li>
-                                <a href="#pedagogie">(p) Pédagogie</a>
+                                <a href="#pedagogie-anchor">(p) Pédagogie</a>
                             </li>
                             <li>
-                                <a href="#variations">(v) Variations</a>
+                                <a href="#variations-anchor">(v) Variations</a>
                             </li>
                         </ul>
 
@@ -982,8 +991,8 @@
 
                             <!-- TRAVAIL -->
 
-                            <div class="post-it travail top">
-                                <span id="travail" class="anchor"></span>
+                            <div id="workTime" class="post-it top">
+                                <span id="travail-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Les temps de travail</h3>
@@ -996,12 +1005,13 @@
 
                             <!-- IMG -->
 
-                            <img class="timeline" src="images/p/timeline.jpg" alt="timeline">
+                            <img id="timeline" src="images/programRhythm/timeline.jpg"
+                                alt="une timeline géante pour définir le rythme des sessions">
 
                             <!-- CO-CONSTRUCTION -->
 
-                            <div class="post-it co-construction">
-                                <span id="co-construction" class="anchor"></span>
+                            <div id="co-construction" class="post-it">
+                                <span id="co-construction-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Les temps de co-construction</h3>
@@ -1014,12 +1024,13 @@
 
                             <!-- IMG -->
 
-                            <img class="rythmer" src="images/p/rythmer.jpg" alt="rythmer">
+                            <img id="rhythmExercice" src="images/programRhythm/rythmer.jpg"
+                                alt="rythmer l'été avec des exercices pratiques">
 
                             <!-- PEDAGOGIE -->
 
-                            <div class="post-it pedagogie">
-                                <span id="pedagogie" class="anchor"></span>
+                            <div id="pedagogy" class="post-it">
+                                <span id="pedagogie-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Les temps pédagogiques </h3>
@@ -1034,7 +1045,7 @@
                     </div>
 
                     <div class="container">
-                        <span id="variations" class="anchor"></span>
+                        <span id="variations-anchor" class="anchor"></span>
 
                         <div class="variations-box">
 
@@ -1152,22 +1163,23 @@
                     <div class=" links-box"
                         style="background-image: url(images/hand-1.png), url(images/right-hand.png);">
                         <p>
-                            <a href="assets/outils/p/1-processus-global.pdf" download="processus_global_transfo"
-                                target="_blank"> Processus global de la Transfo
+                            <a href="assets/outils/programRhythm/1-processus-global.pdf"
+                                download="processus_global_transfo" target="_blank"> Processus global de la Transfo
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/p/2-deroule-mulhouse.pdf" download="deroule_detaille_mulhouse"
-                                target="_blank">Exemple de Déroulé détaillé d’une Transfo (Mulhouse)
+                            <a href="assets/outils/programRhythm/2-deroule-mulhouse.pdf"
+                                download="deroule_detaille_mulhouse" target="_blank">Exemple de Déroulé détaillé d’une
+                                Transfo (Mulhouse)
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/p/3-deroule-metz.pdf" download="deroule_session_metz"
+                            <a href="assets/outils/programRhythm/3-deroule-metz.pdf" download="deroule_session_metz"
                                 target="_blank">Exemple de déroulé de deux sessions (Metz)
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/p/4-deroule-metz-2.pdf" download="deroule_session_metz_2"
+                            <a href="assets/outils/programRhythm/4-deroule-metz-2.pdf" download="deroule_session_metz_2"
                                 target="_blank"> Exemple de déroulé de deux sessions 2/2 (Metz)
                             </a>
                         </p>
@@ -1181,7 +1193,7 @@
 
         <!-- 4 - IMPLIQUER ET FORMER LES AGENTS -->
 
-        <section class="tab a">
+        <section id="involveAndForm" class="tab">
 
             <header class="header">
                 <div class="header-content">
@@ -1222,19 +1234,20 @@
                     </div>
 
                     <div class="content bg"
-                        style="background-image:  url(images/a/a-legendes.svg), url(images/a/transmission.png);">
+                        style="background-image:  url(images/involveAndForm/transmission-legendes.svg), url(images/involveAndForm/transmission.png);">
                         <p class="fig">Fig.a</p>
 
-                        <div class="mini-img" style="background-image: url(images/a/transmission-min.png);">
+                        <div class="mini-img"
+                            style="background-image: url(images/involveAndForm/transmission-min.png);">
                             <p class="fig-cs">Fig.cs</p>
                         </div>
 
                         <ul class="legende">
                             <li>
-                                <a href="#fonctionnements">(ft) Fonctionnements</a>
+                                <a href="#fonctionnements-anchor">(ft) Fonctionnements</a>
                             </li>
                             <li>
-                                <a href="#focales">(f) Focales</a>
+                                <a href="#focales-anchor">(f) Focales</a>
                             </li>
                         </ul>
 
@@ -1291,9 +1304,29 @@
                     <div class="bg">
                         <div class="post-its">
 
+                            <!-- SUPERIEUR DIRECT -->
+
+                            <div id="superior" class="post-it">
+                                <span id="fonctionnements-anchor" class="anchor"></span>
+                                <div class="container">
+
+                                    <h3>Différents modes de fonctionnement du groupe</h3>
+                                    <p class="subtitle">Un groupe “supérieur direct”</p>
+                                    <p>À Mulhouse également, un groupe des “N+1” des ambassadeurs s’est constitué,
+                                        offrant un espace pour aborder les dimension RH de l’implication des agents
+                                    </p>
+
+                                </div>
+                            </div>
+
+                            <!-- IMG -->
+
+                            <img class="cohesion" src="images/involveAndForm/cohesion.jpg"
+                                alt="exercices decohesion de groupes avec les ambassadeurs - Strasbourg">
+
                             <!-- SECOND CERCLE -->
 
-                            <div class="post-it second top">
+                            <div id="secondCircle" class="post-it">
                                 <div class="container">
 
                                     <h3>Différents modes de fonctionnement du groupe</h3>
@@ -1308,30 +1341,12 @@
 
                             <!-- IMG -->
 
-                            <img class="cohesion" src="images/a/cohesion.jpg" alt="cohesion">
-
-                            <!-- SUPERIEUR DIRECT -->
-
-                            <div class="post-it superieur">
-                                <span id="fonctionnements" class="anchor"></span>
-                                <div class="container">
-
-                                    <h3>Différents modes de fonctionnement du groupe</h3>
-                                    <p class="subtitle">Un groupe “supérieur direct”</p>
-                                    <p>À Mulhouse également, un groupe des “N+1” des ambassadeurs s’est constitué,
-                                        offrant un espace pour aborder les dimension RH de l’implication des agents
-                                    </p>
-
-                                </div>
-                            </div>
-
-                            <!-- IMG -->
-
-                            <img class="immersion" src="images/a/immersion.jpg" alt="immersion">
+                            <img id="immersion" src="images/involveAndForm/immersion.jpg"
+                                alt="immersion usagers - Occitanie">
 
                             <!-- OUVERT -->
 
-                            <div class="post-it ouvert">
+                            <div id="openGroup" class="post-it">
                                 <div class="container">
 
                                     <h3>Différents modes de fonctionnement du groupe</h3>
@@ -1346,11 +1361,12 @@
 
                             <!-- IMG -->
 
-                            <img class="ideation" src="images/a/ideation.jpg" alt="ideation">
+                            <img id="ideation" src="images/involveAndForm/ideation.jpg"
+                                alt="atelier ideation en Occitanie">
 
                             <!-- SEMI-PRO -->
 
-                            <div class="post-it semi-pro">
+                            <div id="semi-pro" class="post-it">
                                 <div class="container">
 
                                     <h3>Différents modes de fonctionnement du groupe</h3>
@@ -1365,12 +1381,13 @@
 
                             <!-- IMG -->
 
-                            <img class="embassadeurs" src="images/a/embassadeurs.jpg" alt="embassadeurs">
+                            <img id="ambassadors" src="images/involveAndForm/embassadeurs.jpg"
+                                alt="le groupe d'agents ambassadeurs à Lille">
 
                             <!-- COLLECTIF -->
 
-                            <div class="post-it collectif">
-                                <span id="focales" class="anchor"></span>
+                            <div id="collectif" class="post-it">
+                                <span id="focales-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Des focales différentes</h3>
@@ -1387,11 +1404,11 @@
 
                             <!-- IMG -->
 
-                            <img class="creation" src="images/a/creation.jpg" alt="creation">
+                            <img id="creation" src="images/involveAndForm/creation.jpg" alt="veille créative à Lille">
 
                             <!-- FORMATION -->
 
-                            <div class="post-it formation">
+                            <div id="formation" class="post-it">
                                 <div class="container">
 
                                     <h3>Des focales différentes</h3>
@@ -1491,24 +1508,26 @@
                     <div class=" links-box"
                         style="background-image: url(images/hand-1.png), url(images/right-hand.png);">
                         <p>
-                            <a href="assets/outils/a/1-recrutement.pdf" download="recrutement_embassadeurs"
+                            <a href="assets/outils/involveAndForm/1-recrutement.pdf" download="recrutement_embassadeurs"
                                 target="_blank">Comment recruter des ambassadeurs?
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/a/2-mobiliser.pdf" download="mobiliser_collectivites"
+                            <a href="assets/outils/involveAndForm/2-mobiliser.pdf" download="mobiliser_collectivites"
                                 target="_blank">Comment mobiliser des directions de la collectivité?
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/a/3-residents.pdf" download="travail_groupe_et_apprentissage"
-                                target="_blank">Comment travailler la vie de groupe et les apprentissages? <br>
+                            <a href="assets/outils/involveAndForm/3-residents.pdf"
+                                download="travail_groupe_et_apprentissage" target="_blank">Comment travailler la vie de
+                                groupe et les apprentissages? <br>
                                 Points de vue de résidents
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/a/4-evaluation-acquis.pdf" download="grilles_evaluation_acquis"
-                                target="_blank">Grilles d’entretiens d’évaluation des acquis (outil - Dunkerque)
+                            <a href="assets/outils/involveAndForm/4-evaluation-acquis.pdf"
+                                download="grilles_evaluation_acquis" target="_blank">Grilles d’entretiens d’évaluation
+                                des acquis (outil - Dunkerque)
                             </a>
                         </p>
                         <p>
@@ -1545,9 +1564,9 @@
 
                         <figure>
                             <figcaption>Qu’est-ce que la présence d’agents a apporté à la démarche?</figcaption>
-                            <audio controls="controls" preload="none" src="assets/audio/a/1-agents.m4a">
+                            <audio controls="controls" preload="none" src="assets/audio/involveAndForm/1-agents.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio. Voici un
-                                    <a href="assets/audio/a/1-agents.m4a">lien vers le fichier audio</a>
+                                    <a href="assets/audio/involveAndForm/1-agents.m4a">lien vers le fichier audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -1558,9 +1577,10 @@
                                 dans la mise en place d’une telle démarche?
                             </figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/a/2-difficultes.m4a">
+                                <source src="assets/audio/involveAndForm/2-difficultes.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio. Voici un
-                                    <a href="assets/audio/a/2-difficultes.m4a">lien vers le fichier audio</a>
+                                    <a href="assets/audio/involveAndForm/2-difficultes.m4a">lien vers le fichier
+                                        audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -1569,9 +1589,10 @@
                         <figure>
                             <figcaption>Raconter une satisfaction en tant que directeur du labo?</figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/a/3-satisfactions.m4a">
+                                <source src="assets/audio/involveAndForm/3-satisfactions.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio. Voici un
-                                    <a href="assets/audio/a/3-satisfactions.m4a">lien vers le fichier audio</a>
+                                    <a href="assets/audio/involveAndForm/3-satisfactions.m4a">lien vers le fichier
+                                        audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -1606,7 +1627,7 @@
 
         <!-- 5 - TRAVAILLER A PARTIR DE CAS CONCRETS -->
 
-        <section class="tab cc">
+        <section id="concreteCase" class="tab">
 
             <header class="header">
                 <div class="header-content">
@@ -1647,31 +1668,31 @@
                     </div>
 
                     <div class="content bg"
-                        style="background-image:  url(images/cc/cc-legendes.svg), url(images/cc/suspensions.png);">
+                        style="background-image:  url(images/concreteCase/suspensions-legendes.svg), url(images/concreteCase/suspensions.png);">
                         <p class="fig">Fig.cc</p>
 
-                        <div class="mini-img" style="background-image: url(images/cc/suspensions-min.png);">
+                        <div class="mini-img" style="background-image: url(images/concreteCase/suspensions-min.png);">
                             <p class="fig-cs">Fig.cs</p>
                         </div>
 
                         <ul class="legende">
                             <li>
-                                <a href="#mulhouse">(m) Les megotiers</a>
+                                <a href="#mulhouse-anchor">(m) Les megotiers</a>
                             </li>
                             <li>
-                                <a href="#dunkerque">(bf) Le bois du fort</a>
+                                <a href="#dunkerque-anchor">(bf) Le bois du fort</a>
                             </li>
                             <li>
-                                <a href="#metz">(bv) Les bureaux-volants</a>
+                                <a href="#metz-anchor">(bv) Les bureaux-volants</a>
                             </li>
                             <li>
-                                <a href="#lille">(bc) Le brico concierge</a>
+                                <a href="#lille-anchor">(bc) Le brico concierge</a>
                             </li>
                             <li>
-                                <a href="#strasbourg">(is) Les inscriptions scolaires</a>
+                                <a href="#strasbourg-anchor">(is) Les inscriptions scolaires</a>
                             </li>
                             <li>
-                                <a href="#paris">(pa) Les pieds d'arbres</a>
+                                <a href="#paris-anchor">(pa) Les pieds d'arbres</a>
                             </li>
                         </ul>
 
@@ -1719,8 +1740,8 @@
 
                             <!-- METZ -->
 
-                            <div class="post-it metz top">
-                                <span id="metz" class="anchor"></span>
+                            <div id="metz" class="post-it">
+                                <span id="metz-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Metz, les bureaux volants</h3>
@@ -1734,7 +1755,8 @@
                                         processus méthodologique de design de service.
                                     </p>
                                     <p class="links">
-                                        <a href="assets/post-it/cc/metz-bureaux-volants.pdf" target="_blank">Voir
+                                        <a href="assets/post-it/concreteCase/metz-bureaux-volants.pdf"
+                                            target="_blank">Voir
                                             l’analyse du cas en détail</a>
                                     </p>
 
@@ -1743,12 +1765,13 @@
 
                             <!-- IMG -->
 
-                            <img class="volants" src="images/cc/bureaux-volants.jpg" alt="bureaux-volants">
+                            <img id="metzCase" src="images/concreteCase/bureaux-volants.jpg"
+                                alt="cas bureaux volants à Metz">
 
                             <!-- LILLE -->
 
-                            <div class="post-it lille">
-                                <span id="lille" class="anchor"></span>
+                            <div id="lille" class="post-it">
+                                <span id="lille-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Lille, le Brico Concierge</h3>
@@ -1764,7 +1787,8 @@
                                         processus méthodologique de design de service.
                                     </p>
                                     <p class="links">
-                                        <a href="assets/post-it/cc/lille-amelio.pdf" target="_blank">Voir l’analyse
+                                        <a href="assets/post-it/concreteCase/lille-amelio.pdf" target="_blank">Voir
+                                            l’analyse
                                             du cas en détail</a>
                                     </p>
 
@@ -1773,12 +1797,12 @@
 
                             <!-- IMG -->
 
-                            <img class="brico" src="images/cc/brico.jpg" alt="brico">
+                            <img id="amelio" src="images/concreteCase/brico.jpg" alt="cas Amelio à Lille">
 
                             <!-- MULHOUSE -->
 
-                            <div class="post-it mulhouse">
-                                <span id="mulhouse" class="anchor"></span>
+                            <div id="mulhouseButchers" class="post-it">
+                                <span id="mulhouse-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Mulhouse, les mégotiers</h3>
@@ -1794,7 +1818,8 @@
                                         inter-services.
                                     </p>
                                     <p class="links">
-                                        <a href="assets/post-it/cc/mulhouse-megotiers.pdf" target="_blank">Voir
+                                        <a href="assets/post-it/concreteCase/mulhouse-megotiers.pdf"
+                                            target="_blank">Voir
                                             l’analyse du cas en détail</a>
                                     </p>
                                 </div>
@@ -1802,12 +1827,13 @@
 
                             <!-- IMG -->
 
-                            <img class="megotiers" src="images/cc/megotiers.jpg" alt="megotiers">
+                            <img id="mulhouseCase" src="images/concreteCase/megotiers.jpg"
+                                alt="cas megotiers à Mulhouse">
 
                             <!-- STRASBOURG -->
 
-                            <div class="post-it strasbourg">
-                                <span id="strasbourg" class="anchor"></span>
+                            <div id="strasbourg" class="post-it">
+                                <span id="strasbourg-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Strasbourg, les inscriptions scolaires</h3>
@@ -1822,7 +1848,8 @@
                                         des charges) directement utile au service commanditaire.
                                     </p>
                                     <p class="links">
-                                        <a href="assets/post-it/cc/strasbourg-inscriptions.pdf" target="_blank">Voir
+                                        <a href="assets/post-it/concreteCase/strasbourg-inscriptions.pdf"
+                                            target="_blank">Voir
                                             l’analyse du cas en détail</a>
                                     </p>
 
@@ -1831,12 +1858,13 @@
 
                             <!-- IMG -->
 
-                            <img class="scolaire" src="images/cc/scolaire.jpg" alt="scolaire">
+                            <img id="strasbourgCase" src="images/concreteCase/scolaire.jpg"
+                                alt="cas inscriptions scolaires à Strasbourg">
 
                             <!-- PARIS -->
 
-                            <div class="post-it paris">
-                                <span id="paris" class="anchor"></span>
+                            <div id="parisTree" class="post-it">
+                                <span id="paris-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Paris, les pieds d’arbres</h3>
@@ -1852,7 +1880,8 @@
                                         ciblée sur un sujet vaste et épineux de réorganisation interne.
                                     </p>
                                     <p class="links">
-                                        <a href="assets/post-it/cc/paris-arbres.pdf" target="_blank">Voir l’analyse
+                                        <a href="assets/post-it/concreteCase/paris-arbres.pdf" target="_blank">Voir
+                                            l’analyse
                                             du cas en détail</a>
                                     </p>
 
@@ -1861,12 +1890,12 @@
 
                             <!-- IMG -->
 
-                            <img class="bois" src="images/cc/bois-fort.jpg" alt="bois-fort">
+                            <img id="parisCase" src="images/concreteCase/arbres.jpg" alt="cas pieds d'arbres à Paris">
 
                             <!-- DUNKERQUE -->
 
-                            <div class="post-it dunkerque">
-                                <span id="dunkerque" class="anchor"></span>
+                            <div id="dunkerque" class="post-it">
+                                <span id="dunkerque-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Dunkerque le Bois du fort</h3>
@@ -1881,7 +1910,8 @@
                                         fonctionnant en autonomie.
                                     </p>
                                     <p class="links">
-                                        <a href="assets/post-it/cc/dunkerque-bois-fort.pdf" target="_blank">Voir
+                                        <a href="assets/post-it/concreteCase/dunkerque-bois-fort.pdf"
+                                            target="_blank">Voir
                                             l’analyse du cas en détail</a>
                                     </p>
 
@@ -1890,7 +1920,8 @@
 
                             <!-- IMG -->
 
-                            <img class="arbres" src="images/cc/arbres.jpg" alt="arbres">
+                            <img id="dunkerqueCase" src="images/concreteCase/bois-fort.jpg"
+                                alt="cas bois des fort à Dunkerque">
 
                         </div>
                     </div>
@@ -2021,19 +2052,21 @@
                     <div class=" links-box"
                         style="background-image: url(images/hand-1.png), url(images/right-hand.png);">
                         <p>
-                            <a href="assets/outils/cc/1-cas-pratique-occitanie.pdf" download="deroule_cas_pratique"
-                                target="_blank">Exemple d’un déroulé de cas pratique (Occitanie)
+                            <a href="assets/outils/concreteCase/1-cas-pratique-occitanie.pdf"
+                                download="deroule_cas_pratique" target="_blank">Exemple d’un déroulé de cas pratique
+                                (Occitanie)
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/cc/2-selection-cas-pratique.pdf"
+                            <a href="assets/outils/concreteCase/2-selection-cas-pratique.pdf"
                                 download="outil_selection_cas_pratique" target="_blank">Outil de sélection des cas
                                 pratiques
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/cc/3-charte-mulhouse.pdf" download="charte_engagement_reciproque"
-                                target="_blank">Exemple de charte d’engagement réciproque (Mulhouse)</a></p>
+                            <a href="assets/outils/concreteCase/3-charte-mulhouse.pdf"
+                                download="charte_engagement_reciproque" target="_blank">Exemple de charte d’engagement
+                                réciproque (Mulhouse)</a></p>
                         <p>
                             <a href="https://drive.google.com/drive/u/0/folders/1b90CL30yqUoR5-xPnplxRP5YIHsB9q5L"
                                 target="_blank">Méthode d’animation d’un atelier de choix collective<br>
@@ -2097,7 +2130,7 @@
 
         <!-- 6 - S'APPUYER SUR L'ECOSYSTEME -->
 
-        <section class="tab e">
+        <section id="ecosysteme" class="tab">
 
             <header class="header">
                 <div class="header-content">
@@ -2138,19 +2171,19 @@
                     </div>
 
                     <div class="content bg"
-                        style="background-image:  url(images/e/e-legendes.svg), url(images/e/gps.png);">
+                        style="background-image:  url(images/ecosysteme/gps-legendes.svg), url(images/ecosysteme/gps.png);">
                         <p class="fig">Fig.e</p>
 
-                        <div class="mini-img" style="background-image: url(images/e/gps-min.png);">
+                        <div class="mini-img" style="background-image: url(images/ecosysteme/gps-min.png);">
                             <p class="fig-cs">Fig.cs</p>
                         </div>
 
                         <ul class="legende">
                             <li>
-                                <a href="#ecosysteme">(ei) Ecosystème interne</a>
+                                <a href="#ecosysteme-anchor">(ei) Ecosystème interne</a>
                             </li>
                             <li>
-                                <a href="#acteurs">(at) Acteurs du territoire</a>
+                                <a href="#acteurs-anchor">(at) Acteurs du territoire</a>
                             </li>
                         </ul>
 
@@ -2210,8 +2243,8 @@
 
                             <!-- ECOSYSTEME INTERNE -->
 
-                            <div class="post-it ecosysteme top">
-                                <span id="ecosysteme" class="anchor"></span>
+                            <div id="ecosystem" class="post-it">
+                                <span id="ecosysteme-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>En direction de l’écosystème interne</h3>
@@ -2236,12 +2269,13 @@
 
                             <!-- IMG -->
 
-                            <img class="mulhouse" src="images/e/mulhouse.jpg" alt="mulhouse">
+                            <img id="mulhouseAgents" src="images/ecosysteme/mulhouse.jpg"
+                                alt="rencontre avec les agents de terrain à Mulhouse">
 
                             <!-- LES ACTEURS DU TERRITOIRE -->
 
-                            <div class="post-it acteurs">
-                                <span id="acteurs" class="anchor"></span>
+                            <div id="actors" class="post-it">
+                                <span id="acteurs-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Avec les acteurs du territoire</h3>
@@ -2261,11 +2295,12 @@
 
                             <!-- IMG -->
 
-                            <img class="lille" src="images/e/lille.jpg" alt="lille">
+                            <img id="lilleInspiration" src="images/ecosysteme/lille.jpg"
+                                alt="visite inspirante à Lille">
 
                             <!-- REGION GRAND EST -->
 
-                            <div class="post-it grand-est">
+                            <div id="grand-est" class="post-it">
                                 <div class="container">
 
                                     <h3>En Région Grand Est</h3>
@@ -2280,11 +2315,11 @@
 
                             <!-- IMG -->
 
-                            <img class="e-paris" src="images/e/paris.jpg" alt="paris">
+                            <img id="exhibition" src="images/ecosysteme/paris.jpg" alt="format d'expo à Paris">
 
                             <!-- (E) DUNKERQUE -->
 
-                            <div class="post-it e-dunkerque">
+                            <div id="newProject" class="post-it">
                                 <div class="container">
 
                                     <h3>A Dunkerque</h3>
@@ -2398,13 +2433,14 @@
                     <div class=" links-box"
                         style="background-image: url(images/hand-1.png), url(images/right-hand.png);">
                         <p>
-                            <a href="assets/outils/e/1-tactiques.pdf" download="construction_ecosysteme_innovation"
-                                target="_blank">Construire un écosystème d’innovation,<br>
+                            <a href="assets/outils/ecosysteme/1-tactiques.pdf"
+                                download="construction_ecosysteme_innovation" target="_blank">Construire un écosystème
+                                d’innovation,<br>
                                 quelles tactiques? (5 transfo)
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/e/2-implication.pdf" download="modalites_implication_ecoles"
+                            <a href="assets/outils/ecosysteme/2-implication.pdf" download="modalites_implication_ecoles"
                                 target="_blank">Modalités d’implication des écoles
                             </a>
                         </p>
@@ -2438,14 +2474,14 @@
                     <!-- AUDIO -->
 
                     <div class="links-box audio"
-                        style="background-image: url(images/ear-1.png), url(images/right-ear.png);">
+                        style="background-image: url(images/ecosystemear-1.png), url(images/right-ear.png);">
 
                         <figure>
                             <figcaption>L'écosystème d'innovation, de quels acteurs parle-t-on au juste?
                             </figcaption>
-                            <audio controls="controls" preload="none" src="assets/audio/e/1-ecosysteme.m4a">
+                            <audio controls="controls" preload="none" src="assets/audio/ecosysteme/1-ecosysteme.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio. Voici un
-                                    <a href="assets/audio/e/1-ecosysteme.m4a">lien vers le fichier audio</a>
+                                    <a href="assets/audio/ecosysteme/1-ecosysteme.m4a">lien vers le fichier audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -2455,9 +2491,9 @@
                             <figcaption>La priorité en matière d'écosystème pendant la Transfo?
                             </figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/e/2-priorite.m4a">
+                                <source src="assets/audio/ecosysteme/2-priorite.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
-                                    <a href="assets/audio/e/2-priorite.m4a">lien vers le fichier audio</a>
+                                    <a href="assets/audio/ecosysteme/2-priorite.m4a">lien vers le fichier audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -2466,9 +2502,9 @@
                         <figure>
                             <figcaption>Quels conseils à donner pour élargir le cercle?</figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/e/3-conseils.m4a">
+                                <source src="assets/audio/ecosysteme/3-conseils.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
-                                    <a href="assets/audio/e/3-conseils.m4a">lien vers le fichier audio</a>
+                                    <a href="assets/audio/ecosysteme/3-conseils.m4a">lien vers le fichier audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -2482,7 +2518,7 @@
 
         <!-- 7 - SE PROJECTER DANS LE FUTUR -->
 
-        <section class="tab fl">
+        <section id="project" class="tab">
 
             <header class="header">
                 <div class="header-content">
@@ -2523,22 +2559,22 @@
                     </div>
 
                     <div class="content bg"
-                        style="background-image:  url(images/fl/fl-legendes.svg), url(images/fl/hautparleur.png);">
+                        style="background-image:  url(images/project/hautparleur-legendes.svg), url(images/project/hautparleur.png);">
                         <p class="fig">Fig.fl</p>
 
-                        <div class="mini-img" style="background-image: url(images/fl/hautparleur-min.png);">
+                        <div class="mini-img" style="background-image: url(images/project/hautparleur-min.png);">
                             <p class="fig-cs">Fig.cs</p>
                         </div>
 
                         <ul class="legende">
                             <li>
-                                <a href="#iteration">(it) Itérations</a>
+                                <a href="#iteration-anchor">(it) Itérations</a>
                             </li>
                             <li>
-                                <a href="#implication">(i) Implication</a>
+                                <a href="#implication-anchor">(i) Implication</a>
                             </li>
                             <li>
-                                <a href="#exception">(e) Exception</a>
+                                <a href="#exception-anchor">(e) Exception</a>
                             </li>
                         </ul>
                     </div>
@@ -2572,12 +2608,13 @@
 
                             <!-- IMG -->
 
-                            <img class="prefiguration" src="images/fl/prefiguration-lille.jpg" alt="prefiguration">
+                            <img id="prefiguration" src="images/project/prefiguration-lille.jpg"
+                                alt="atelier de préfiguration du lieu labo à Lille">
 
                             <!-- PROCESSUS ITÉRATIF -->
 
-                            <div class="post-it iterations">
-                                <span id="iterations" class="anchor"></span>
+                            <div id="iterations" class="post-it">
+                                <span id="iterations-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Un processus itératif</h3>
@@ -2599,12 +2636,13 @@
 
                             <!-- IMG -->
 
-                            <img class="dunkerque" src="images/fl/dunkerque.jpg" alt="dunkerque">
+                            <img id="laboDunkerque" src="images/project/dunkerque.jpg"
+                                alt="désamorcer les à priori sur les labo à Dunkerque">
 
                             <!-- IMPLIQUER LES USAGERS -->
 
-                            <div class="post-it impliquation">
-                                <span id="impliquation" class="anchor"></span>
+                            <div id="involvement" class="post-it">
+                                <span id="impliquation-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Impliquer les futurs usagers et complices du labo dans la co-construction</h3>
@@ -2633,12 +2671,13 @@
 
                             <!-- IMG -->
 
-                            <img class="paris" src="images/fl/paris.jpg" alt="paris">
+                            <img id="parisLetter" src="images/project/paris.jpg"
+                                alt="reflexion sur la lettre de mission à Paris">
 
                             <!-- REGION GRAND EST -->
 
-                            <div class="post-it exception">
-                                <span id="exception" class="anchor"></span>
+                            <div id="exception" class="post-it">
+                                <span id="exception-anchor" class="anchor"></span>
                                 <div class="container">
 
                                     <h3>Une exception à la règle</h3>
@@ -2658,7 +2697,8 @@
 
                             <!-- IMG -->
 
-                            <img class="metz" src="images/fl/metz.jpg" alt="metz">
+                            <img id="laboMetz" src="images/project/metz.jpg"
+                                alt="table rone sur des labos extrêmes à Metz">
 
                         </div>
                     </div>
@@ -2757,41 +2797,43 @@
                     <div class=" links-box"
                         style="background-image: url(images/hand-1.png), url(images/right-hand.png);">
                         <p>
-                            <a href="assets/outils/fl/1-positionnement.pdf" download="" target="_blank">Quels
+                            <a href="assets/outils/project/1-positionnement.pdf" download="" target="_blank">Quels
                                 positionnements pour le labo?
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/fl/2-plan-usage.pdf" download="plan_usage_futur_labo"
+                            <a href="assets/outils/project/2-plan-usage.pdf" download="plan_usage_futur_labo"
                                 target="_blank">Exemple de plan d’usage du futur labo (Mulhouse)
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/fl/3-co-construction-lille.pdf"
+                            <a href="assets/outils/project/3-co-construction-lille.pdf"
                                 download="grille_co-construction_labo" target="_blank">Grille de co-construction du labo
                                 (Lille)
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/fl/4-engagement-occitanie.pdf" download="lettre_engagement_occitanie"
-                                target="_blank">Exemple de lettre d’engagement des contributeurs<br>
+                            <a href="assets/outils/project/4-engagement-occitanie.pdf"
+                                download="lettre_engagement_occitanie" target="_blank">Exemple de lettre d’engagement
+                                des contributeurs<br>
                                 (Occitanie)
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/fl/5-engagement-mulhouse.pdf" download="lettre_engagement_mulhouse"
-                                target="_blank">Exemple de lettre d’engagement des contributeurs<br>
+                            <a href="assets/outils/project/5-engagement-mulhouse.pdf"
+                                download="lettre_engagement_mulhouse" target="_blank">Exemple de lettre d’engagement des
+                                contributeurs<br>
                                 (Mulhouse)
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/fl/6-engagement-paris.pdf" download="lettre_engagement_paris"
+                            <a href="assets/outils/project/6-engagement-paris.pdf" download="lettre_engagement_paris"
                                 target="_blank">Exemple de lettre d’engagement des contributeurs<br>
                                 (Paris)
                             </a>
                         </p>
                         <p>
-                            <a href="assets/outils/fl/7-inspiration.pdf" download="inspirations_labo"
+                            <a href="assets/outils/project/7-inspiration.pdf" download="inspirations_labo"
                                 target="_blank">Inspiration d’autres labo d’innovation
                             </a>
                         </p>
@@ -2817,13 +2859,13 @@
                     <!-- AUDIO -->
 
                     <div class="links-box audio"
-                        style="background-image: url(images/ear-1.png), url(images/right-ear.png);">
+                        style="background-image: url(images/ecosystemear-1.png), url(images/right-ear.png);">
 
                         <figure>
                             <figcaption>Comment s'est passée la transition entre transfo et labo?</figcaption>
-                            <audio controls="controls" preload="none" src="assets/audio/fl/1-transition.m4a">
+                            <audio controls="controls" preload="none" src="assets/audio/project/1-transition.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio. Voici un
-                                    <a href="assets/audio/fl/1-transition.m4a">lien vers le fichier audio</a>
+                                    <a href="assets/audio/project/1-transition.m4a">lien vers le fichier audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -2832,9 +2874,9 @@
                         <figure>
                             <figcaption>Quelle forme a pris le labo?</figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/fl/2-forme-labo.m4a">
+                                <source src="assets/audio/project/2-forme-labo.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
-                                    <a href="assets/audio/fl/2-forme-labo.m4a">lien vers le fichier audio</a>
+                                    <a href="assets/audio/project/2-forme-labo.m4a">lien vers le fichier audio</a>
                                     pour le télécharger.</p>
                             </audio>
                         </figure>
@@ -2842,9 +2884,9 @@
                         <figure>
                             <figcaption>Pourquoi avoir choisi un fonctionnement en "résidence"?</figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/fl/3-residence.m4a">
+                                <source src="assets/audio/project/3-residence.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
-                                    <a href="assets/audio/fl/3-residence.m4a">lien vers le fichier audio</a>
+                                    <a href="assets/audio/project/3-residence.m4a">lien vers le fichier audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -2853,9 +2895,9 @@
                         <figure>
                             <figcaption>Quelle a été l'activité du labo la 1ere année?</figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/fl/4-activite.m4a">
+                                <source src="assets/audio/project/4-activite.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
-                                    <a href="assets/audio/fl/4-activite.m4a">lien vers le fichier audio</a>
+                                    <a href="assets/audio/project/4-activite.m4a">lien vers le fichier audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -2865,9 +2907,10 @@
                             <figcaption>Quelle place est faite aux agents ambassadeurs dans le nouveau labo?
                             </figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/fl/5-place-embassadeurs.m4a">
+                                <source src="assets/audio/project/5-place-embassadeurs.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
-                                    <a href="assets/audio/fl/5-place-embassadeurs.m4a">lien vers le fichier audio</a>
+                                    <a href="assets/audio/project/5-place-embassadeurs.m4a">lien vers le fichier
+                                        audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -2876,9 +2919,10 @@
                         <figure>
                             <figcaption>Faite vous appel à de nouveaux ambassadeurs?</figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/fl/6-nouveaux-embassadeurs.m4a">
+                                <source src="assets/audio/project/6-nouveaux-embassadeurs.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
-                                    <a href="assets/audio/fl/6-nouveaux-embassadeurs.m4a">lien vers le fichier audio</a>
+                                    <a href="assets/audio/project/6-nouveaux-embassadeurs.m4a">lien vers le fichier
+                                        audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -2887,9 +2931,9 @@
                         <figure>
                             <figcaption>Quelle est la spécificité du labo de la CUD?</figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/fl/7-specificite.m4a">
+                                <source src="assets/audio/project/7-specificite.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
-                                    a href="assets/audio/fl/7-specificite.m4a">lien vers le fichier audio</a>
+                                    <a href="assets/audio/project/7-specificite.m4a">lien vers le fichier audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -2898,9 +2942,9 @@
                         <figure>
                             <figcaption>Quels Défis pour demain?</figcaption>
                             <audio controls="controls" preload="none">
-                                <source src="assets/audio/fl/8-defis.m4a">
+                                <source src="assets/audio/project/8-defis.m4a">
                                 <p>Votre navigateur ne prend pas en charge l'audio HTML. Voici un
-                                    <a href="assets/audio/fl/8-defis.m4a">lien vers le fichier audio</a>
+                                    <a href="assets/audio/project/8-defis.m4a">lien vers le fichier audio</a>
                                     pour le télécharger.
                                 </p>
                             </audio>
@@ -2913,7 +2957,7 @@
         </section>
     </main>
 
-
+    <script src="script.js"></script>
 </body>
 
 </html>

@@ -113,57 +113,57 @@
         background-size: 180px;
     }
 
-    .mp .mini-img,
-    .p .mini-img,
-    .a .mini-img,
-    .e .mini-img {
+    #multidisciplinary .mini-img,
+    #programRhythm .mini-img,
+    #involveAndForm .mini-img,
+    #ecosysteme .mini-img {
         height: 250px;
     }
 
-    .ce .mini-img,
-    .cc .mini-img,
-    .fl .mini-img {
+    #experimental .mini-img,
+    #concreteCase .mini-img,
+    #project .mini-img {
         height: 300px;
     }
 
-    .ce .hypothese .bg {
+    #experimental .hypothese .bg {
         background-size: 114%, 87%;
     }
 
-    .mp .hypothese .bg {
+    #multidisciplinary .hypothese .bg {
         background-size: 114%, 75%;
     }
 
-    .mp .fig {
+    #multidisciplinary .fig {
         top: 50%;
     }
 
-    .p .hypothese .bg {
+    #programRhythm .hypothese .bg {
         background-size: 114%, 82%;
     }
 
-    .a .hypothese .bg {
+    #involveAndForm .hypothese .bg {
         background-size: 114%, 67%;
     }
 
-    .cc .hypothese .bg {
+    #concreteCase .hypothese .bg {
         background-position: left 45%, left 45%;
         background-size: 114%, 87%;
     }
 
-    .e .hypothese .bg {
+    #ecosysteme .hypothese .bg {
         background-size: 114%, 64%;
     }
 
-    .e .fig {
+    #ecosysteme .fig {
         left: 65%;
     }
 
-    .fl .hypothese .bg {
+    #project .hypothese .bg {
         background-size: 114%, 70%;
     }
 
-    .fl .fig {
+    #project .fig {
         left: 70%;
     }
 
@@ -275,12 +275,12 @@
     /* /// 7 MECANIQUES /// */
 
     /* / OBSERVATIONS / */
-    .observations .bg img.ideation,
-    .observations .bg img.dunkerque {
+    .observations .bg img#ideation,
+    .observations .bg img#laboDunkerque {
         display: none;
     }
 
-    .mp .post-it {
+    #multidisciplinary .post-it {
         transform: translate(0px, 250px);
     }
 
@@ -289,40 +289,40 @@
         min-height: 0px;
     }
 
-    /* CE */
-    .post-it.inter-collectivites {
+    /* EXPERIMENTAL */
+    #inter-collectivites {
         top: 430px;
     }
 
-    .post-it.coordination {
+    #coordination {
         top: 570px;
     }
 
-    /* MP */
-    .post-it.coaching {
+    /* PLURIDISCIPLINARY */
+    #coaching {
         top: 410px;
     }
 
-    .post-it.sociologie {
+    #sociology {
         top: 630px;
     }
 
-    .post-it.politiques {
+    #politics {
         top: 930px;
     }
 
-    /* A */
-    .post-it.superieur {
+    /* INVOLVE AND FORM */
+    #superior {
         top: 370px;
     }
 
-    /* E */
-    .post-it.grand-est {
+    /* ECOSYSTEM */
+    #grand-est {
         top: 700px;
     }
 
-    /* FL */
-    .post-it.impliquation {
+    /* PROJECT */
+    #involvement {
         top: 400px;
     }
 
@@ -606,60 +606,60 @@
     /* IMG */
 
     .observations .bg img,
-    .p .observations .bg img,
-    .a .observations .bg img {
+    #programRhythm .observations .bg img,
+    #involveAndForm .observations .bg img {
         width: 65%;
     }
 
-    /* CE */
-    .ce .observations .bg {
+    /* EXPERIMENTAL */
+    #experimental .observations .bg {
         height: 900px;
     }
 
-    .observations .bg img.inter {
+    #intertransfo {
         left: -7%;
     }
 
-    .observations .bg img.voyage {
+    #studyTrip {
         top: 420px;
         right: -3%;
     }
 
-    /* MP */
-    .mp .observations .bg {
+    /* PLURIDISCIPLINARY */
+    #multidisciplinary .observations .bg {
         height: 1500px;
     }
 
-    .observations .bg img.design {
+    #designProto {
         top: 30px;
     }
 
-    .observations .bg img.coaching {
+    #coachingParis {
         top: 630px;
     }
 
-    .observations .bg img.ethnographie {
+    .observations .bg img#ethnography {
         top: 780px;
         left: -7%;
     }
 
-    .observations .bg img.equipe {
+    #team {
         top: 1210px;
         right: -4%;
     }
 
-    /* P */
-    .p .observations .bg {
+    /* PROGRAM-RHYTHM */
+    #programRhythm .observations .bg {
         height: 760px;
     }
 
-    .observations .bg img.rythmer {
+    #rhythmExercice {
         top: 420px;
         right: -5%;
     }
 
-    /* A */
-    .a .observations .bg {
+    /* INVOLVE AND FORM */
+    #involveAndForm .observations .bg {
         height: 1600px;
     }
 
@@ -667,77 +667,77 @@
         width: 45%;
     }
 
-    .observations .bg img.immersion {
+    #immersion {
         top: 410px;
     }
 
-    .observations .bg img.ideation {
+    .observations .bg img#ideation {
         top: 570px;
     }
 
-    .observations .bg img.embassadeurs {
+    #ambassadors {
         top: 890px;
         left: 1%;
     }
 
-    .observations .bg img.creation {
+    .observations .bg img#creation {
         top: 1240px;
     }
 
     /* CC */
-    .cc .observations .bg {
+    #concreteCase .observations .bg {
         height: 2200px;
     }
 
-    .observations .bg img.scolaire {
+    .observations .bg img#strasbourgCase {
         top: 750px;
     }
 
-    .observations .bg img.megotiers {
+    #mulhouseCase {
         top: 1050px;
         left: -7%;
     }
 
-    .observations .bg img.bois {
+    #dunkerqueCase {
         top: 1600px;
         right: 0%;
     }
 
-    .observations .bg img.arbres {
+    .observations .bg img#parisCase {
         top: 1810px;
         left: -4%;
         z-index: 0;
     }
 
-    /* E */
-    .e .observations .bg {
+    /* ECOSYSTEM */
+    #ecosysteme .observations .bg {
         height: 1120px;
     }
 
-    .observations .bg img.mulhouse {
+    #mulhouseAgents {
         top: 330px;
     }
 
-    .observations .bg img.e-paris {
+    #exhibition {
         top: 790px;
         left: -2%;
     }
 
-    /* FL */
-    .fl .observations .bg {
+    /* PROJECT */
+    #project .observations .bg {
         height: 1500px;
     }
 
-    .observations .bg img.metz {
+    #laboMetz {
         top: 1270px;
     }
 
-    .observations .bg img.paris {
+    #parisLetter {
         top: 970px;
         left: -4%;
     }
 
-    .observations .bg img.dunkerque {
+    .observations .bg img#laboDunkerque {
         top: 490px;
     }
 
@@ -757,155 +757,155 @@
         line-height: 1.2;
     }
 
-    /* CE */
-    .post-it.contrat {
+    /* EXPERIMENTAL */
+    #contrat {
         right: 5%;
     }
 
-    .post-it.co-financement {
+    #co-financement {
         right: -1%;
     }
 
-    .post-it.inter-collectivites {
+    #inter-collectivites {
         top: 410px;
         left: 3%;
     }
 
-    .post-it.coordination {
+    #coordination {
         top: 710px;
         left: 47%;
     }
 
-    .post-it.adhesion {
+    #adhesion {
         top: 600px;
     }
 
-    /* MP */
-    .post-it.design {
+    /* PLURIDISCIPLINARY */
+    #design {
         top: 0px;
         right: 0%;
         z-index: 3;
     }
 
-    .post-it.coaching {
+    #coaching {
         top: 400px;
         right: 14%;
     }
 
-    .post-it.sociologie {
+    #sociology {
         top: 350px;
         left: 0%;
     }
 
-    .post-it.politiques {
+    #politics {
         top: 920px;
     }
 
-    /* P */
-    .post-it.travail {
+    /* PROGRAM-RHYTHM */
+    #workTime {
         top: 20px;
         right: 12%;
     }
 
-    .post-it.co-construction {
+    #co-construction {
         top: 180px;
     }
 
-    .post-it.pedagogie {
+    #pedagogy {
         top: 390px;
         left: -2%;
     }
 
-    /* A */
-    .post-it.second {
+    /* INVOLVE AND FORM */
+    #secondCircle {
         top: 180px;
         right: 2%;
         z-index: 3;
     }
 
-    .post-it.superieur {
+    #superior {
         top: -20px;
         right: 14%;
     }
 
-    .post-it.ouvert {
+    #openGroup {
         top: 525px;
     }
 
-    .post-it.semi-pro {
+    #semi-pro {
         top: 960px;
     }
 
-    .post-it.collectif {
+    #collectif {
         top: 1120px;
     }
 
-    .post-it.formation {
+    #formation {
         left: 14%;
         top: 1370px;
     }
 
     /* CC */
-    .post-it.metz {
+    #metz {
         top: 320px;
         left: -2%;
     }
 
-    .post-it.lille {
+    #lille {
         top: -40px;
         right: 2%;
     }
 
-    .post-it.mulhouse {
+    #mulhouse {
         top: 1130px;
         right: 10%;
         z-index: 3;
     }
 
-    .post-it.strasbourg {
+    #strasbourg {
         top: 680px;
     }
 
-    .post-it.paris {
+    #parisTree {
         top: 1360px;
         left: 4%;
     }
 
-    .post-it.dunkerque {
+    #dunkerque {
         top: 1810px;
     }
 
-    /* E */
-    .post-it.ecosysteme {
+    /* ECOSYSTEM */
+    #ecosystem {
         top: -30px;
         right: 2%;
     }
 
-    .post-it.acteurs {
+    #actors {
         top: 360px;
         left: 1%;
     }
 
-    .post-it.grand-est {
+    #grand-est {
         top: 580px;
         left: 48%;
     }
 
-    .post-it.e-dunkerque {
+    #newProject {
         top: 840px;
         right: -2%;
     }
 
-    /* FL */
-    .post-it.iterations {
+    /* PROJECT */
+    #iterations {
         right: -2%;
     }
 
-    .post-it.impliquation {
+    #involvement {
         top: 380px;
     }
 
-    .post-it.exception {
+    #exception {
         top: 930px;
         right: 0px;
     }
@@ -960,109 +960,109 @@
 
     /* / OBSERVATIONS / */
     /* IMG */
-    /* CE */
-    .ce .observations .bg {
+    /* EXPERIMENTAL */
+    #experimental .observations .bg {
         height: 1000px;
     }
 
-    /* MP */
-    .mp .observations .bg {
+    /* PLURIDISCIPLINARY */
+    #multidisciplinary .observations .bg {
         height: 1400px;
     }
 
-    .observations .bg img.design {
+    #designProto {
         top: 40px;
     }
 
-    .observations .bg img.ethnographie {
+    .observations .bg img#ethnography {
         top: 680px;
     }
 
-    .observations .bg img.equipe {
+    #team {
         top: 970px;
     }
 
-    /* P */
-    .p .observations .bg {
+    /* PROGRAM-RHYTHM */
+    #programRhythm .observations .bg {
         height: 850px;
     }
 
-    .observations .bg img.rythmer {
+    #rhythmExercice {
         top: 420px;
     }
 
-    /* A */
-    .a .observations .bg {
+    /* INVOLVE AND FORM */
+    #involveAndForm .observations .bg {
         height: 1500px;
     }
 
-    .observations .bg img.embassadeurs {
+    #ambassadors {
         top: 840px;
     }
 
-    .observations .bg img.creation {
+    .observations .bg img#creation {
         top: 1070px;
     }
 
     /* CC */
-    .cc .observations .bg {
+    #concreteCase .observations .bg {
         height: 2200px;
     }
 
-    .observations .bg img.volants {
+    #metzCase {
         top: 40px;
     }
 
-    .observations .bg img.scolaire {
+    .observations .bg img#strasbourgCase {
         top: 720px;
     }
 
-    .observations .bg img.megotiers {
+    #mulhouseCase {
         top: 1040px;
     }
 
-    .observations .bg img.bois {
+    #dunkerqueCase {
         top: 1500px;
         right: 0%;
     }
 
-    .observations .bg img.arbres {
+    #parisCase {
         top: 1730px;
     }
 
-    /* E */
-    .e .observations .bg {
+    /* ECOSYSTEM */
+    #ecosysteme .observations .bg {
         height: 1100px;
     }
 
-    .observations .bg img.lille {
+    #lilleInspiration {
         top: 30px;
     }
 
-    .observations .bg img.e-paris {
+    #exhibition {
         top: 720px;
     }
 
-    .observations .bg img.mulhouse {
+    #mulhouseAgents {
         top: 340px;
         right: -13%;
     }
 
-    /* FL */
-    .fl .observations .bg {
+    /* PROJECT */
+    #project .observations .bg {
         height: 1400px;
     }
 
-    .observations .bg img.paris {
+    #parisLetter {
         top: 730px;
         left: 4%;
     }
 
-    .observations .bg img.dunkerque {
+    .observations .bg img#laboDunkerque {
         top: 360px;
     }
 
-    .observations .bg img.metz {
+    #laboMetz {
         top: 1040px;
     }
 
@@ -1077,123 +1077,123 @@
         padding: 0 !important;
     }
 
-    /* CE */
-    .post-it.inter-collectivites {
+    /* EXPERIMENTAL */
+    #inter-collectivites {
         top: 370px;
     }
 
-    .post-it.adhesion {
+    #adhesion {
         top: 590px;
     }
 
-    .post-it.coordination {
+    #coordination {
         top: 720px;
         left: 41%;
     }
 
-    /* MP */
-    .post-it.design {
+    /* PLURIDISCIPLINARY */
+    #design {
         top: 0px;
     }
 
-    .post-it.coaching {
+    #coaching {
         top: 300px;
         right: -2%;
     }
 
-    .post-it.sociologie {
+    #sociology {
         top: 400px;
     }
 
-    .post-it.politiques {
+    #politics {
         top: 800px;
     }
 
-    .post-it.education {
+    #education {
         top: 1120px;
     }
 
-    /* P */
-    .post-it.travail {
+    /* PROGRAM-RHYTHM */
+    #workTime {
         top: 20px;
     }
 
-    .post-it.co-construction {
+    #co-construction {
         top: 180px;
     }
 
-    .post-it.pedagogie {
+    #pedagogy {
         top: 500px;
     }
 
-    /* A */
-    .post-it.second {
+    /* INVOLVE AND FORM */
+    #secondCircle {
         top: 160px;
         z-index: 3;
     }
 
-    .post-it.superieur {
+    #superior {
         top: -40px;
     }
 
-    .post-it.ouvert {
+    #openGroup {
         top: 575px;
     }
 
-    .post-it.semi-pro {
+    #semi-pro {
         top: 790px;
     }
 
-    .post-it.collectif {
+    #collectif {
         top: 1080px;
     }
 
-    .post-it.formation {
+    #formation {
         top: 1320px;
     }
 
     /* CC */
-    .post-it.metz {
+    #metz {
         top: 300px;
     }
 
-    .post-it.mulhouse {
+    #mulhouse {
         top: 1110px;
     }
 
-    .post-it.strasbourg {
+    #strasbourg {
         top: 720px;
     }
 
-    .post-it.paris {
+    #parisTree {
         top: 1400px;
         left: 3%;
     }
 
-    .post-it.dunkerque {
+    #dunkerque {
         top: 1800px;
     }
 
-    /* E */
-    .post-it.ecosysteme {
+    /* ECOSYSTEM */
+    #ecosystem {
         top: 0px;
     }
 
-    .post-it.acteurs {
+    #actors {
         top: 310px;
     }
 
-    .post-it.grand-est {
+    #grand-est {
         top: 500px;
         left: 33%;
     }
 
-    .post-it.e-dunkerque {
+    #newProject {
         top: 830px;
     }
 
-    /* FL */
-    .post-it.exception {
+    /* PROJECT */
+    #exception {
         top: 870px;
     }
 }
