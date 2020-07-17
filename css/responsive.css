@@ -675,7 +675,7 @@
     }
 
     .observations .bg img.creation {
-        top: 1190px;
+        top: 1240px;
     }
 
     /* CC */
@@ -892,7 +892,6 @@
 
     /* FL */
     .post-it.iterations {
-        top: 50px;
         right: -2%;
     }
 
