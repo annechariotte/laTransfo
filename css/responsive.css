@@ -59,6 +59,11 @@
         padding-bottom: 5px;
     }
 
+    /* /// NAV-BAR /// */
+    .mainNav .nav_links {
+        font-size: 16px;
+    }
+
     /* /// ACCORDION /// */
 
     section>header,
