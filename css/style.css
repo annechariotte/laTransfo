@@ -1130,6 +1130,10 @@ audio {
     color: #FF6E29;
 }
 
+.intro a.contact {
+    text-decoration: none;
+}
+
 /*///// ABOUT /////*/
 
 .about .content,
@@ -1196,5 +1200,18 @@ section.illustrations {
 }
 
 /*///// CONTACT /////*/
+.contact .links-box ul {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+.contact .links-box img {
+    max-width: 90px;
+}
+
+.contact .links-box p {
+    margin: 0;
+}
 
 /*///// COUSINS /////*/
