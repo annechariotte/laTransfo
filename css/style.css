@@ -1138,7 +1138,11 @@ audio {
     padding-top: 180px;
 }
 
-article.illustrations {
+.about article {
+    padding-bottom: 0px;
+}
+
+section.illustrations {
     padding-bottom: 100px;
 }
 

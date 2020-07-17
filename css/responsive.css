@@ -229,7 +229,7 @@
         background-position: 50% 0%;
     }
 
-    article.illustrations {
+    section.illustrations {
         padding-bottom: 0px;
     }
 
@@ -337,6 +337,10 @@
     }
 
     /* ABOUT */
+    section.illustrations {
+        padding-bottom: 0;
+    }
+
     .general-bg {
         background-position: 50% 40%;
     }
@@ -351,12 +355,14 @@
     }
 
     .about-bg.top {
+        background-position: 15px 10%;
         padding-top: 0%;
         padding-bottom: 35%;
     }
 
     .about-bg.bottom {
         padding-top: 30%;
+        padding-bottom: 30%;
     }
 }
 
@@ -925,6 +931,9 @@
     }
 
     /* / ABOUT / */
+    section.illustrations {
+        padding-bottom: 50px;
+    }
 
     .general-bg {
         background-position: 50% 42%;
@@ -933,6 +942,10 @@
     .about-bg {
         background-position: 35px 20px;
         background-size: 85%;
+    }
+
+    .about-bg.bottom {
+        padding-bottom: 30%;
     }
 
 }
