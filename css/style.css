@@ -162,13 +162,15 @@ article {
     text-transform: uppercase;
 }
 
-.mainNav .nav_links:hover a {
+.mainNav .nav_links:hover a,
+.mainNav .nav_links:hover a.orange {
     color: #F8F8F8;
     transition: all 0.7s;
 }
 
-.mainNav .nav_links .orange {
+.mainNav .nav_links a.orange {
     color: #FF6E29;
+    transition: all 0.7s;
 }
 
 .mainNav .nav_links:hover .hover_orange:hover {
