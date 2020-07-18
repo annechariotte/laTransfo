@@ -71,11 +71,6 @@
         max-height: 120px;
     }
 
-    .sticky+.tab-content {
-        transition: all 0s;
-        padding-top: 110px;
-    }
-
     section>header>.header-content,
     section.show>header>.header-content,
     section>header>.header-content .marquee,
@@ -108,6 +103,10 @@
     /* /// 7 MECANIQUES /// */
 
     /* HYPOTHESE */
+
+    .legende li {
+        font-size: 18px;
+    }
 
     .mini-img {
         background-size: 180px;
@@ -168,6 +167,7 @@
     }
 
     /* / OBSERVATIONS / */
+
     /* IMG */
 
     .observations .bg {
@@ -258,7 +258,7 @@
     }
 
     section.show>header .h1 {
-        font-size: 53px;
+        font-size: 52px;
         line-height: 55px;
         width: 370px;
         padding-top: 5px;
@@ -272,16 +272,23 @@
         text-align: left;
     }
 
+    .sticky+.tab-content {
+        transition: all 0s;
+        padding-top: 120px;
+    }
+
     /* /// 7 MECANIQUES /// */
+    /* HYPOTHESE */
+
+    .legende li {
+        font-size: 20px;
+    }
 
     /* / OBSERVATIONS / */
+
     .observations .bg img#ideation,
     .observations .bg img#laboDunkerque {
         display: none;
-    }
-
-    #multidisciplinary .post-it {
-        transform: translate(0px, 250px);
     }
 
     /* POST-ITS */
@@ -299,6 +306,10 @@
     }
 
     /* PLURIDISCIPLINARY */
+    #multidisciplinary .post-it {
+        transform: translate(0px, 250px);
+    }
+
     #coaching {
         top: 410px;
     }
@@ -489,8 +500,8 @@
 
     /* OBSERVATIONS */
 
-    .legende {
-        font-size: 18px;
+    .legende a {
+        color: #FF6E29;
     }
 
     .subtitle {
@@ -603,6 +614,11 @@
     }
 
     /* / OBSERVATIONS / */
+
+    .legende a {
+        color: #FF6E29;
+    }
+
     /* IMG */
 
     .observations .bg img,
