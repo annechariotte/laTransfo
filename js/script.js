@@ -4,6 +4,16 @@ const tabs = document.getElementsByClassName("tab");
 // Aucune section ouverte au debut
 let lastSelectedTab = null;
 
+function tabScrollTop(tab) {
+    let offsetTab;
+    if (window.matchMedia("(max-width: 759px)").matches) {
+        offsetTab = tab.offsetTop - 140;
+    } else {
+        offsetTab = tab.offsetTop - 100;
+    }
+    window.scrollTo(0, offsetTab);
+};
+
 function displayTab(tab, header) {
     // s'il n'y a aucune section d'ouverte : premier click
     if (lastSelectedTab == null) {
@@ -14,11 +24,7 @@ function displayTab(tab, header) {
         lastSelectedTab = tab;
 
         // positionner son header en haut de la fenetre
-        if (tab == tabs[6]) {
-            window.scrollTo(0, 100);
-        } else {
-            window.scrollTo(0, 0);
-        }
+        tabScrollTop(tab);
     }
     // s'il y a deja une section ouverte
     else {
@@ -30,11 +36,7 @@ function displayTab(tab, header) {
             tab.classList.remove("show");
 
             // se repositionner en haut de la page
-            if (tab == tabs[6]) {
-                window.scrollTo(0, 100);
-            } else {
-                window.scrollTo(0, 0);
-            }
+            tabScrollTop(tab);
 
         }
         // si le click est sur une autre section
@@ -48,11 +50,7 @@ function displayTab(tab, header) {
             lastSelectedTab = tab;
 
             // positionner son header en haut de la fenetre
-            if (tab == tabs[6]) {
-                window.scrollTo(0, 100);
-            } else {
-                window.scrollTo(0, 0);
-            }
+            tabScrollTop(tab);
 
         }
     }
@@ -91,9 +89,9 @@ function displayTab(tab, header) {
 
     // ne plus fixer le header quand la section est fermée
     header.classList.remove("sticky");
-    // stopper le scroll du titre quand la section est ouverte
+    // arreter le scroll horizontal du titre
     tab.querySelector(".tab-title").classList.remove("marquee");
-}
+};
 
 // boucler sur chaque section
 for (const tab of tabs) {
@@ -112,7 +110,7 @@ for (const tab of tabs) {
         // si la section n'est pas ouverte
         if (!tab.classList.contains("show")) {
 
-            // faire scroller le titre
+            // commencer scroll horizontal du titre
             tab.querySelector(".tab-title").classList.add("marquee");
         }
     });
@@ -120,10 +118,10 @@ for (const tab of tabs) {
     // quand la souris n'est plus sur la section
     tab.addEventListener("mouseleave", function () {
 
-        // arreter le scroll du titre
+        // arreter le scroll horizontal le titre
         tab.querySelector(".tab-title").classList.remove("marquee");
     });
-}
+};
 
 // recuperer le parametre en bout d'URL
 const urlParams = new URLSearchParams(window.location.search);
@@ -139,22 +137,4 @@ if (tabParam != null) {
     // ouvrir la section
     displayTab(tab, header);
 
-    // placer le header en haut de la fenetre
-    switch (tabParam) {
-        case "multidisciplinary":
-            window.scrollTo(0, 100);
-            break;
-
-        case "programRhythm":
-            window.scrollTo(0, 196);
-            break;
-
-        case "involveAndForm":
-            window.scrollTo(0, 292);
-            break;
-
-        case "concreteCase":
-            window.scrollTo(0, 388);
-            break;
-    }
-}
+};
