@@ -147,8 +147,9 @@ article {
 
 .mainNav .nav_links {
     font-family: sans-serif;
-    font-weight: light;
     font-size: 18px;
+    padding: 0;
+    margin: 0;
 }
 
 .mainNav .nav_links li {
@@ -161,9 +162,18 @@ article {
     text-transform: uppercase;
 }
 
-.mainNav .hover_orange:hover,
+.mainNav .nav_links:hover a {
+    color: #F8F8F8;
+    transition: all 0.7s;
+}
+
 .mainNav .nav_links .orange {
     color: #FF6E29;
+}
+
+.mainNav .nav_links:hover .hover_orange:hover {
+    color: #FF6E29;
+    transition: all 0.7s;
 }
 
 /* INFO BAND */

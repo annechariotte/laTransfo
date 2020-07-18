@@ -59,9 +59,14 @@
         padding-bottom: 5px;
     }
 
-    /* /// NAV-BAR /// */
+    /* /// NAV BAR /// */
+
     .mainNav .nav_links {
         font-size: 16px;
+    }
+
+    .link-home {
+        display: none;
     }
 
     /* /// ACCORDION /// */
@@ -412,14 +417,13 @@
         display: block;
     }
 
-    .mainNav .nav_links li,
-    .mainNav .nav_links {
+    .mainNav .nav_links li {
         padding-left: 0;
     }
 
     .mainNav .nav_links {
         height: 10px;
-        margin: 0 auto;
+        /* margin: 0 auto; */
         white-space: nowrap;
     }
 
@@ -595,6 +599,16 @@
     .content .container {
         padding-left: 35px;
         padding-right: 35px;
+    }
+
+    /* /// NAV BAR /// */
+
+    .mainNav .nav_links {
+        font-size: 16px;
+    }
+
+    .mainNav .nav_links li {
+        padding-left: 15px;
     }
 
     /* /// ACCORDION /// */
