@@ -360,7 +360,7 @@ section.show .tab-close {
 
 .sticky+.tab-content {
     transition: all 0s;
-    padding-top: 100px;
+    padding-top: 99.5px;
 }
 
 /* //////// 7 MECANIQUES ///////// */
