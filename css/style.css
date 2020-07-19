@@ -1042,13 +1042,13 @@ section.show .tab-close {
 }
 
 .links-box {
-    background-size: 150px;
+    background-size: 160px;
     background-position: 5% 50%, 95% 50%;
     text-align: center;
 }
 
 .temoignages .links-box {
-    background-size: 120px;
+    background-size: 140px;
 }
 
 .links-box.audio {
@@ -1057,8 +1057,8 @@ section.show .tab-close {
 }
 
 .links-box.video {
-    background-position: 24% 4%, 76% 4%;
-    background-size: 160px;
+    background-position: 21% 40px, 78% 40px;
+    background-size: 180px;
     padding: 95px;
     padding-top: 160px;
 }

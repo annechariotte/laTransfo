@@ -943,11 +943,11 @@
     /* / LINKS-BOX / */
 
     .links-box {
-        background-size: 100px;
+        background-size: 120px;
     }
 
     .temoignages .links-box {
-        background-size: 80px;
+        background-size: 120px;
     }
 
     .links-box.video {
