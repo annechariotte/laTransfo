@@ -1163,12 +1163,13 @@ audio {
 /*///// ABOUT /////*/
 
 .about .content,
-.contact .content,
+.faq .content,
 .cousins .content {
     padding-top: 180px;
 }
 
-.about article {
+.about article,
+.faq article {
     padding-bottom: 0px;
 }
 
@@ -1183,7 +1184,7 @@ audio {
     margin-left: auto;
 }
 
-.about li {
+.illustrations li {
     text-align: right;
 }
 
@@ -1221,8 +1222,18 @@ audio {
     padding-bottom: 25%;
 }
 
-.about .links-box {
-    margin-bottom: 70px;
+.contact .links-box ul {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+}
+
+.contact .links-box img {
+    max-width: 90px;
+}
+
+.contact .links-box p {
+    margin: 0;
 }
 
 .goToSection {
@@ -1236,18 +1247,9 @@ audio {
 }
 
 /*///// CONTACT /////*/
-.contact .links-box ul {
-    display: flex;
-    justify-content: space-around;
-    padding-left: 0;
-}
 
-.contact .links-box img {
-    max-width: 90px;
-}
-
-.contact .links-box p {
-    margin: 0;
+.faq .links-box {
+    margin-bottom: 70px;
 }
 
 /*///// COUSINS /////*/
