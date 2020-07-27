@@ -1222,18 +1222,20 @@ audio {
     padding-bottom: 25%;
 }
 
-.contact .links-box ul {
+.contact ul {
     display: flex;
-    justify-content: space-around;
-    padding-left: 0;
-}
-
-.contact .links-box img {
-    max-width: 90px;
-}
-
-.contact .links-box p {
+    justify-content: flex-end;
     margin: 0;
+}
+
+.contact li {
+    padding-left: 15px;
+    max-height: 56px;
+}
+
+.contact img {
+    max-height: 56px;
+    padding: 3px 0;
 }
 
 .goToSection {
