@@ -1188,8 +1188,14 @@ audio {
     text-align: right;
 }
 
-.about ul strong {
+.illustrations li p {
+    margin: 0;
     font-weight: bold;
+}
+
+.illustrations li p:hover span {
+    color: #FF6E29;
+    cursor: pointer;
 }
 
 .definition {
