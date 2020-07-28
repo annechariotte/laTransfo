@@ -151,8 +151,11 @@
     }
 
     #concreteCase .hypothese .bg {
-        background-position: left 45%, left 45%;
-        background-size: 114%, 87%;
+        background-size: 120%, 86%;
+    }
+
+    #concreteCase .fig {
+        top: 65%;
     }
 
     #ecosysteme .hypothese .bg {
@@ -204,7 +207,7 @@
 
     /* ABOUT */
     .side,
-    .about ul {
+    .illustrations ul {
         display: none;
     }
 
@@ -231,7 +234,7 @@
     }
 
     .general-bg {
-        background-position: 50% 0%;
+        background-position: 50% 20%;
     }
 
     section.illustrations {
@@ -239,7 +242,7 @@
     }
 
     .about-bg.bottom {
-        padding-bottom: 0%;
+        padding-bottom: 10%;
     }
 
 }

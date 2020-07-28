@@ -451,10 +451,7 @@ section.show .tab-close {
     text-align: end;
 }
 
-#concreteCase .mini-img {
-    height: 300px;
-}
-
+#concreteCase .mini-img,
 #project .mini-img {
     height: 350px;
 }
@@ -532,7 +529,7 @@ section.show .tab-close {
 }
 
 #concreteCase .fig {
-    top: 85%;
+    top: 75%;
     left: 15%;
 }
 
