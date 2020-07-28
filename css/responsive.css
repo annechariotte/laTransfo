@@ -117,7 +117,10 @@
         background-size: 180px;
     }
 
-    #multidisciplinary .mini-img,
+    #multidisciplinary .mini-img {
+        height: 350px;
+    }
+
     #programRhythm .mini-img,
     #involveAndForm .mini-img,
     #ecosysteme .mini-img {
@@ -135,11 +138,11 @@
     }
 
     #multidisciplinary .hypothese .bg {
-        background-size: 114%, 75%;
+        background-size: 125%, 83%;
     }
 
     #multidisciplinary .fig {
-        top: 50%;
+        top: 54%;
     }
 
     #programRhythm .hypothese .bg {
@@ -287,6 +290,10 @@
 
     .legende li {
         font-size: 20px;
+    }
+
+    #multidisciplinary .hypothese .bg {
+        background-size: 114%, 75%;
     }
 
     /* / OBSERVATIONS / */

@@ -451,7 +451,10 @@ section.show .tab-close {
     text-align: end;
 }
 
-#concreteCase .mini-img,
+#concreteCase .mini-img {
+    height: 300px;
+}
+
 #project .mini-img {
     height: 350px;
 }
@@ -524,13 +527,13 @@ section.show .tab-close {
 }
 
 #concreteCase .hypothese .bg {
-    background-position: left 40%, left 40%;
+    background-position: left 30%, left 30%;
     background-size: 100%, 71%;
 }
 
 #concreteCase .fig {
-    top: 80%;
-    left: 14%;
+    top: 85%;
+    left: 15%;
 }
 
 #ecosysteme .hypothese .bg {
