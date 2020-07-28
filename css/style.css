@@ -63,7 +63,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: 'misobold';
+    font-family: 'misobold', sans-serif;
     text-transform: uppercase;
 }
 
@@ -84,6 +84,10 @@ h2 {
 h3 {
     font-size: 24px;
     margin: 12px auto 8px;
+}
+
+strong {
+    font-weight: bold;
 }
 
 img {
@@ -244,7 +248,7 @@ section>header {
 section.show .tab-close {
     display: block;
     position: absolute;
-    font-family: "misobold";
+    font-family: "misobold", sans-serif;
     font-size: 30px;
     right: 35px;
     bottom: 10px;
@@ -395,14 +399,14 @@ section.show .tab-close {
 }
 
 .title-box p {
-    font-family: "misobold";
+    font-family: "misobold", sans-serif;
     font-size: 24px;
     text-align: end;
     margin: 0;
 }
 
 .sheet {
-    font-family: "misobold";
+    font-family: "misobold", sans-serif;
     font-size: 30px;
     text-align: center;
     padding-bottom: 70px;
@@ -436,7 +440,7 @@ section.show .tab-close {
 
 .fig,
 .fig-cs {
-    font-family: "misobold";
+    font-family: "misobold", sans-serif;
     text-transform: uppercase;
     line-height: 0;
     margin-top: 0;
@@ -462,6 +466,10 @@ section.show .tab-close {
 
 .hypothese .bg {
     position: relative;
+}
+
+.hypothese span {
+    color: #FF6E29;
 }
 
 .fig {
@@ -1135,7 +1143,7 @@ audio {
 }
 
 .label a {
-    font-family: "misobold";
+    font-family: "misobold", sans-serif;
     font-size: 30px;
     text-transform: uppercase;
     text-decoration: none;
