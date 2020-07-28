@@ -451,17 +451,21 @@ section.show .tab-close {
     text-align: end;
 }
 
-#multidisciplinary .mini-img,
-#programRhythm .mini-img,
-#ecosysteme .mini-img {
+#concreteCase .mini-img,
+#project .mini-img {
     height: 350px;
 }
 
 #experimental .mini-img,
+#multidisciplinary .mini-img,
+#programRhythm .mini-img,
 #involveAndForm .mini-img,
-#concreteCase .mini-img,
-#project .mini-img {
+#ecosysteme .mini-img {
     height: 400px;
+}
+
+#ecosysteme .mini-img {
+    height: 450px;
 }
 
 .hypothese .bg {
@@ -500,8 +504,8 @@ section.show .tab-close {
 }
 
 #programRhythm .hypothese .bg {
-    background-position: left 45%, left 45%;
-    background-size: 100%, 71%;
+    background-position: left 70%, left 70%;
+    background-size: 100%, 73%;
 }
 
 #programRhythm .fig {
@@ -520,30 +524,31 @@ section.show .tab-close {
 }
 
 #concreteCase .hypothese .bg {
-    background-size: 100%, 73%;
+    background-position: left 40%, left 40%;
+    background-size: 100%, 71%;
 }
 
 #concreteCase .fig {
-    top: 15%;
+    top: 80%;
     left: 14%;
 }
 
 #ecosysteme .hypothese .bg {
-    background-size: 100%, 54%;
-}
-
-#ecosysteme .fig {
-    top: 55%;
-    left: 55%;
-}
-
-#project .hypothese .bg {
     background-size: 100%, 62%;
 }
 
-#project .fig {
+#ecosysteme .fig {
     top: 65%;
-    left: 65%;
+    left: 0%;
+}
+
+#project .hypothese .bg {
+    background-size: 100%, 54%;
+}
+
+#project .fig {
+    top: 50%;
+    left: 60%;
 }
 
 .legende {
