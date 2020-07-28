@@ -458,12 +458,12 @@ section.show .tab-close {
 
 #experimental .mini-img,
 #multidisciplinary .mini-img,
-#programRhythm .mini-img,
 #involveAndForm .mini-img,
 #ecosysteme .mini-img {
     height: 400px;
 }
 
+#programRhythm .mini-img,
 #ecosysteme .mini-img {
     height: 450px;
 }

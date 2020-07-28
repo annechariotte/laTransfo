@@ -117,7 +117,6 @@
         background-size: 180px;
     }
 
-    #programRhythm .mini-img,
     #involveAndForm .mini-img,
     #ecosysteme .mini-img {
         height: 250px;
@@ -128,6 +127,10 @@
     #concreteCase .mini-img,
     #project .mini-img {
         height: 300px;
+    }
+
+    #programRhythm .mini-img {
+        height: 350px;
     }
 
     #experimental .hypothese .bg {
@@ -143,7 +146,7 @@
     }
 
     #programRhythm .hypothese .bg {
-        background-size: 114%, 82%;
+        background-size: 125%, 90%;
     }
 
     #involveAndForm .hypothese .bg {
@@ -294,6 +297,10 @@
 
     #multidisciplinary .hypothese .bg {
         background-size: 114%, 75%;
+    }
+
+    #programRhythm .hypothese .bg {
+        background-size: 114%, 82%;
     }
 
     /* / OBSERVATIONS / */
