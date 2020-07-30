@@ -117,14 +117,11 @@
         background-size: 180px;
     }
 
-    #ecosysteme .mini-img {
-        height: 250px;
-    }
-
     #experimental .mini-img,
     #multidisciplinary .mini-img,
     #involveAndForm .mini-img,
     #concreteCase .mini-img,
+    #ecosysteme .mini-img,
     #project .mini-img {
         height: 300px;
     }
@@ -162,15 +159,15 @@
     }
 
     #ecosysteme .hypothese .bg {
-        background-size: 114%, 64%;
+        background-size: 114%, 70%;
     }
 
     #ecosysteme .fig {
-        left: 65%;
+        /* left: 65%; */
     }
 
     #project .hypothese .bg {
-        background-size: 114%, 70%;
+        background-size: 114%, 64%;
     }
 
     #project .fig {
