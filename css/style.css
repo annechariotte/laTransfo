@@ -1196,6 +1196,10 @@ audio {
     margin-left: auto;
 }
 
+.side.definition {
+    max-width: 29%;
+}
+
 .illustrations li {
     text-align: right;
 }
@@ -1236,8 +1240,8 @@ audio {
 }
 
 .about-bg.bottom {
-    padding-top: 40%;
-    padding-bottom: 25%;
+    padding-top: 65%;
+    padding-bottom: 4%;
 }
 
 .contact ul {

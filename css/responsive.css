@@ -119,14 +119,14 @@
 
     #experimental .mini-img,
     #multidisciplinary .mini-img,
-    #involveAndForm .mini-img,
     #concreteCase .mini-img,
-    #ecosysteme .mini-img,
     #project .mini-img {
         height: 300px;
     }
 
-    #programRhythm .mini-img {
+    #involveAndForm .mini-img,
+    #programRhythm .mini-img,
+    #ecosysteme .mini-img {
         height: 350px;
     }
 
@@ -160,10 +160,6 @@
 
     #ecosysteme .hypothese .bg {
         background-size: 114%, 70%;
-    }
-
-    #ecosysteme .fig {
-        /* left: 65%; */
     }
 
     #project .hypothese .bg {
@@ -233,16 +229,17 @@
         color: #1C1B1B;
     }
 
+    /* 
     .general-bg {
         background-position: 50% 20%;
-    }
+    } */
 
     section.illustrations {
         padding-bottom: 0px;
     }
 
     .about-bg.bottom {
-        padding-bottom: 10%;
+        padding-top: 50%;
     }
 
 }
@@ -368,9 +365,9 @@
         padding-bottom: 0;
     }
 
-    .general-bg {
+    /* .general-bg {
         background-position: 50% 40%;
-    }
+    } */
 
     .about-bg {
         background-size: 90%;
@@ -383,13 +380,11 @@
 
     .about-bg.top {
         background-position: 15px 10%;
-        padding-top: 0%;
-        padding-bottom: 35%;
     }
 
     .about-bg.bottom {
-        padding-top: 30%;
-        padding-bottom: 30%;
+        padding-top: 75%;
+        padding-bottom: 14%;
     }
 }
 
@@ -976,17 +971,17 @@
         padding-bottom: 50px;
     }
 
-    .general-bg {
-        background-position: 50% 42%;
-    }
-
     .about-bg {
         background-position: 35px 20px;
         background-size: 85%;
     }
 
+    .about-bg.top {
+        padding-bottom: 35%;
+    }
+
     .about-bg.bottom {
-        padding-bottom: 30%;
+        padding-top: 70%;
     }
 
 }
