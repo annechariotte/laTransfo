@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 1200px) {
 
-    /* INFO-BAND */
+    /* /// INFO-BAND /// */
 
     .marquee-info {
         width: 100%;
@@ -27,16 +27,14 @@
         display: block;
     }
 
-    /* HEADER */
+    /* ///// 7 MECANIQUES ///// */
 
     section.show .tab-close,
     .label p {
         display: none;
     }
 
-    /* 7 MECANIQUES */
-
-    /* OBSERVATIONS */
+    /* ///// OBSERVATIONS ///// */
 
     .post-its p,
     .post-it .strong,
@@ -59,7 +57,7 @@
         padding-bottom: 5px;
     }
 
-    /* /// NAV BAR /// */
+    /* ///// NAV BAR ///// */
 
     .mainNav .nav_links {
         font-size: 16px;
@@ -69,7 +67,7 @@
         display: none;
     }
 
-    /* /// ACCORDION /// */
+    /* ///// ACCORDION ///// */
 
     section>header,
     section.show>header {
@@ -105,9 +103,8 @@
         padding-top: 0px;
     }
 
-    /* /// 7 MECANIQUES /// */
-
-    /* HYPOTHESE */
+    /* ///// 7 MECANIQUES ///// */
+    /* ///// HYPOTHESE ///// */
 
     .legende li {
         font-size: 18px;
@@ -170,16 +167,16 @@
         left: 70%;
     }
 
-    /* / OBSERVATIONS / */
+    /* ///// OBSERVATIONS ///// */
 
-    /* IMG */
+    /* /// IMG /// */
 
     .observations .bg {
         max-width: 415px;
         height: 100% !important;
     }
 
-    /* POST-ITS */
+    /* /// POST-ITS /// */
     .post-it {
         position: initial;
         width: 100%;
@@ -188,7 +185,7 @@
         margin: 0 auto;
     }
 
-    /* LINKS-BOX */
+    /* ///// LINKS-BOX ///// */
     .links-box.video {
         padding: 50px;
     }
@@ -201,7 +198,7 @@
         height: 150px;
     }
 
-    /* ABOUT */
+    /* ///// ABOUT ///// */
     .side,
     .illustrations ul {
         display: none;
@@ -221,18 +218,17 @@
     }
 
     .intro-mobil strong {
-        color: #FF6E29;
         font-weight: bold;
+    }
+
+    .intro-mobil strong:hover {
+        color: #FF6E29;
+        cursor: pointer;
     }
 
     .intro-mobil strong.black {
         color: #1C1B1B;
     }
-
-    /* 
-    .general-bg {
-        background-position: 50% 20%;
-    } */
 
     section.illustrations {
         padding-bottom: 0px;
@@ -254,7 +250,7 @@
         font-size: 56px;
     }
 
-    /* /// ACCORDION /// */
+    /* ///// ACCORDION ///// */
 
     section.show>header {
         display: flex;
@@ -282,8 +278,8 @@
         padding-top: 120px;
     }
 
-    /* /// 7 MECANIQUES /// */
-    /* HYPOTHESE */
+    /* ///// 7 MECANIQUES ///// */
+    /* ///// HYPOTHESE ///// */
 
     .legende li {
         font-size: 20px;
@@ -297,14 +293,14 @@
         background-size: 114%, 82%;
     }
 
-    /* / OBSERVATIONS / */
+    /* ///// OBSERVATIONS ///// */
 
     .observations .bg img#ideation,
     .observations .bg img#laboDunkerque {
         display: none;
     }
 
-    /* POST-ITS */
+    /* /// POST-ITS /// */
     .post-it {
         min-height: 0px;
     }
@@ -350,7 +346,7 @@
         top: 400px;
     }
 
-    /* LINKS-BOX */
+    /* ///// LINKS-BOX ///// */
 
     .temoignages .links-box {
         padding-top: 50px;
@@ -360,14 +356,10 @@
         height: 190px;
     }
 
-    /* ABOUT */
+    /* ///// ABOUT ///// */
     section.illustrations {
         padding-bottom: 0;
     }
-
-    /* .general-bg {
-        background-position: 50% 40%;
-    } */
 
     .about-bg {
         background-size: 90%;
@@ -412,7 +404,7 @@
         padding-right: 15px;
     }
 
-    /* /// NAV-BAR /// */
+    /* ///// NAV-BAR ///// */
 
     .mainNav nav {
         height: 110px;
@@ -429,7 +421,6 @@
 
     .mainNav .nav_links {
         height: 10px;
-        /* margin: 0 auto; */
         white-space: nowrap;
     }
 
@@ -441,7 +432,7 @@
         max-width: 500px;
     }
 
-    /* /// ACCORDION /// */
+    /* ///// ACCORDION ///// */
 
     .tabs {
         padding-top: 140px;
@@ -461,7 +452,7 @@
         top: 140px;
     }
 
-    /* /// 7 MECANIQUES /// */
+    /* ///// 7 MECANIQUES ///// */
 
     .sheet {
         font-size: 24px;
@@ -471,7 +462,7 @@
         padding-bottom: 100px;
     }
 
-    /* TITLE-BOX */
+    /* /// TITLE-BOX /// */
 
     .cousins .title-box div {
         display: none;
@@ -498,7 +489,7 @@
         font-size: 14px;
     }
 
-    /* HYPOTHESE */
+    /* ///// HYPOTHESE ///// */
     .legende {
         margin-bottom: 50px;
     }
@@ -508,7 +499,7 @@
         font-size: 35px;
     }
 
-    /* OBSERVATIONS */
+    /* ///// OBSERVATIONS ///// */
 
     .legende a {
         color: #FF6E29;
@@ -519,7 +510,7 @@
         text-align: left;
     }
 
-    /* IMG */
+    /* /// IMG /// */
 
     .observations .bg {
         height: 100% !important;
@@ -531,7 +522,7 @@
         margin-bottom: -5px;
     }
 
-    /* POST-IT */
+    /* /// POST-IT /// */
 
     .post-it .subtitle,
     .post-it .strong {
@@ -553,7 +544,13 @@
         line-height: 1.2;
     }
 
-    /* LINKS-BOX */
+    /* ///// CHALLENGE ///// */
+
+    .challenge span {
+        width: 62px;
+    }
+
+    /* /// LINKS-BOX /// */
 
     .links-box {
         background-image: none !important;
@@ -568,7 +565,7 @@
         max-width: 380px;
     }
 
-    /* /// ABOUT /// */
+    /* ///// ABOUT ///// */
 
     .label {
         margin-top: 110px;
@@ -607,7 +604,7 @@
         padding-right: 35px;
     }
 
-    /* /// NAV BAR /// */
+    /* ///// NAV BAR ///// */
 
     .mainNav .nav_links {
         font-size: 16px;
@@ -617,10 +614,10 @@
         padding-left: 15px;
     }
 
-    /* /// ACCORDION /// */
+    /* ///// ACCORDION ///// */
 
-    /* /// 7 MECANIQUES /// */
-    /* TITLE-BOX */
+    /* ///// 7 MECANIQUES ///// */
+    /* /// TITLE-BOX /// */
 
     .cousins .title-box div {
         display: none;
@@ -633,13 +630,13 @@
         width: 100%;
     }
 
-    /* / OBSERVATIONS / */
+    /* ///// OBSERVATIONS ///// */
 
     .legende a {
         color: #FF6E29;
     }
 
-    /* IMG */
+    /* /// IMG /// */
 
     .observations .bg img,
     #programRhythm .observations .bg img,
@@ -720,7 +717,7 @@
         top: 1240px;
     }
 
-    /* CC */
+    /* CONCRETE CASE */
     #concreteCase .observations .bg {
         height: 2200px;
     }
@@ -777,7 +774,7 @@
         top: 490px;
     }
 
-    /* POST-IT */
+    /* /// POST-IT /// */
 
     .post-it {
         width: 340px;
@@ -881,7 +878,7 @@
         top: 1370px;
     }
 
-    /* CC */
+    /* CONCRETE CASE */
     #metz {
         top: 320px;
         left: -2%;
@@ -946,7 +943,12 @@
         right: 0px;
     }
 
-    /* / LINKS-BOX / */
+    /* ///// CHALLENGE ///// */
+    .challenge span {
+        width: 70px;
+    }
+
+    /* /// LINKS-BOX /// */
 
     .links-box {
         background-size: 120px;
@@ -966,7 +968,7 @@
         height: 250px;
     }
 
-    /* / ABOUT / */
+    /* ///// ABOUT ///// */
     section.illustrations {
         padding-bottom: 50px;
     }
@@ -992,10 +994,10 @@
         font-size: 75px;
     }
 
-    /* /// 7 MECANIQUES /// */
+    /* ///// 7 MECANIQUES ///// */
 
-    /* / OBSERVATIONS / */
-    /* IMG */
+    /* ///// OBSERVATIONS ///// */
+    /* /// IMG /// */
     /* EXPERIMENTAL */
     #experimental .observations .bg {
         height: 1000px;
@@ -1040,7 +1042,7 @@
         top: 1070px;
     }
 
-    /* CC */
+    /* CONCRETE CASE */
     #concreteCase .observations .bg {
         height: 2200px;
     }
@@ -1102,7 +1104,7 @@
         top: 1040px;
     }
 
-    /* POST-IT */
+    /* /// POST-IT /// */
 
     .post-it {
         width: 380px;
@@ -1188,7 +1190,7 @@
         top: 1320px;
     }
 
-    /* CC */
+    /* CONCRETE CASE */
     #metz {
         top: 300px;
     }

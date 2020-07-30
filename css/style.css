@@ -684,7 +684,7 @@ section.show .tab-close {
     z-index: 0;
 }
 
-/* CC */
+/* CONCRETECASE */
 #concreteCase .observations .bg {
     height: 2500px;
 }
@@ -720,7 +720,7 @@ section.show .tab-close {
     left: 0%;
 }
 
-/* E */
+/* ECOSYSTEM */
 #ecosysteme .observations .bg {
     height: 1300px;
 }
@@ -948,7 +948,7 @@ section.show .tab-close {
     left: 24%;
 }
 
-/*  CC */
+/*  CONCRETE CASE */
 
 #metz {
     top: 370px;
@@ -980,7 +980,7 @@ section.show .tab-close {
     right: 2%;
 }
 
-/* E */
+/* ECOSYSTEM */
 
 #ecosystem {
     top: 50px;
@@ -1034,6 +1034,20 @@ section.show .tab-close {
 
 .enseignements h3+p {
     margin: 0;
+}
+
+/*///// ENSEIGNEMENTS /////*/
+
+.challenge span {
+    display: inline-block;
+    font-family: "misobold", sans-serif;
+    text-transform: uppercase;
+    color: #FF6E29;
+    width: 80px;
+}
+
+#programRhythm .challenge span {
+    width: auto;
 }
 
 /*///// DASHED-BOXES ( VARIATIONS - OUTILS - TEMOIGNAGES ) /////*/
