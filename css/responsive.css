@@ -117,13 +117,13 @@
         background-size: 180px;
     }
 
-    #involveAndForm .mini-img,
     #ecosysteme .mini-img {
         height: 250px;
     }
 
     #experimental .mini-img,
     #multidisciplinary .mini-img,
+    #involveAndForm .mini-img,
     #concreteCase .mini-img,
     #project .mini-img {
         height: 300px;
@@ -150,7 +150,7 @@
     }
 
     #involveAndForm .hypothese .bg {
-        background-size: 114%, 67%;
+        background-size: 118%, 70%;
     }
 
     #concreteCase .hypothese .bg {

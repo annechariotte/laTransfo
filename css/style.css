@@ -514,13 +514,12 @@ section.show .tab-close {
 }
 
 #involveAndForm .hypothese .bg {
-    background-position: left 100%, left 100%;
     background-size: 100%, 60%;
 }
 
 #involveAndForm .fig {
     top: 25%;
-    left: 14%;
+    left: 10%;
 }
 
 #concreteCase .hypothese .bg {
