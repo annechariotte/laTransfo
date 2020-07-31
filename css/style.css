@@ -418,8 +418,7 @@ section.show .tab-close {
 
 .subtitle,
 .post-it .strong,
-.enseignements ul strong,
-.variations-box li {
+.enseignements ul strong {
     font-style: italic;
     font-weight: bold;
 }
@@ -641,13 +640,13 @@ section.show .tab-close {
 }
 
 .observations .bg img#timeline {
-    top: 0px;
+    top: 50px;
     left: 0%;
     z-index: 0;
 }
 
 #rhythmExercice {
-    top: 460px;
+    top: 500px;
     right: 0%;
 }
 
@@ -792,7 +791,7 @@ section.show .tab-close {
 
 .post-it .subtitle,
 .post-it .strong {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .post-its ul,
@@ -901,18 +900,18 @@ section.show .tab-close {
 
 /* PROGRAM-RHYTHM */
 
-#workTime {
-    top: 40px;
+#intervention {
+    top: 0px;
     right: 24%;
 }
 
-#co-construction {
+#workTime {
     top: 210px;
     right: 2%;
 }
 
-#pedagogy {
-    top: 530px;
+#adjustements {
+    top: 560px;
     left: 2%;
 }
 
@@ -1052,25 +1051,13 @@ section.show .tab-close {
 
 /*///// DASHED-BOXES ( VARIATIONS - OUTILS - TEMOIGNAGES ) /////*/
 
-.variations-box {
-    margin-top: 100px;
-}
-
-.variations-box li {
-    margin-top: 12px;
-}
-
-.links-box,
-.variations-box {
-    width: 100%;
-    padding: 50px;
-    outline: 2px dashed #1C1B1B;
-}
-
 .links-box {
     background-size: 160px;
     background-position: 5% 50%, 95% 50%;
     text-align: center;
+    width: 100%;
+    padding: 50px;
+    outline: 2px dashed #1C1B1B;
 }
 
 .temoignages .links-box {

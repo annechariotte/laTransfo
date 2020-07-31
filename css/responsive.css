@@ -526,7 +526,7 @@
 
     .post-it .subtitle,
     .post-it .strong {
-        font-size: 16px;
+        font-size: 14px;
     }
 
     .post-its ul,
@@ -556,8 +556,7 @@
         background-image: none !important;
     }
 
-    .links-box,
-    .variations-box {
+    .links-box {
         padding: 20px;
     }
 
@@ -683,11 +682,11 @@
 
     /* PROGRAM-RHYTHM */
     #programRhythm .observations .bg {
-        height: 760px;
+        height: 850px;
     }
 
     #rhythmExercice {
-        top: 420px;
+        top: 500px;
         right: -5%;
     }
 
@@ -835,17 +834,17 @@
     }
 
     /* PROGRAM-RHYTHM */
-    #workTime {
-        top: 20px;
-        right: 12%;
+    #intervention {
+        top: -20px;
+        right: 15%;
     }
 
-    #co-construction {
+    #workTime {
         top: 180px;
     }
 
-    #pedagogy {
-        top: 390px;
+    #adjustements {
+        top: 450px;
         left: -2%;
     }
 
@@ -910,8 +909,8 @@
 
     /* ECOSYSTEM */
     #ecosystem {
-        top: -30px;
-        right: 2%;
+        top: 560px;
+        left: 2%;
     }
 
     #actors {
@@ -1022,11 +1021,11 @@
 
     /* PROGRAM-RHYTHM */
     #programRhythm .observations .bg {
-        height: 850px;
+        height: 900px;
     }
 
     #rhythmExercice {
-        top: 420px;
+        top: 480px;
     }
 
     /* INVOLVE AND FORM */
@@ -1060,7 +1059,6 @@
     }
 
     #dunkerqueCase {
-        top: 1500px;
         right: 0%;
     }
 
@@ -1152,15 +1150,15 @@
     }
 
     /* PROGRAM-RHYTHM */
+    #intervention {
+        top: 0px;
+    }
+
     #workTime {
-        top: 20px;
+        top: 210px;
     }
 
-    #co-construction {
-        top: 180px;
-    }
-
-    #pedagogy {
+    #adjustements {
         top: 500px;
     }
 
