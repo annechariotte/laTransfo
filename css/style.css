@@ -662,25 +662,24 @@ section.show .tab-close {
 }
 
 #immersion {
-    top: 270px;
-    right: -9%;
+    top: 550px;
+    right: 9%;
 }
 
 .observations .bg img#ideation {
-    top: 510px;
-    right: 9%;
+    top: 50px;
+    right: -3%;
     z-index: 0;
 }
 
 #ambassadors {
-    top: 950px;
-    left: 3%;
+    top: 1000px;
+    left: 5%;
 }
 
 .observations .bg img#creation {
-    top: 1280px;
-    right: 0%;
-    z-index: 0;
+    top: 1330px;
+    right: 8%;
 }
 
 /* CONCRETECASE */
@@ -918,33 +917,23 @@ section.show .tab-close {
 /* INVOLVE AND FORM */
 
 #secondCircle {
-    top: 160px;
-    right: 33%;
+    top: 860px;
+    right: 3%;
 }
 
 #superior {
-    top: -10px;
-    right: 4%;
+    top: 600px;
+    left: 2%;
 }
 
 #openGroup {
-    top: 635px;
-    left: -1%;
+    top: 1360px;
+    left: 11%;
 }
 
 #semi-pro {
-    top: 930px;
-    right: 2%;
-}
-
-#collectif {
-    top: 1280px;
-    left: 5%;
-}
-
-#formation {
-    top: 1520px;
-    left: 24%;
+    top: 150px;
+    left: 35%;
 }
 
 /*  CONCRETE CASE */

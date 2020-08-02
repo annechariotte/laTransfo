@@ -695,25 +695,23 @@
         height: 1600px;
     }
 
-    .observations .bg img.cohesion {
+    #involveAndForm .observations .bg img.cohesion {
         width: 45%;
     }
 
     #immersion {
-        top: 410px;
-    }
-
-    .observations .bg img#ideation {
-        top: 570px;
+        top: 500px;
+        right: -4%;
     }
 
     #ambassadors {
-        top: 890px;
-        left: 1%;
+        top: 930px;
+        left: 0%;
     }
 
     .observations .bg img#creation {
-        top: 1240px;
+        top: 1300px;
+        right: 0%;
     }
 
     /* CONCRETE CASE */
@@ -849,32 +847,24 @@
     }
 
     /* INVOLVE AND FORM */
+    #semi-pro {
+        top: 210px;
+        z-index: 1;
+    }
+
     #secondCircle {
-        top: 180px;
-        right: 2%;
-        z-index: 3;
+        top: 740px;
+        right: 1%;
     }
 
     #superior {
-        top: -20px;
-        right: 14%;
+        top: 430px;
+        left: 5%;
     }
 
     #openGroup {
-        top: 525px;
-    }
-
-    #semi-pro {
-        top: 960px;
-    }
-
-    #collectif {
-        top: 1120px;
-    }
-
-    #formation {
-        left: 14%;
-        top: 1370px;
+        top: 1170px;
+        left: -1%;
     }
 
     /* CONCRETE CASE */
@@ -1030,15 +1020,20 @@
 
     /* INVOLVE AND FORM */
     #involveAndForm .observations .bg {
-        height: 1500px;
+        height: 1550px;
+    }
+
+    #immersion {
+        top: 460px;
+        right: 10%;
     }
 
     #ambassadors {
-        top: 840px;
+        top: 900px;
     }
 
     .observations .bg img#creation {
-        top: 1070px;
+        top: 1230px;
     }
 
     /* CONCRETE CASE */
@@ -1164,28 +1159,19 @@
 
     /* INVOLVE AND FORM */
     #secondCircle {
-        top: 160px;
-        z-index: 3;
+        top: 720px;
     }
 
     #superior {
-        top: -40px;
+        top: 480px;
     }
 
     #openGroup {
-        top: 575px;
+        top: 1175px;
     }
 
     #semi-pro {
-        top: 790px;
-    }
-
-    #collectif {
-        top: 1080px;
-    }
-
-    #formation {
-        top: 1320px;
+        top: 130px;
     }
 
     /* CONCRETE CASE */
