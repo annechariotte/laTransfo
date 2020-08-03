@@ -50,11 +50,25 @@
 @media screen and (max-width: 599px) {
     .h1 {
         padding-left: 0px;
-        font-size: 52px;
+        font-size: 50px;
         line-height: 55px;
         width: 370px;
         padding-top: 5px;
         padding-bottom: 5px;
+    }
+
+    #experimental .h1 {
+        width: 390px;
+    }
+
+    .marquee-content .fixed {
+        min-height: 110px;
+        display: inline-flex;
+        align-items: center;
+    }
+
+    section.show .marquee-content .fixed {
+        min-height: auto;
     }
 
     /* ///// NAV BAR ///// */

@@ -182,6 +182,11 @@ article {
     transition: all 0.7s;
 }
 
+.mainNav .nav_links img {
+    width: 21px;
+    padding-top: 4px;
+}
+
 /* INFO BAND */
 
 .information {
@@ -1273,4 +1278,25 @@ audio {
     margin-bottom: 70px;
 }
 
-/*///// COUSINS /////*/
+/*///// FOOTER /////*/
+
+footer {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+footer a {
+    display: inline-block;
+    margin: 30px;
+    text-decoration: none;
+    color: #F8F8F8;
+}
+
+footer:hover {
+    cursor: pointer;
+}
+
+footer a:hover {
+    color: #FF6E29;
+}
