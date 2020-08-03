@@ -182,7 +182,7 @@ article {
     transition: all 0.7s;
 }
 
-.mainNav .nav_links img {
+.flag {
     width: 21px;
     padding-top: 4px;
 }
