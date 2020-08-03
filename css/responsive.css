@@ -273,11 +273,15 @@
     }
 
     section.show>header .h1 {
-        font-size: 52px;
+        font-size: 50px;
         line-height: 55px;
         width: 370px;
         padding-top: 5px;
         padding-bottom: 5px;
+    }
+
+    section.show #experimental .h1 {
+        width: 390px;
     }
 
     section.show>header>.header-content,
