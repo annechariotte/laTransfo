@@ -741,7 +741,7 @@ section.show .tab-close {
 /* PROJECT */
 
 #project .observations .bg {
-    height: 1500px;
+    height: 1800px;
 }
 
 #prefiguration {
@@ -749,20 +749,27 @@ section.show .tab-close {
     left: 0%;
 }
 
+#laboDesk {
+    top: 570px;
+    right: 11%;
+    z-index: 0;
+}
+
 .observations .bg img#laboDunkerque {
-    top: 400px;
-    right: -5%;
+    top: 120px;
+    right: -8%;
     z-index: 0;
 }
 
 #parisLetter {
-    top: 780px;
-    left: 8%;
+    z-index: 0;
+    top: 1000px;
+    left: 0%;
 }
 
 #laboMetz {
-    top: 1110px;
-    right: 17%;
+    top: 1410px;
+    right: 8%;
 }
 
 /* / POST-ITS / */
@@ -916,22 +923,22 @@ section.show .tab-close {
 
 /* INVOLVE AND FORM */
 
-#secondCircle {
+#groups {
     top: 860px;
     right: 3%;
 }
 
-#superior {
+#diversity {
     top: 600px;
     left: 2%;
 }
 
-#openGroup {
+#focus {
     top: 1360px;
     left: 11%;
 }
 
-#semi-pro {
+#trajectory {
     top: 150px;
     left: 35%;
 }
@@ -993,18 +1000,18 @@ section.show .tab-close {
 /* PROJECT */
 
 #iterations {
-    top: 0px;
-    right: 5%;
+    top: 470px;
+    left: 5%;
 }
 
 #involvement {
-    top: 300px;
-    left: 2%;
+    top: 1010px;
+    right: 2%;
 }
 
 #exception {
-    top: 970px;
-    right: 2%;
+    top: 1500px;
+    left: 2%;
 }
 
 /*///// ENSEIGNEMENTS /////*/

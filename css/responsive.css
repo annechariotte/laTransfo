@@ -332,7 +332,7 @@
     }
 
     /* INVOLVE AND FORM */
-    #superior {
+    #diversity {
         top: 370px;
     }
 
@@ -344,6 +344,10 @@
     /* PROJECT */
     #involvement {
         top: 400px;
+    }
+
+    #iterations {
+        top: 770px;
     }
 
     /* ///// LINKS-BOX ///// */
@@ -755,20 +759,26 @@
 
     /* PROJECT */
     #project .observations .bg {
-        height: 1500px;
+        height: 1650px;
+    }
+
+    #laboDesk {
+        top: 540px;
+        right: 7%;
     }
 
     #laboMetz {
-        top: 1270px;
+        top: 1420px;
+        right: -1%;
     }
 
     #parisLetter {
-        top: 970px;
-        left: -4%;
+        top: 890px;
     }
 
     .observations .bg img#laboDunkerque {
-        top: 490px;
+        top: 170px;
+        right: -14%;
     }
 
     /* /// POST-IT /// */
@@ -847,22 +857,22 @@
     }
 
     /* INVOLVE AND FORM */
-    #semi-pro {
+    #trajectory {
         top: 210px;
         z-index: 1;
     }
 
-    #secondCircle {
+    #groups {
         top: 740px;
         right: 1%;
     }
 
-    #superior {
+    #diversity {
         top: 430px;
         left: 5%;
     }
 
-    #openGroup {
+    #focus {
         top: 1170px;
         left: -1%;
     }
@@ -920,16 +930,18 @@
 
     /* PROJECT */
     #iterations {
-        right: -2%;
+        top: 360px;
+        left: 2%;
     }
 
     #involvement {
-        top: 380px;
+        top: 860px;
+        right: 1%;
     }
 
     #exception {
-        top: 930px;
-        right: 0px;
+        top: 1250px;
+        left: -2%;
     }
 
     /* ///// CHALLENGE ///// */
@@ -1081,20 +1093,20 @@
 
     /* PROJECT */
     #project .observations .bg {
-        height: 1400px;
+        height: 1600px;
+    }
+
+    #laboDesk {
+        top: 520px;
+        right: 8%;
     }
 
     #parisLetter {
-        top: 730px;
-        left: 4%;
-    }
-
-    .observations .bg img#laboDunkerque {
-        top: 360px;
+        top: 930px;
     }
 
     #laboMetz {
-        top: 1040px;
+        top: 1290px;
     }
 
     /* /// POST-IT /// */
@@ -1158,19 +1170,19 @@
     }
 
     /* INVOLVE AND FORM */
-    #secondCircle {
+    #groups {
         top: 720px;
     }
 
-    #superior {
+    #diversity {
         top: 480px;
     }
 
-    #openGroup {
+    #focus {
         top: 1175px;
     }
 
-    #semi-pro {
+    #trajectory {
         top: 130px;
     }
 
@@ -1215,7 +1227,15 @@
     }
 
     /* PROJECT */
+    #iterations {
+        top: 410px;
+    }
+
+    #involvement {
+        top: 860px;
+    }
+
     #exception {
-        top: 870px;
+        top: 1300px;
     }
 }
