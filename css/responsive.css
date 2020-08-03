@@ -324,39 +324,115 @@
     }
 
     /* EXPERIMENTAL */
-    #inter-collectivites {
-        top: 430px;
+
+    #contrat {
+        top: -35px;
     }
 
-    #coordination {
-        top: 570px;
+    #adhesion {
+        top: 660px;
+    }
+
+    #co-financement {
+        top: 310px;
     }
 
     /* PLURIDISCIPLINARY */
-    #multidisciplinary .post-it {
-        transform: translate(0px, 250px);
+    #design {
+        top: 44px;
+        right: 0%;
     }
 
     #coaching {
-        top: 410px;
+        top: 340px;
+        right: 36%;
+        z-index: 0;
     }
 
     #sociology {
-        top: 630px;
+        top: 720px;
+        left: 28%;
     }
 
     #politics {
-        top: 930px;
+        top: 1220px;
+        right: 22%;
+    }
+
+    #education {
+        top: 1620px;
+        left: 39%;
+    }
+
+    /* RHYTHM */
+    #intervention {
+        right: -5%;
+    }
+
+    #workTime {
+        top: 330px;
+    }
+
+    #adjustements {
+        left: 42%;
     }
 
     /* INVOLVE AND FORM */
+    #groups {
+        top: 710px;
+        right: 40%;
+    }
+
     #diversity {
         top: 370px;
     }
 
+    #focus {
+        top: 1490px;
+        left: -3%;
+    }
+
+    /* CAS CONCRETS */
+
+    #metz {
+        top: 140px;
+        left: 26%;
+    }
+
+    #lille {
+        top: 440px;
+    }
+
+    #mulhouseButchers {
+        top: 910px;
+        right: 40%;
+    }
+
+    #strasbourg {
+        top: 1130px;
+    }
+
+    #dunkerque {
+        top: 2120px;
+        right: 37%;
+    }
+
     /* ECOSYSTEM */
+    #ecosystem {
+        right: -4%;
+    }
+
+    #actors {
+        top: 280px;
+        z-index: 0;
+    }
+
     #grand-est {
-        top: 700px;
+        top: 750px;
+    }
+
+    #newProject {
+        top: 1100px;
     }
 
     /* PROJECT */
@@ -365,7 +441,13 @@
     }
 
     #iterations {
-        top: 770px;
+        top: 750px;
+        left: -1%;
+    }
+
+    #exception {
+        top: 1270px;
+        left: 42%;
     }
 
     /* ///// LINKS-BOX ///// */
