@@ -70,10 +70,18 @@ function displayTab(tab, header) {
             }
 
             let tabMaxOffset;
-            if (tab == tabs[2]) {
-                tabMaxOffset = 4500;
+            if (window.matchMedia("(max-width: 759px)").matches) {
+                if (tab == tabs[2]) {
+                    tabMaxOffset = 3200;
+                } else {
+                    tabMaxOffset = 4200;
+                }
             } else {
-                tabMaxOffset = 5200;
+                if (tab == tabs[2]) {
+                    tabMaxOffset = 4500;
+                } else {
+                    tabMaxOffset = 5200;
+                }
             }
 
             // fixer le header si il est situé entre sa position Y initiale et le prochain header
