@@ -201,11 +201,7 @@
 
     /* ///// LINKS-BOX ///// */
     .links-box.video {
-        padding: 50px;
-    }
-
-    .temoignages .links-box {
-        padding: 20px 30px 50px 30px;
+        padding-top: 20px;
     }
 
     iframe {
@@ -330,7 +326,7 @@
     }
 
     #adhesion {
-        top: 660px;
+        left: 5%;
     }
 
     #co-financement {
@@ -360,7 +356,7 @@
     }
 
     #education {
-        top: 1620px;
+        top: 1500px;
         left: 39%;
     }
 
@@ -385,6 +381,7 @@
 
     #diversity {
         top: 370px;
+        left: 20%;
     }
 
     #focus {
@@ -413,7 +410,7 @@
     }
 
     #dunkerque {
-        top: 2120px;
+        top: 1960px;
         right: 37%;
     }
 
@@ -432,7 +429,7 @@
     }
 
     #newProject {
-        top: 1100px;
+        top: 1060px;
     }
 
     /* PROJECT */
@@ -452,8 +449,8 @@
 
     /* ///// LINKS-BOX ///// */
 
-    .temoignages .links-box {
-        padding-top: 50px;
+    .temoignages .links-box.video {
+        padding: 20px 95px;
     }
 
     iframe {
@@ -542,6 +539,10 @@
         padding-top: 140px;
     }
 
+    section.show .tab-content {
+        padding-bottom: 70px;
+    }
+
     .h1,
     .marquee .h1 {
         padding-left: 15px;
@@ -560,10 +561,7 @@
 
     .sheet {
         font-size: 24px;
-    }
-
-    article {
-        padding-bottom: 100px;
+        padding-bottom: 30px;
     }
 
     /* /// TITLE-BOX /// */
@@ -581,7 +579,7 @@
 
     .title-box {
         align-items: center;
-        margin-bottom: 50px;
+        margin: 70px 0;
     }
 
     .title-box h2 {
@@ -662,6 +660,14 @@
 
     .links-box {
         padding: 20px;
+    }
+
+    .temoignages .links-box {
+        padding: 20px;
+    }
+
+    #involveAndForm .links-box.video {
+        margin-top: 70px;
     }
 
     iframe {
@@ -749,7 +755,7 @@
 
     /* EXPERIMENTAL */
     #experimental .observations .bg {
-        height: 900px;
+        height: 960px;
     }
 
     #intertransfo {
@@ -757,13 +763,13 @@
     }
 
     #studyTrip {
-        top: 420px;
+        top: 450px;
         right: -3%;
     }
 
     /* PLURIDISCIPLINARY */
     #multidisciplinary .observations .bg {
-        height: 1500px;
+        height: 1540px;
     }
 
     #designProto {
@@ -796,7 +802,7 @@
 
     /* INVOLVE AND FORM */
     #involveAndForm .observations .bg {
-        height: 1600px;
+        height: 1630px;
     }
 
     #involveAndForm .observations .bg img.cohesion {
@@ -820,7 +826,7 @@
 
     /* CONCRETE CASE */
     #concreteCase .observations .bg {
-        height: 2200px;
+        height: 2230px;
     }
 
     .observations .bg img#strasbourgCase {
@@ -859,7 +865,7 @@
 
     /* PROJECT */
     #project .observations .bg {
-        height: 1650px;
+        height: 1690px;
     }
 
     #laboDesk {
@@ -907,17 +913,18 @@
     }
 
     #inter-collectivites {
-        top: 410px;
-        left: 3%;
+        top: 390px;
+        left: 2%;
     }
 
     #coordination {
-        top: 710px;
-        left: 47%;
+        top: 550px;
+        left: -2%;
     }
 
     #adhesion {
-        top: 600px;
+        top: 680px;
+        left: 20%;
     }
 
     /* PLURIDISCIPLINARY */
@@ -1101,12 +1108,12 @@
     /* /// IMG /// */
     /* EXPERIMENTAL */
     #experimental .observations .bg {
-        height: 1000px;
+        height: 970px;
     }
 
     /* PLURIDISCIPLINARY */
     #multidisciplinary .observations .bg {
-        height: 1400px;
+        height: 1430px;
     }
 
     #designProto {
@@ -1123,7 +1130,7 @@
 
     /* PROGRAM-RHYTHM */
     #programRhythm .observations .bg {
-        height: 900px;
+        height: 910px;
     }
 
     #rhythmExercice {
@@ -1132,7 +1139,7 @@
 
     /* INVOLVE AND FORM */
     #involveAndForm .observations .bg {
-        height: 1550px;
+        height: 1600px;
     }
 
     #immersion {
@@ -1150,7 +1157,7 @@
 
     /* CONCRETE CASE */
     #concreteCase .observations .bg {
-        height: 2200px;
+        height: 2210px;
     }
 
     #metzCase {
@@ -1175,7 +1182,7 @@
 
     /* ECOSYSTEM */
     #ecosysteme .observations .bg {
-        height: 1100px;
+        height: 1130px;
     }
 
     #lilleInspiration {
@@ -1193,7 +1200,7 @@
 
     /* PROJECT */
     #project .observations .bg {
-        height: 1600px;
+        height: 1660px;
     }
 
     #laboDesk {
@@ -1226,12 +1233,12 @@
     }
 
     #adhesion {
-        top: 590px;
+        top: 690px;
+        left: 19%;
     }
 
     #coordination {
-        top: 720px;
-        left: 41%;
+        top: 560px;
     }
 
     /* PLURIDISCIPLINARY */

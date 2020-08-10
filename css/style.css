@@ -117,10 +117,6 @@ ul {
     max-width: 840px;
 }
 
-article {
-    padding-bottom: 150px;
-}
-
 /* ////////////////////// HEADER ////////////////////// */
 
 /* NAVBAR */
@@ -288,6 +284,7 @@ section.show header:hover span {
 
 section.show .tab-content {
     max-height: 2200vh;
+    padding-bottom: 100px;
 }
 
 /* MARQUEE */
@@ -378,12 +375,13 @@ section.show .tab-close {
     display: flex;
     border-top: 2px solid;
     border-bottom: 2px solid;
-    margin-bottom: 100px;
+    margin: 100px 0;
     padding: 15px 0;
 }
 
 .title-box.first {
     border-top: none;
+    margin-top: 0;
 }
 
 .title-box div {
@@ -474,6 +472,11 @@ section.show .tab-close {
 
 .hypothese .bg {
     position: relative;
+}
+
+.hypothese p,
+.challenge p {
+    margin-bottom: 0;
 }
 
 .hypothese span {
@@ -596,7 +599,7 @@ section.show .tab-close {
 
 /* EXPERIMENTAL */
 #experimental .observations .bg {
-    height: 1100px;
+    height: 1060px;
 }
 
 #intertransfo {
@@ -637,7 +640,7 @@ section.show .tab-close {
 
 /* PROGRAM-RHYTHM */
 #programRhythm .observations .bg {
-    height: 1000px;
+    height: 1040px;
 }
 
 #programRhythm .observations .bg img {
@@ -657,7 +660,7 @@ section.show .tab-close {
 
 /* INVOLVE AND FORM */
 #involveAndForm .observations .bg {
-    height: 1750px;
+    height: 1800px;
 }
 
 .observations .bg img.cohesion {
@@ -689,7 +692,7 @@ section.show .tab-close {
 
 /* CONCRETECASE */
 #concreteCase .observations .bg {
-    height: 2500px;
+    height: 2460px;
 }
 
 #metzCase {
@@ -714,7 +717,7 @@ section.show .tab-close {
 }
 
 #dunkerqueCase {
-    top: 1670px;
+    top: 1630px;
     right: 5%;
 }
 
@@ -725,7 +728,7 @@ section.show .tab-close {
 
 /* ECOSYSTEM */
 #ecosysteme .observations .bg {
-    height: 1300px;
+    height: 1240px;
 }
 
 #lilleInspiration {
@@ -746,11 +749,11 @@ section.show .tab-close {
 /* PROJECT */
 
 #project .observations .bg {
-    height: 1800px;
+    height: 1870px;
 }
 
 #prefiguration {
-    top: 50px;
+    top: 0px;
     left: 0%;
 }
 
@@ -873,13 +876,13 @@ section.show .tab-close {
 }
 
 #coordination {
-    top: 820px;
-    left: 35%;
+    top: 650px;
+    left: 2%;
 }
 
 #adhesion {
-    top: 690px;
-    left: -1%;
+    top: 780px;
+    left: 23%;
 }
 
 /* PLURIDISCIPLINARY */
@@ -961,7 +964,7 @@ section.show .tab-close {
 }
 
 #mulhouseButchers {
-    top: 1180px;
+    top: 1140px;
     right: 20%;
 }
 
@@ -971,7 +974,7 @@ section.show .tab-close {
 }
 
 #parisTree {
-    top: 1610px;
+    top: 1570px;
     left: 11%;
 }
 
@@ -1057,23 +1060,32 @@ section.show .tab-close {
     background-position: 5% 50%, 95% 50%;
     text-align: center;
     width: 100%;
-    padding: 50px;
+    padding: 50px 95px;
     outline: 2px dashed #1C1B1B;
+}
+
+#project .links-box p {
+    max-width: 400px;
+    margin: 18px auto;
+}
+
+.links-box a {
+    text-decoration: none;
+    line-height: 24px;
+    color: #FF6E29;
+}
+
+.links-box a:hover {
+    font-weight: bold;
 }
 
 .temoignages .links-box {
     background-size: 140px;
 }
 
-.links-box.audio {
-    padding: 95px;
-    padding-top: 50px;
-}
-
 .links-box.video {
     background-position: 21% 40px, 78% 40px;
     background-size: 180px;
-    padding: 95px;
     padding-top: 160px;
 }
 
@@ -1083,11 +1095,14 @@ section.show .tab-close {
 
 .links-box figure {
     z-index: 0;
-    padding-top: 30px;
-    margin: 0 auto;
+    margin: 30px auto;
 }
 
-.links-box figcaption {
+.links-box figcaption,
+.links-box .figcaption {
+    display: inline-block;
+    line-height: 24px;
+    min-width: 300px;
     color: #FF6E29;
     padding-bottom: 20px;
 }
@@ -1105,16 +1120,6 @@ audio {
     background: #403b3b;
     padding: 5px;
     border-radius: 30px;
-}
-
-.links-box a {
-    text-decoration: none;
-    line-height: 24px;
-    color: #FF6E29;
-}
-
-.links-box a:hover {
-    font-weight: bold;
 }
 
 :focus {
@@ -1156,12 +1161,9 @@ audio {
     color: #1C1B1B;
 }
 
-.main-intro {
-    padding-bottom: 100px;
-}
-
 .intro {
     padding-bottom: 50px;
+    margin: 0;
 }
 
 .intro a {
@@ -1174,21 +1176,16 @@ audio {
     font-weight: bold;
 }
 
+.partners .intro a:hover {
+    letter-spacing: -0.5px;
+}
+
 /*///// ABOUT /////*/
 
 .about .content,
 .faq .content,
 .cousins .content {
-    padding-top: 180px;
-}
-
-.about article,
-.faq article {
-    padding-bottom: 0px;
-}
-
-.about section {
-    padding-bottom: 100px;
+    padding: 180px 0;
 }
 
 .side {
@@ -1246,6 +1243,10 @@ audio {
     padding-bottom: 4%;
 }
 
+.contact .title-box {
+    margin-top: 150px;
+}
+
 .contact ul {
     display: flex;
     justify-content: flex-end;
@@ -1274,8 +1275,10 @@ audio {
 
 /*///// CONTACT /////*/
 
-.faq .links-box {
-    margin-bottom: 70px;
+/*///// COUSINS /////*/
+
+.main-intro p {
+    margin-bottom: 0;
 }
 
 /*///// FOOTER /////*/

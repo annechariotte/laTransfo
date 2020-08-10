@@ -78,7 +78,7 @@ function displayTab(tab, header) {
                 }
             } else {
                 if (tab == tabs[2]) {
-                    tabMaxOffset = 4500;
+                    tabMaxOffset = 4200;
                 } else {
                     tabMaxOffset = 5200;
                 }
