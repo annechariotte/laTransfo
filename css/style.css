@@ -388,7 +388,7 @@ section.show .tab-close {
     width: 40%
 }
 
-.cousins .title-box div {
+#cousins .title-box div {
     width: 25%;
 }
 
@@ -397,7 +397,7 @@ section.show .tab-close {
     text-align: left;
 }
 
-.cousins .title-box h2 {
+#cousins .title-box h2 {
     width: 75%;
 }
 
@@ -1064,6 +1064,10 @@ section.show .tab-close {
     outline: 2px dashed #1C1B1B;
 }
 
+#faq .links-box {
+    margin-bottom: 50px;
+}
+
 #project .links-box p {
     max-width: 400px;
     margin: 18px auto;
@@ -1182,9 +1186,9 @@ audio {
 
 /*///// ABOUT /////*/
 
-.about .content,
-.faq .content,
-.cousins .content {
+#about .content,
+#faq .content,
+#cousins .content {
     padding: 180px 0;
 }
 
@@ -1273,7 +1277,7 @@ audio {
     cursor: pointer;
 }
 
-/*///// CONTACT /////*/
+/*///// FAQ /////*/
 
 /*///// COUSINS /////*/
 
