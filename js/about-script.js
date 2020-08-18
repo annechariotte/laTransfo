@@ -1,5 +1,3 @@
-console.log("?????");
-
 const experimental = document.getElementById("experimental");
 const involveAndForm = document.getElementById("involveAndForm");
 const multidisciplinary = document.getElementById("multidisciplinary");
