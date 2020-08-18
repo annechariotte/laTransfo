@@ -1,3 +1,5 @@
+console.log("?????");
+
 const experimental = document.getElementById("experimental");
 const involveAndForm = document.getElementById("involveAndForm");
 const multidisciplinary = document.getElementById("multidisciplinary");
@@ -14,51 +16,66 @@ const concreteCaseMobile = document.getElementById("concreteCase-mobile");
 const ecosystemeMobile = document.getElementById("ecosysteme-mobile");
 const projectMobile = document.getElementById("project-mobile");
 
-experimental.addEventListener("click", function () {
-    window.open("index.html?tab=experimental");
-});
-experimentalMobile.addEventListener("click", function () {
-    window.open("index.html?tab=experimental");
-});
+if (experimental) {
+    experimental.addEventListener("click", function () {
+        window.open("index.html?tab=experimental");
+    })
+
+    experimentalMobile.addEventListener("click", function () {
+        window.open("index.html?tab=experimental");
+    })
+};
 
 involveAndForm.addEventListener("click", function () {
     window.open("index.html?tab=involveAndForm");
 });
-involveAndFormMobile.addEventListener("click", function () {
-    window.open("index.html?tab=involveAndForm");
-});
+if (involveAndFormMobile) {
+    involveAndFormMobile.addEventListener("click", function () {
+        window.open("index.html?tab=involveAndForm");
+    })
+};
 
 multidisciplinary.addEventListener("click", function () {
     window.open("index.html?tab=multidisciplinary");
 });
-multidisciplinaryMobile.addEventListener("click", function () {
-    window.open("index.html?tab=multidisciplinary");
-});
+if (multidisciplinaryMobile) {
+    multidisciplinaryMobile.addEventListener("click", function () {
+        window.open("index.html?tab=multidisciplinary");
+    })
+};
 
 programRhythm.addEventListener("click", function () {
     window.open("index.html?tab=programRhythm");
 });
-programRhythmMobile.addEventListener("click", function () {
-    window.open("index.html?tab=programRhythm");
-});
+if (programRhythmMobile) {
+    programRhythmMobile.addEventListener("click", function () {
+        window.open("index.html?tab=programRhythm");
+    })
+};
 
 concreteCase.addEventListener("click", function () {
     window.open("index.html?tab=concreteCase");
 });
-concreteCaseMobile.addEventListener("click", function () {
-    window.open("index.html?tab=concreteCase");
-});
+if (concreteCaseMobile) {
+    concreteCaseMobile.addEventListener("click", function () {
+        window.open("index.html?tab=concreteCase");
+    })
+};
 
-ecosysteme.addEventListener("click", function () {
-    window.open("index.html?tab=ecosysteme");
-});
-ecosystemeMobile.addEventListener("click", function () {
-    window.open("index.html?tab=ecosysteme");
-});
+if (ecosysteme) {
+    ecosysteme.addEventListener("click", function () {
+        window.open("index.html?tab=ecosysteme");
+    });
+    ecosystemeMobile.addEventListener("click", function () {
+        window.open("index.html?tab=ecosysteme");
+    })
+};
 
-project.addEventListener("click", function () {
-    window.open("index.html?tab=project");
-});
-projectMobile.addEventListener("click", function () {
-    window.open("index.html?tab=project");
-});
+if (project) {
+    project.addEventListener("click", function () {
+        window.open("index.html?tab=project");
+    });
+    projectMobile.addEventListener("click", function () {
+        window.open("index.html?tab=project");
+    })
+};

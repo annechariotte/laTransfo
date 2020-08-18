@@ -26,6 +26,7 @@ function displayTab(tab, header) {
         // positionner son header en haut de la fenetre
         tabScrollTop(tab);
     }
+
     // s'il y a deja une section ouverte
     else {
 
@@ -37,8 +38,8 @@ function displayTab(tab, header) {
 
             // se repositionner en haut de la page
             tabScrollTop(tab);
-
         }
+
         // si le click est sur une autre section
         else {
 
@@ -51,7 +52,6 @@ function displayTab(tab, header) {
 
             // positionner son header en haut de la fenetre
             tabScrollTop(tab);
-
         }
     }
 
