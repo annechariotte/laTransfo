@@ -121,7 +121,7 @@ ul {
 
 /* NAVBAR */
 .mainNav,
-.mainNav nav {
+nav {
     background-color: #1C1B1B;
     z-index: 5;
 }
@@ -132,50 +132,75 @@ ul {
     align-items: center;
 }
 
-.mainNav nav,
-.mainNav .nav_links,
+nav,
+.nav_links,
 .logo_ctn {
     display: flex;
 }
 
-.mainNav nav,
-.mainNav .nav_links {
+nav,
+.nav_links {
     justify-content: space-between;
     align-items: center;
     height: 70px;
 }
 
-.mainNav .nav_links {
+.nav_links {
     font-family: sans-serif;
     font-size: 18px;
     padding: 0;
     margin: 0;
 }
 
-.mainNav .nav_links li {
-    padding-left: 20px;
+.nav_links li {
+    margin-left: 20px;
 }
 
-.mainNav .nav_links a {
+.nav_links a {
     text-decoration: none;
     color: #F8F8F8;
     text-transform: uppercase;
 }
 
-.mainNav .nav_links:hover a,
-.mainNav .nav_links:hover a.orange {
+.nav_links:hover a,
+.nav_links:hover a.orange {
     color: #F8F8F8;
     transition: all 0.7s;
 }
 
-.mainNav .nav_links a.orange {
+.nav_links a.orange {
     color: #FF6E29;
     transition: all 0.7s;
 }
 
-.mainNav .nav_links:hover .hover_orange:hover {
+.nav_links:hover .hover_orange:hover {
     color: #FF6E29;
     transition: all 0.7s;
+}
+
+.language {
+    display: flex;
+    border: 1px solid #FF6E29;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding-top: 1px;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.7s;
+}
+
+.language .hover_orange {
+    font-size: 12px;
+}
+
+.nav_links:hover .language:hover {
+    background-color: #FF6E29;
+    transition: all 0.7s;
+}
+
+.nav_links:hover .language .hover_orange:hover {
+    color: #F8F8F8;
 }
 
 .flag {

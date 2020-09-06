@@ -220,11 +220,11 @@
 
     .intro-mobil {
         display: block;
-        padding-bottom: 50px;
+        padding-bottom: 30px;
     }
 
     .intro-mobil p {
-        padding-bottom: 20px;
+        padding-bottom: 30px;
     }
 
     .intro-mobil strong {
@@ -245,7 +245,7 @@
     }
 
     .about-bg.bottom {
-        padding-top: 50%;
+        padding-top: 30%;
     }
 
 }
@@ -517,7 +517,7 @@
     }
 
     .mainNav .nav_links li {
-        padding-left: 0;
+        margin-left: 0;
     }
 
     .mainNav .nav_links {
@@ -566,14 +566,12 @@
 
     /* /// TITLE-BOX /// */
 
-    .cousins .title-box div {
+    #cousins .title-box div {
         display: none;
     }
 
     .title-box h2,
-    .title-box div,
-    .cousins .title-box h2,
-    .cousins .title-box div {
+    .title-box div {
         width: 100%;
     }
 
@@ -684,10 +682,10 @@
         position: unset;
     }
 
-    .about .content,
-    .faq .content,
-    .cousins .content {
-        padding-top: 0px;
+    #about .content,
+    #faq .content,
+    #cousins .content {
+        padding-top: 20px;
     }
 
     .about-bg {
@@ -720,7 +718,7 @@
     }
 
     .mainNav .nav_links li {
-        padding-left: 15px;
+        margin-left: 15px;
     }
 
     /* ///// ACCORDION ///// */
@@ -728,14 +726,14 @@
     /* ///// 7 MECANIQUES ///// */
     /* /// TITLE-BOX /// */
 
-    .cousins .title-box div {
+    #cousins .title-box div {
         display: none;
     }
 
     .title-box h2,
     .title-box div,
-    .cousins .title-box h2,
-    .cousins .title-box div {
+    #cousins .title-box h2,
+    #cousins .title-box div {
         width: 100%;
     }
 
@@ -855,11 +853,11 @@
     }
 
     #mulhouseAgents {
-        top: 330px;
+        top: 370px;
     }
 
     #exhibition {
-        top: 790px;
+        top: 760px;
         left: -2%;
     }
 
@@ -995,7 +993,7 @@
         right: 2%;
     }
 
-    #mulhouse {
+    #mulhouseButchers {
         top: 1130px;
         right: 10%;
         z-index: 3;
@@ -1015,10 +1013,10 @@
     }
 
     /* ECOSYSTEM */
-    #ecosystem {
+    /* #ecosystem {
         top: 560px;
         left: 2%;
-    }
+    } */
 
     #actors {
         top: 360px;
@@ -1026,7 +1024,7 @@
     }
 
     #grand-est {
-        top: 580px;
+        top: 620px;
         left: 48%;
     }
 
@@ -1195,7 +1193,7 @@
 
     #mulhouseAgents {
         top: 340px;
-        right: -13%;
+        right: -7%;
     }
 
     /* PROJECT */
@@ -1331,6 +1329,7 @@
 
     #newProject {
         top: 830px;
+        right: 5%;
     }
 
     /* PROJECT */
