@@ -490,7 +490,7 @@ section.show .tab-close {
     height: 400px;
 }
 
-#programRhythm .mini-img,
+#programPace .mini-img,
 #ecosysteme .mini-img {
     height: 450px;
 }
@@ -535,12 +535,12 @@ section.show .tab-close {
     left: 5%;
 }
 
-#programRhythm .hypothese .bg {
+#programPace .hypothese .bg {
     background-position: left 70%, left 70%;
     background-size: 100%, 73%;
 }
 
-#programRhythm .fig {
+#programPace .fig {
     top: 15%;
     left: 3%;
 }
@@ -664,11 +664,11 @@ section.show .tab-close {
 }
 
 /* PROGRAM-RHYTHM */
-#programRhythm .observations .bg {
+#programPace .observations .bg {
     height: 1040px;
 }
 
-#programRhythm .observations .bg img {
+#programPace .observations .bg img {
     width: 60%;
 }
 
@@ -1078,7 +1078,7 @@ section.show .tab-close {
     width: 120px;
 }
 
-#programRhythm .challenge span {
+#programPace .challenge span {
     width: auto;
 }
 

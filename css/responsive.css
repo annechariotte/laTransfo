@@ -136,7 +136,7 @@
     }
 
     #involveAndForm .mini-img,
-    #programRhythm .mini-img,
+    #programPace .mini-img,
     #ecosysteme .mini-img {
         height: 350px;
     }
@@ -153,7 +153,7 @@
         top: 54%;
     }
 
-    #programRhythm .hypothese .bg {
+    #programPace .hypothese .bg {
         background-size: 125%, 90%;
     }
 
@@ -309,7 +309,7 @@
         background-size: 114%, 75%;
     }
 
-    #programRhythm .hypothese .bg {
+    #programPace .hypothese .bg {
         background-size: 114%, 82%;
     }
 
@@ -757,7 +757,7 @@
     /* /// IMG /// */
 
     .observations .bg img,
-    #programRhythm .observations .bg img,
+    #programPace .observations .bg img,
     #involveAndForm .observations .bg img {
         width: 65%;
     }
@@ -800,7 +800,7 @@
     }
 
     /* PROGRAM-RHYTHM */
-    #programRhythm .observations .bg {
+    #programPace .observations .bg {
         height: 850px;
     }
 
@@ -1130,7 +1130,7 @@
     }
 
     /* PROGRAM-RHYTHM */
-    #programRhythm .observations .bg {
+    #programPace .observations .bg {
         height: 910px;
     }
 

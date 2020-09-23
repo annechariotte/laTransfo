@@ -37,16 +37,16 @@ if (multidisciplinaryMobile) {
     })
 };
 
-const programRhythm = document.getElementById("programRhythm");
-const programRhythmMobile = document.getElementById("programRhythm-mobile");
-if (programRhythm) {
-    programRhythm.addEventListener("click", function () {
-        window.open("index.html?tab=programRhythm");
+const programPace = document.getElementById("programPace");
+const programPaceMobile = document.getElementById("programPace-mobile");
+if (programPace) {
+    programPace.addEventListener("click", function () {
+        window.open("index.html?tab=programPace");
     });
 }
-if (programRhythmMobile) {
-    programRhythmMobile.addEventListener("click", function () {
-        window.open("index.html?tab=programRhythm");
+if (programPaceMobile) {
+    programPaceMobile.addEventListener("click", function () {
+        window.open("index.html?tab=programPace");
     })
 };
 
@@ -83,7 +83,7 @@ if (project) {
         window.open("index.html?tab=project");
     });
 }
-if (programRhythmMobile) {
+if (programPaceMobile) {
     projectMobile.addEventListener("click", function () {
         window.open("index.html?tab=project");
     })
