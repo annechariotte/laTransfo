@@ -663,7 +663,7 @@ section.show .tab-close {
     z-index: 0;
 }
 
-/* PROGRAM-RHYTHM */
+/* PROGRAM PACE */
 #programPace .observations .bg {
     height: 1040px;
 }
@@ -706,7 +706,7 @@ section.show .tab-close {
 }
 
 #ambassadors {
-    top: 1000px;
+    top: 1020px;
     left: 5%;
 }
 
@@ -962,7 +962,7 @@ section.show .tab-close {
 }
 
 #diversity {
-    top: 600px;
+    top: 580px;
     left: 2%;
 }
 
