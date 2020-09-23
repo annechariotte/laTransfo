@@ -1097,11 +1097,6 @@ section.show .tab-close {
     margin-bottom: 50px;
 }
 
-#project .links-box p {
-    max-width: 400px;
-    margin: 18px auto;
-}
-
 .links-box a {
     text-decoration: none;
     line-height: 24px;
@@ -1317,27 +1312,4 @@ audio {
 
 .main-intro p {
     margin-bottom: 0;
-}
-
-/*///// FOOTER /////*/
-
-footer {
-    text-align: center;
-    text-transform: uppercase;
-    font-family: sans-serif;
-}
-
-footer a {
-    display: inline-block;
-    margin: 30px;
-    text-decoration: none;
-    color: #F8F8F8;
-}
-
-footer:hover {
-    cursor: pointer;
-}
-
-footer a:hover {
-    color: #FF6E29;
 }
