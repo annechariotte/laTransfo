@@ -318,7 +318,7 @@ section.show .tab-content {
     width: 50%;
     position: relative;
     display: inline-block;
-    animation: marquee 8s linear infinite;
+    animation: marquee 12s linear infinite;
 }
 
 .marquee .h1 span {
@@ -359,7 +359,7 @@ section.show .tab-close {
     }
 
     100% {
-        transform: translateX(-100%)
+        transform: translateX(-200%)
     }
 }
 
@@ -1047,7 +1047,7 @@ section.show .tab-close {
     left: 2%;
 }
 
-/*///// ENSEIGNEMENTS /////*/
+/*///// TEACHINGS /////*/
 
 .enseignements ul,
 .observations ul {
@@ -1064,7 +1064,7 @@ section.show .tab-close {
     margin: 0;
 }
 
-/*///// ENSEIGNEMENTS /////*/
+/*///// TEACHINGS /////*/
 
 .challenge span {
     display: inline-block;
@@ -1074,11 +1074,15 @@ section.show .tab-close {
     width: 80px;
 }
 
+.english .challenge span {
+    width: 120px;
+}
+
 #programRhythm .challenge span {
     width: auto;
 }
 
-/*///// DASHED-BOXES ( VARIATIONS - OUTILS - TEMOIGNAGES ) /////*/
+/*///// DASHED-BOXES ( VARIATIONS - TOOLS - TESTIMONIES ) /////*/
 
 .links-box {
     background-size: 160px;
@@ -1269,7 +1273,7 @@ audio {
 
 .about-bg.bottom {
     padding-top: 65%;
-    padding-bottom: 4%;
+    padding-bottom: 1%;
 }
 
 .contact .title-box {
@@ -1300,6 +1304,11 @@ audio {
 .goToSection:hover {
     font-weight: bold;
     cursor: pointer;
+}
+
+/*///// ABOUT ENGLISH /////*/
+.english .about-bg.bottom {
+    padding-top: 62%;
 }
 
 /*///// FAQ /////*/

@@ -12,10 +12,10 @@
     }
 
     .marquee-info .marquee-info-content {
-        width: 450%;
+        width: 100%;
         position: relative;
         display: inline-block;
-        animation: marquee 12s linear infinite;
+        animation: marquee 24s linear infinite;
     }
 
     .info-content,
@@ -244,10 +244,10 @@
         padding-bottom: 0px;
     }
 
-    .about-bg.bottom {
+    .about-bg.bottom,
+    .english .about-bg.bottom {
         padding-top: 30%;
     }
-
 }
 
 @media screen and (min-width: 600px) and (max-width: 759px) {
@@ -290,6 +290,12 @@
     .sticky+.tab-content {
         transition: all 0s;
         padding-top: 120px;
+    }
+
+    @keyframes marquee {
+        100% {
+            transform: translateX(-250%)
+        }
     }
 
     /* ///// 7 MECANIQUES ///// */
@@ -477,7 +483,12 @@
 
     .about-bg.bottom {
         padding-top: 75%;
-        padding-bottom: 14%;
+        padding-bottom: 7%;
+    }
+
+    /* ///// ABOUT ENGLISH ///// */
+    .english .about-bg.bottom {
+        padding-top: 65%;
     }
 }
 
@@ -1075,10 +1086,6 @@
     }
 
     /* ///// ABOUT ///// */
-    section.illustrations {
-        padding-bottom: 50px;
-    }
-
     .about-bg {
         background-position: 35px 20px;
         background-size: 85%;
@@ -1086,10 +1093,6 @@
 
     .about-bg.top {
         padding-bottom: 35%;
-    }
-
-    .about-bg.bottom {
-        padding-top: 70%;
     }
 
 }
