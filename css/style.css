@@ -1313,3 +1313,13 @@ audio {
 .main-intro p {
     margin-bottom: 0;
 }
+
+.wip .sheet {
+    padding-bottom: 0;
+}
+
+.wip .content img {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
