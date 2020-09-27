@@ -581,8 +581,8 @@
         display: none;
     }
 
-    .title-box h2,
-    .title-box div {
+    #cousins .title-box h2,
+    #cousins .title-box div {
         width: 100%;
     }
 
@@ -1244,7 +1244,7 @@
 
     /* PLURIDISCIPLINARY */
     #design {
-        top: 0px;
+        top: -13px;
     }
 
     #coaching {
@@ -1283,7 +1283,7 @@
     }
 
     #diversity {
-        top: 480px;
+        top: 440px;
     }
 
     #focus {

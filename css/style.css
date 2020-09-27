@@ -221,9 +221,8 @@ nav,
 
 .info-content {
     font-size: 20.5px;
-    padding-bottom: 2px;
     white-space: nowrap;
-    height: 30px;
+    height: 32px;
     margin: 0 auto;
 }
 
@@ -914,12 +913,12 @@ section.show .tab-close {
 
 #design {
     top: 30px;
-    right: 24%;
+    right: 25%;
 }
 
 #coaching {
     top: 350px;
-    right: 3%;
+    right: 2%;
 }
 
 #sociology {
@@ -963,7 +962,7 @@ section.show .tab-close {
 
 #diversity {
     top: 580px;
-    left: 2%;
+    left: 1%;
 }
 
 #focus {
@@ -1192,6 +1191,10 @@ audio {
 .intro {
     padding-bottom: 50px;
     margin: 0;
+}
+
+.contact .intro {
+    padding-bottom: 0px;
 }
 
 .intro a {
